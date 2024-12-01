@@ -1,18 +1,18 @@
 #!/bin/bash
 # {{ template "scripts-library.sh" }}
 
-if ! grep -q "$root_homebrew_prefix"/bin/fish /etc/shells; then
+if ! grep -q "$HOMEBREW_PREFIX"/bin/fish /etc/shells; then
     log_task "Fish: change default shell to fish"
-    c echo "$root_homebrew_prefix"/bin/fish | sudo tee -a /etc/shells >/dev/null
-    c chsh -s "$root_homebrew_prefix"/bin/fish
+    c echo "$HOMEBREW_PREFIX"/bin/fish | sudo tee -a /etc/shells >/dev/null
+    c chsh -s "$HOMEBREW_PREFIX"/bin/fish
 fi
 
 log_task "Fish: setup plugins"
-"$root_homebrew_prefix"/bin/fish -c "fisher update"
+"$HOMEBREW_PREFIX"/bin/fish -c "fisher update"
 
 if command -v bat &> /dev/null; then
     log_task "Bat: setup syntax highlighting"
-    "$root_homebrew_prefix"/bin/fish -c "bat cache --build"
+    "$HOMEBREW_PREFIX"/bin/fish -c "bat cache --build"
 fi
 
 log_success "Fish: setup completed"

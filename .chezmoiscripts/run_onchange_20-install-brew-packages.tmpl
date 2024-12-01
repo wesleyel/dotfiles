@@ -2,7 +2,7 @@
 # {{ template "scripts-library.sh" }}
 
 log_task "Brew: install packages"
-eval "$("$root_homebrew_prefix"/bin/brew shellenv)"
+eval "$("$HOMEBREW_PREFIX"/bin/brew shellenv)"
 
 c brew bundle -v --file=- <<EOF
 tap  "homebrew/bundle"
