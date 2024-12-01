@@ -158,11 +158,11 @@ then
   HOMEBREW_LOGS="${HOME}/Library/Logs/Homebrew"
 
   #获取Mac系统版本
-  macos_version="$(major_minor "$(/usr/bin/sw_vers -productVersion)")"
+  macos_version="$(/usr/bin/sw_vers -productVersion)"
   log_info "[Darwin] homebrew repository: ${HOMEBREW_REPOSITORY}"
   log_task "macos_version: ${macos_version}"
 
-else [[ "${_OS}" == "Linux" ]]
+elif [[ "${_OS}" == "Linux" ]]
 then
   UNAME_MACHINE="$(uname -m)"
 

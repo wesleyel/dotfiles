@@ -48,8 +48,7 @@ brew "pipx"
 brew "nvm"
 
 # for bun
-tap "oven-sh/bun"
-brew "bun"
+brew "oven-sh/bun/bun"
 {{- end }}
 EOF
 
@@ -57,10 +56,13 @@ EOF
 log_task "Brew: install casks"
 c brew bundle -v --file=- <<EOF
 
-visual-studio-code
-1password
-iterm2
-google-chrome
+cask "visual-studio-code"
+cask "iterm2"
+cask "google-chrome"
+cask "1password"
+cask "1password-cli"
+
+vscode "GitHub.copilot"
 
 {{- end }}
 EOF
