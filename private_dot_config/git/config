@@ -1,6 +1,6 @@
 [user]
-    name = "magicwenli"
-    email = "48174882+magicwenli@users.noreply.github.com"
+    name = "wesleyel"
+    email = "48174882+wesleyel@users.noreply.github.com"
 [credential "https://github.com"]
 	helper = !gh auth git-credential
 [credential "https://gist.github.com"]
