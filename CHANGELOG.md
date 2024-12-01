@@ -1,3 +1,13 @@
+## 0.1.0 (2024-12-01)
+
+### Feat
+
+- update brew package installation and improve Rust installation script for better compatibility
+- refactor OS detection in scripts-library.sh for improved compatibility
+- improve homebrew installation scripts for macOS and Linux compatibility
+- enhance installation scripts for cross-platform compatibility and update user configuration
+- update homebrew prefix handling for cross-platform compatibility
+
 ## 0.0.2 (2024-09-12)
 
 ### Feat
