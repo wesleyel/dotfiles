@@ -1,7 +1,7 @@
 #!/bin/bash
 # {{ template "scripts-library.sh" }}
 
-{{ if ne .chezmoi.os "linux" }}
+{{ if eq .chezmoi.os "linux" }}
 log_task "APT: Install basic tools"
 
 if [ -f /etc/apt/sources.list.d/ubuntu.sources ]; then

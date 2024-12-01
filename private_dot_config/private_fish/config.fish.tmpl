@@ -3,7 +3,16 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
+{{ if eq .chezmoi.os "darwin" -}}
+set UNAME_MACHINE (uname -m)
+if test $UNAME_MACHINE = "arm64"
+  set root_brew_path "/opt/homebrew"
+else
+  set root_brew_path "/usr/local/Homebrew"
+end
+{{ else if eq .chezmoi.os "linux" -}}
 set root_brew_path "/home/linuxbrew/.linuxbrew"
+{{ end -}}
 
 # Add brew bin to PATH and brew fish completions
 if test -d "$root_brew_path/bin"

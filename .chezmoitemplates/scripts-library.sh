@@ -2,40 +2,6 @@
 
 set -euo pipefail
 
-_OS="$(uname)"
-if [[ "${_OS}" == "Darwin" ]]
-then
-  UNAME_MACHINE="$(/usr/bin/uname -m)"
-
-  HOMEBREW_REPOSITORY_Arm64="/opt/homebrew"
-  HOMEBREW_REPOSITORY_X86="/usr/local/Homebrew"
-
-  if [[ "${UNAME_MACHINE}" == "arm64" ]]
-  then
-    # On ARM macOS, this script installs to /opt/homebrew only
-    HOMEBREW_PREFIX="/opt/homebrew"
-    HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}"
-  else
-    # On Intel macOS, this script installs to /usr/local only
-    HOMEBREW_PREFIX="/usr/local"
-    HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}/Homebrew"
-  fi
-  HOMEBREW_CACHE="${HOME}/Library/Caches/Homebrew"
-  HOMEBREW_LOGS="${HOME}/Library/Logs/Homebrew"
-
-  #获取Mac系统版本
-  macos_version="$(major_minor "$(/usr/bin/sw_vers -productVersion)")"
-else [[ "${_OS}" == "Darwin" ]]
-then
-  UNAME_MACHINE="$(uname -m)"
-
-  # On Linux, this script installs to /home/linuxbrew/.linuxbrew only
-  HOMEBREW_PREFIX="/home/linuxbrew/.linuxbrew"
-  HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}/Homebrew"
-  HOMEBREW_CACHE="${HOME}/.cache/Homebrew"
-  HOMEBREW_LOGS="${HOME}/.logs/Homebrew"
-fi
-
 # export homebrew mirror
 export HOMEBREW_INSTALL_FROM_API=1
 export HOMEBREW_API_DOMAIN="https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles/api"
@@ -169,3 +135,41 @@ function service_exists() {
     return 1
   fi
 }
+
+{{ if eq .chezmoi.os "darwin" -}}
+  UNAME_MACHINE="$(/usr/bin/uname -m)"
+
+  HOMEBREW_REPOSITORY_Arm64="/opt/homebrew"
+  HOMEBREW_REPOSITORY_X86="/usr/local/Homebrew"
+
+  if [[ "${UNAME_MACHINE}" == "arm64" ]]
+  then
+    # On ARM macOS, this script installs to /opt/homebrew only
+    HOMEBREW_PREFIX="/opt/homebrew"
+    HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}"
+  else
+    # On Intel macOS, this script installs to /usr/local only
+    HOMEBREW_PREFIX="/usr/local"
+    HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}/Homebrew"
+  fi
+  HOMEBREW_CACHE="${HOME}/Library/Caches/Homebrew"
+  HOMEBREW_LOGS="${HOME}/Library/Logs/Homebrew"
+
+  #获取Mac系统版本
+  macos_version="$(major_minor "$(/usr/bin/sw_vers -productVersion)")"
+  log_info "[Darwin] homebrew repository: ${HOMEBREW_REPOSITORY}"
+  log_task "macos_version: ${macos_version}"
+
+{{ else if eq .chezmoi.os "linux" -}}
+
+  UNAME_MACHINE="$(uname -m)"
+
+  # On Linux, this script installs to /home/linuxbrew/.linuxbrew only
+  HOMEBREW_PREFIX="/home/linuxbrew/.linuxbrew"
+  HOMEBREW_REPOSITORY="${HOMEBREW_PREFIX}/Homebrew"
+  HOMEBREW_CACHE="${HOME}/.cache/Homebrew"
+  HOMEBREW_LOGS="${HOME}/.logs/Homebrew"
+
+  log_info "[Linux] homebrew repository: ${HOMEBREW_REPOSITORY}"
+
+{{ end -}}
