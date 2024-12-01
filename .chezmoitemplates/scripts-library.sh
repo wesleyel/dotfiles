@@ -136,7 +136,9 @@ function service_exists() {
   fi
 }
 
-{{ if eq .chezmoi.os "darwin" -}}
+_OS="$(uname)"
+if [[ "${_OS}" == "Darwin" ]]
+then
   UNAME_MACHINE="$(/usr/bin/uname -m)"
 
   HOMEBREW_REPOSITORY_Arm64="/opt/homebrew"
@@ -160,8 +162,8 @@ function service_exists() {
   log_info "[Darwin] homebrew repository: ${HOMEBREW_REPOSITORY}"
   log_task "macos_version: ${macos_version}"
 
-{{ else if eq .chezmoi.os "linux" -}}
-
+else [[ "${_OS}" == "Linux" ]]
+then
   UNAME_MACHINE="$(uname -m)"
 
   # On Linux, this script installs to /home/linuxbrew/.linuxbrew only
@@ -171,5 +173,4 @@ function service_exists() {
   HOMEBREW_LOGS="${HOME}/.logs/Homebrew"
 
   log_info "[Linux] homebrew repository: ${HOMEBREW_REPOSITORY}"
-
-{{ end -}}
+fi
