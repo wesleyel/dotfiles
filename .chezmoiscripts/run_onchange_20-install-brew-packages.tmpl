@@ -14,6 +14,7 @@ brew "dust"
 brew "fish"
 brew "fisher"
 brew "starship"
+brew "git-credential-oauth"
 
 {{- if or (eq .size "middle") (eq .size "full") }}
 # middle size packages
@@ -64,7 +65,7 @@ cask "1password-cli"
 
 vscode "GitHub.copilot"
 
-{{- end }}
 EOF
+{{- end }}
 
 log_success "Brew: packages installed"
