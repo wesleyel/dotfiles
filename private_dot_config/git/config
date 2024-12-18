@@ -1,14 +1,9 @@
 [user]
-    name = "wesleyel"
-    email = "48174882+wesleyel@users.noreply.github.com"
-[credential "https://github.com"]
-	helper = !gh auth git-credential
-[credential "https://gist.github.com"]
-	helper = !gh auth git-credential
-[credential "helperselector"]
-    selected = manager
-[credential "https://gitea.com"]
-    provider = generic
+	name = yangxuenian
+	email = yangxn@cicvd.com
+[credential]
+	helper = cache --timeout 21600	# six hours
+	helper = oauth
 [core]
     pager = less -FRSX
     excludesfile = ~/.config/git/ignore
@@ -20,3 +15,4 @@
     lg1 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(auto)%d%C(reset)' --all
     lg2 = log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset)%C(auto)%d%C(reset)%n''          %C(white)%s%C(reset) %C(dim white)- %an%C(reset)'
     lg = lg1
+
