@@ -20,7 +20,7 @@
       "raycast"
       "snipaste"
       "visual-studio-code"
-      "xcodes"
+      "xcodes-app"
     ];
   };
 }

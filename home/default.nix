@@ -6,6 +6,7 @@
       ./modules/git.nix
       ./modules/gh.nix
       ./modules/mirrors.nix
+      ./modules/input-method.nix
       ./modules/vscode.nix
     ]
     ++ lib.optional (builtins.pathExists ../local/home.nix) ../local/home.nix;

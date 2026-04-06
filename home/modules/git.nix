@@ -4,6 +4,10 @@
     lfs.enable = true;
 
     settings = {
+      user = {
+        name = "wesleyel";
+        email = "48174882+wesleyel@users.noreply.github.com";
+      };
       alias = {
         br = "branch";
         co = "checkout";

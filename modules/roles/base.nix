@@ -25,6 +25,23 @@ in
         KeyRepeat = 2;
         "com.apple.swipescrolldirection" = false;
       };
+
+      CustomUserPreferences."com.apple.symbolichotkeys".AppleSymbolicHotKeys = {
+        "64" = {
+          enabled = false;
+          value = {
+            parameters = [ 65535 49 1048576 ];
+            type = "standard";
+          };
+        };
+        "65" = {
+          enabled = false;
+          value = {
+            parameters = [ 65535 49 1572864 ];
+            type = "standard";
+          };
+        };
+      };
     };
   };
 }
