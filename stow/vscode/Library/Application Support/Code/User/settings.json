@@ -1,0 +1,9 @@
+{
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.minimap.enabled": false,
+  "files.autoSave": "onFocusChange",
+  "terminal.integrated.defaultProfile.osx": "fish",
+  "workbench.startupEditor": "none",
+  "window.commandCenter": true
+}

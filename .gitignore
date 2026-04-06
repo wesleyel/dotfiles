@@ -2,6 +2,10 @@
 .direnv/
 result
 result-*
-local/*.nix
-!local/*.example.nix
+local/Brewfile
+local/env.sh
+local/fish.local.fish
+local/gitconfig.local
+local/macos-defaults.sh
+!local/*.example
 build/*.bin

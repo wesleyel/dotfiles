@@ -1,111 +1,129 @@
 # nixconfig
 
-从零重建的 `nix-darwin` 模板仓，目标是让这台 Apple Silicon Mac 在重置后能够用一套声明式配置恢复系统、CLI 工具、语言运行时和常用 GUI 应用。
+纯 macOS 的 Homebrew + GNU Stow 配置仓。目标是在 Apple Silicon Mac 上用一套可重复执行的脚本恢复 CLI 工具、语言运行时、GUI 应用、shell 配置、编辑器配置和常用系统 defaults，不再依赖 Nix、nix-darwin 或 home-manager。
 
 ## 设计边界
 
-- `CLI / 语言运行时` 走 Nix
-- `GUI / App` 走 Homebrew cask
-- `home-manager` 只管理用户态配置和镜像设置
-- Nix 通过 Determinate Systems 安装器提供，`nix-darwin` 不接管 Nix daemon 和 `nix.*` 模块选项
-- 额外 Nix 配置由 `nix-darwin` 写入 `/etc/nix/nix.custom.conf`
-- 默认启用中国大陆镜像，但保留项目级覆盖能力
+- 软件安装统一走 Homebrew：公式、cask、tap 都收敛到 Brewfile。
+- 用户态配置统一走 GNU Stow：Fish、Git、GitHub CLI、VS Code、Atuin、Rime、镜像配置都在 stow/ 下管理。
+- macOS 系统设置统一走脚本：键盘、滚动方向、输入法和默认 shell 都由 scripts/apply-macos-defaults.sh 处理。
+- 私有覆盖保留在 local/：仅在本机使用，不提交到仓库。
+- 默认启用中国大陆镜像，但允许本地覆盖。
 
 ## 目录结构
 
 ```text
 .
-├── flake.nix
-├── hosts/darwin/wesleydeMac-mini
-├── home
-│   └── modules
+├── Brewfile
+├── config
+│   └── defaults.sh
 ├── local
-├── modules
-│   ├── regions
-│   └── roles
-└── scripts
+├── scripts
+└── stow
+    ├── atuin
+    ├── fish
+    ├── gh
+    ├── git
+    ├── mirrors
+    ├── rime
+    └── vscode
 ```
 
 ## 快速开始
 
-1. 首次引导：
+首次引导：
 
-   ```bash
-   ./scripts/bootstrap.sh
-   ```
+```bash
+./scripts/bootstrap.sh
+```
 
-2. 后续应用配置：
+这个入口会依次完成：
 
-   ```bash
-  ./scripts/darwin-rebuild.sh switch
-  ```
+1. 检查并等待 Xcode Command Line Tools。
+2. 安装 Homebrew。
+3. 根据 Brewfile 安装公式、tap 和 cask。
+4. 用 GNU Stow 链接 dotfiles。
+5. 应用 macOS defaults 并把默认 shell 切到 Homebrew Fish。
 
-  这个脚本会自动：
+后续日常更新：
 
-  - 检测 Determinate 安装出来的 `nix`
-  - 迁移阻塞激活的 `/etc/nix/nix.custom.conf`
-  - 调用 `darwin-rebuild`
+```bash
+./scripts/install-packages.sh
+./scripts/apply-stow.sh
+./scripts/apply-macos-defaults.sh
+```
 
-3. 仅检查配置：
+## Stow 包
 
-   ```bash
-  /nix/var/nix/profiles/default/bin/nix flake check
-  ./scripts/darwin-rebuild.sh build
-   ```
+- stow/fish：Fish 环境变量、abbreviations、direnv、zoxide、atuin 初始化。
+- stow/git：Git 身份、别名、LFS 和默认行为。
+- stow/gh：GitHub CLI 基础配置。
+- stow/mirrors：npm、bun、pip、cargo、pnpm 镜像与缓存配置。
+- stow/vscode：VS Code 用户设置和快捷键。
+- stow/atuin：Atuin 配置。
+- stow/rime：Rime 输入法配置。
 
 ## 本地覆盖
 
-私有信息不要提交到仓库里。按需创建以下文件：
+私有信息不要提交。按需复制这些模板：
 
-- `local/darwin.nix`
-- `local/home.nix`
+- local/env.sh.example -> local/env.sh
+- local/Brewfile.example -> local/Brewfile
+- local/fish.local.fish.example -> local/fish.local.fish
+- local/gitconfig.local.example -> local/gitconfig.local
+- local/macos-defaults.sh.example -> local/macos-defaults.sh
 
-可以参考：
+约定如下：
 
-- `local/darwin.example.nix`
-- `local/home.example.nix`
-
-适合放入本地覆盖层的内容：
-
-- Git 身份
-- 私有 registry / scope
-- 公司专用环境变量
-- 个人 SSH / 1Password 细节
+- local/env.sh：覆盖 scripts 和 Homebrew 用到的环境变量与镜像地址。
+- local/Brewfile：安装本机私有公式和 cask。
+- local/fish.local.fish：追加交互式 Fish 配置，脚本会把它链接到 ~/.config/fish/conf.d/90-local.fish。
+- local/gitconfig.local：追加私有 Git 身份，脚本会把它链接到 ~/.config/git/local.conf。
+- local/macos-defaults.sh：追加机器专属的 defaults write 逻辑。
 
 ## 镜像策略
 
-- Nix：TUNA + SJTUG + 官方缓存回退
-- npm / pnpm / bun：`npmmirror`
-- pip：TUNA PyPI
-- Cargo：TUNA sparse index
-- Go：`goproxy.cn,direct`
-- Homebrew：TUNA API / bottles / git remote
+- Homebrew：TUNA API、bottles 和 git remote。
+- npm / pnpm / bun：npmmirror。
+- pip：TUNA PyPI。
+- Cargo：TUNA sparse index。
+- Go：goproxy.cn,direct。
 
-注意：Homebrew cask 的实际安装包往往仍来自应用作者自己的上游地址，因此 GUI 下载只能做到“尽力加速”，无法保证每个 App 都有国内镜像。
+注意：Homebrew cask 的实际安装包通常仍来自应用作者自己的上游地址，因此 GUI 下载只能做到尽力加速。
 
 ## 故障排查
 
-### 1. 首次 `nix run` 报 `nix-command` / `flakes` 未启用
+### 1. brew bundle 找不到 brew
 
-Determinate 一般已经启用这些能力。如果只是当前 shell 还找不到 `nix`，优先直接用仓库脚本或绝对路径：
+先运行：
 
 ```bash
-./scripts/darwin-rebuild.sh switch
+./scripts/install-homebrew.sh
 ```
 
-### 2. 报 `cannot connect to socket at /nix/var/nix/daemon-socket/socket`
+如果 Homebrew 已安装在 /opt/homebrew，脚本会自动复用它。
 
-这通常表示 Determinate 的后台服务没有正常初始化。先检查：
+### 2. Stow 报目标文件已存在
+
+先确认该文件是否来自旧手工配置。如果你要用仓库版本覆盖它，手动备份后再执行：
 
 ```bash
-determinate-nixd version
-sudo determinate-nixd init
+./scripts/apply-stow.sh
 ```
 
-### 3. 报 `Unexpected files in /etc` 且目标是 `/etc/nix/nix.custom.conf`
+### 3. Fish 没有成为默认 shell
 
-这是 Determinate 安装器留下的未托管文件阻止了 nix-darwin 接管。仓库脚本会自动把它迁移成备份文件；直接执行：
+首次应用系统设置时脚本会尝试把 /opt/homebrew/bin/fish 写入 /etc/shells 并执行 chsh。如果你取消了权限授权，可以单独重跑：
 
 ```bash
-./scripts/darwin-rebuild.sh switch
+./scripts/apply-macos-defaults.sh
+```
+
+### 4. 输入法列表没有刷新
+
+Rime 资源链接后，重新运行系统设置脚本并注销一次当前会话：
+
+```bash
+./scripts/apply-stow.sh
+./scripts/apply-macos-defaults.sh
 ```

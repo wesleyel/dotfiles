@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+
+# Put machine-specific macOS defaults here.
+# defaults write com.apple.dock autohide -bool true

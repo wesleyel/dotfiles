@@ -21,5 +21,6 @@ fi
 # ─────────────────────────────────────────────────────────────────────────────
 
 "${repo_root}/scripts/install-homebrew.sh"
-"${repo_root}/scripts/install-nix.sh"
-"${repo_root}/scripts/darwin-rebuild.sh" switch
+"${repo_root}/scripts/install-packages.sh"
+"${repo_root}/scripts/apply-stow.sh"
+"${repo_root}/scripts/apply-macos-defaults.sh"

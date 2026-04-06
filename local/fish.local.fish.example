@@ -1,0 +1,3 @@
+# Private interactive Fish overrides.
+# set -gx PNPM_HOME "$HOME/.local/share/pnpm"
+# fish_add_path "$PNPM_HOME"
