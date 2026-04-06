@@ -38,6 +38,12 @@
     };
   };
 
+  home.activation.disableNaturalScroll =
+    lib.hm.dag.entryAfter [ "writeBoundary" ] ''
+      defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+      /usr/bin/killall cfprefsd >/dev/null 2>&1 || true
+    '';
+
   programs.home-manager.enable = true;
   xdg.enable = true;
 
