@@ -1,12 +1,16 @@
-{ pkgs, ... }:
+{ ... }:
 {
-  environment.systemPackages = with pkgs; [
-    bun
-    cargo
-    go
-    nodejs
-    pnpm
-    python3
-    rustc
+  homebrew.brews = [
+    "bun"
+    "go"
+    "node"
+    "pnpm"
+    "python"
+    "rust"
+  ];
+
+  environment.systemPath = [
+    "/opt/homebrew/bin"
+    "/opt/homebrew/sbin"
   ];
 }
