@@ -3,6 +3,7 @@
   imports =
     [
       ./modules/fish.nix
+      ./modules/atuin.nix
       ./modules/git.nix
       ./modules/gh.nix
       ./modules/mirrors.nix

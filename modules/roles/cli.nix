@@ -22,6 +22,6 @@ in
       wget
       zoxide
     ])
-    ++ optionalPackage [ "austin" ]
+    ++ optionalPackage [ "atuin" ]
     ++ optionalPackage [ "_1password-cli" ];
 }
