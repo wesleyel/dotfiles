@@ -111,6 +111,10 @@
 ./scripts/apply-stow.sh
 ```
 
+现在脚本会自动把这些“不是 Stow 创建的旧文件”移动到 `~/.local/share/nixconfig-backups/stow-时间戳/`，再重新执行链接，因此第一次迁移时不需要手工逐个清理。
+
+对 Rime 做了特殊处理：仓库不会再尝试接管 `build/` 和 `rime_ice.userdb/` 这类运行时产物，避免把编译缓存和用户词频当成受管配置。
+
 ### 3. Fish 没有成为默认 shell
 
 首次应用系统设置时脚本会尝试把 /opt/homebrew/bin/fish 写入 /etc/shells 并执行 chsh。如果你取消了权限授权，可以单独重跑：
