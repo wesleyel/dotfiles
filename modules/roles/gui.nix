@@ -9,9 +9,8 @@
     };
     casks = [
       "1password"
-      "arc"
       "betterdisplay"
-      "cc-switch"
+      "farion1231/ccswitch/cc-switch"
       "codex-app"
       "docker-desktop"
       "google-chrome"
@@ -21,6 +20,7 @@
       "raycast"
       "snipaste"
       "visual-studio-code"
+      "xcodes"
     ];
   };
 }

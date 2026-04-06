@@ -3,14 +3,13 @@
     enable = true;
     lfs.enable = true;
 
-    aliases = {
-      br = "branch";
-      co = "checkout";
-      last = "log -1 --stat";
-      st = "status -sb";
-    };
-
-    extraConfig = {
+    settings = {
+      alias = {
+        br = "branch";
+        co = "checkout";
+        last = "log -1 --stat";
+        st = "status -sb";
+      };
       core.editor = "nano";
       fetch.prune = true;
       init.defaultBranch = "main";

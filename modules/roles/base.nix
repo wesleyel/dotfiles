@@ -1,23 +1,17 @@
-{ mirrorConfig, username, ... }:
+{ lib, mirrorConfig, username, ... }:
+let
+  nixSubstituters = lib.concatStringsSep " " mirrorConfig.nix.substituters;
+in
 {
-  services.nix-daemon.enable = true;
+  nix.enable = false;
 
-  nix = {
-    optimise.automatic = true;
-    settings = {
-      auto-optimise-store = true;
-      experimental-features = [
-        "nix-command"
-        "flakes"
-      ];
-      substituters = mirrorConfig.nix.substituters;
-      trusted-users = [
-        "@admin"
-        username
-      ];
-      warn-dirty = false;
-    };
-  };
+  environment.etc."nix/nix.custom.conf".text = ''
+    extra-experimental-features = nix-command flakes
+    auto-optimise-store = true
+    warn-dirty = false
+    trusted-users = @admin ${username}
+    substituters = ${nixSubstituters}
+  '';
 
   programs.zsh.enable = true;
 
@@ -29,6 +23,7 @@
         ApplePressAndHoldEnabled = false;
         InitialKeyRepeat = 15;
         KeyRepeat = 2;
+        "com.apple.swipescrolldirection" = false;
       };
     };
   };

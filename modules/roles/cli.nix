@@ -23,6 +23,5 @@ in
       zoxide
     ])
     ++ optionalPackage [ "austin" ]
-    ++ optionalPackage [ "dotenvx" ]
     ++ optionalPackage [ "_1password-cli" ];
 }
