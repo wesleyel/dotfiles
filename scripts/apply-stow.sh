@@ -3,7 +3,7 @@ set -euo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 stow_root="${repo_root}/stow"
-packages=(atuin fish gh git mirrors rime vscode)
+packages=(atuin fish gh git mirrors rime snipaste vscode)
 timestamp="$(date +%Y%m%d-%H%M%S)"
 backup_root="${HOME}/.local/share/nixconfig-backups/stow-${timestamp}"
 
@@ -45,6 +45,7 @@ backup_unmanaged_target ".cargo/config.toml"
 backup_unmanaged_target ".config/pip/pip.conf"
 backup_unmanaged_target ".config/pnpm/rc"
 backup_unmanaged_target ".npmrc"
+backup_unmanaged_target ".snipaste/config.ini"
 backup_unmanaged_target "Library/Rime"
 backup_unmanaged_target "Library/Application Support/Code/User/keybindings.json"
 backup_unmanaged_target "Library/Application Support/Code/User/settings.json"
@@ -56,6 +57,7 @@ mkdir -p \
   "${HOME}/.config/gh" \
   "${HOME}/.config/pip" \
   "${HOME}/.config/pnpm" \
+  "${HOME}/.snipaste" \
   "${HOME}/Library/Application Support/Code/User"
 
 if [ -d "${backup_root}" ]; then

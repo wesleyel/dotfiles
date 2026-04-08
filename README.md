@@ -26,6 +26,7 @@
     ├── git
     ├── mirrors
     ├── rime
+    ├── snipaste
     └── vscode
 ```
 
@@ -62,6 +63,7 @@
 - stow/vscode：VS Code 用户设置和快捷键。
 - stow/atuin：Atuin 配置。
 - stow/rime：Rime 输入法配置。
+- stow/snipaste：Snipaste 配置。
 
 ## 本地覆盖
 
