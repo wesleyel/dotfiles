@@ -5,5 +5,8 @@
   "files.autoSave": "onFocusChange",
   "terminal.integrated.defaultProfile.osx": "fish",
   "workbench.startupEditor": "none",
-  "window.commandCenter": true
+  "window.commandCenter": true,
+  "git.enableSmartCommit": true,
+  "claudeCode.preferredLocation": "panel",
+  "explorer.confirmDelete": false
 }

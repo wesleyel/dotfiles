@@ -1,3 +1,4 @@
 editor: nano
 git_protocol: ssh
 prompt: enabled
+version: "1"
