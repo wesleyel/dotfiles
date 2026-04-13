@@ -27,6 +27,7 @@ fi
 resolve_link_target() {
   local link_path="$1"
   local raw_target
+  local link_dir
 
   raw_target="$(readlink "${link_path}")"
   if [[ "${raw_target}" == /* ]]; then
@@ -34,9 +35,8 @@ resolve_link_target() {
     return
   fi
 
-  printf '%s\n' "$(
-    cd "$(dirname "${link_path}")" && cd "$(dirname "${raw_target}")" && pwd
-  )/$(basename "${raw_target}")"
+  link_dir="$(cd "$(dirname "${link_path}")" && pwd)"
+  printf '%s\n' "${link_dir}/${raw_target}"
 }
 
 is_managed_symlink() {
@@ -117,6 +117,16 @@ collect_conflicts() {
     "${output_file}" | sort -u
 }
 
+print_conflict_summary() {
+  local -a conflicts=("$@")
+  local relative_path
+
+  echo "==> Detected ${#conflicts[@]} unmanaged target(s); moving them aside and retrying"
+  for relative_path in "${conflicts[@]}"; do
+    echo "    - ${relative_path}"
+  done
+}
+
 run_stow_once() {
   local output_file
   local -a conflicts
@@ -126,21 +136,21 @@ run_stow_once() {
   if (
     cd "${repo_root}" &&
     stow --dir "${stow_root}" --target "${HOME}" --restow "${packages[@]}"
-  ) \
-    > >(tee "${output_file}") \
-    2> >(tee -a "${output_file}" >&2); then
+  ) >"${output_file}" 2>&1; then
     rm -f "${output_file}"
     return 0
   fi
 
   mapfile -t conflicts < <(collect_conflicts "${output_file}")
-  rm -f "${output_file}"
 
   if [ "${#conflicts[@]}" -eq 0 ]; then
+    cat "${output_file}" >&2
+    rm -f "${output_file}"
     return 1
   fi
 
-  echo "==> Stow found ${#conflicts[@]} unmanaged target(s); moving them aside and retrying"
+  print_conflict_summary "${conflicts[@]}"
+  rm -f "${output_file}"
 
   for relative_path in "${conflicts[@]}"; do
     backup_target "${relative_path}" "stow conflict"
