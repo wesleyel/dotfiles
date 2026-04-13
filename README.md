@@ -65,6 +65,8 @@
 - stow/rime：Rime 输入法配置。
 - stow/snipaste：Snipaste 配置。
 
+仓库根目录的 `.stowrc` 统一关闭目录折叠，并忽略 `.DS_Store` 之类的 macOS 噪音文件。这样 `~/.config/git` 这类目录会保持为真实目录，既方便增量接管，也避免本地覆盖文件被意外写回仓库。像 Rime 这种同时包含静态配置和运行时缓存的包，则额外通过包内的 `.stow-local-ignore` 把 `build/`、`rime_ice.userdb/` 等产物排除在受管范围外。
+
 ## 本地覆盖
 
 私有信息不要提交。按需复制这些模板：
@@ -79,9 +81,11 @@
 
 - local/env.sh：覆盖 scripts 和 Homebrew 用到的环境变量与镜像地址。
 - local/Brewfile：安装本机私有公式和 cask。
-- local/fish.local.fish：追加交互式 Fish 配置，脚本会把它链接到 ~/.config/fish/conf.d/90-local.fish。
-- local/gitconfig.local：追加私有 Git 身份，脚本会把它链接到 ~/.config/git/local.conf。
+- local/fish.local.fish：追加交互式 Fish 配置，`./scripts/apply-stow.sh` 会自动把它链接到 ~/.config/fish/conf.d/90-local.fish。
+- local/gitconfig.local：追加私有 Git 身份，`./scripts/apply-stow.sh` 会自动把它链接到 ~/.config/git/local.conf。
 - local/macos-defaults.sh：追加机器专属的 defaults write 逻辑。
+
+这些本地覆盖现在由 `scripts/apply-stow.sh` 统一按声明式映射处理：源文件缺失时自动跳过，目标路径已有旧文件时会先备份再接管。
 
 ## 镜像策略
 
@@ -107,15 +111,21 @@
 
 ### 2. Stow 报目标文件已存在
 
-先确认该文件是否来自旧手工配置。如果你要用仓库版本覆盖它，手动备份后再执行：
+先确认该文件是否来自旧手工配置。如果你要用仓库版本覆盖它，直接执行：
 
 ```bash
 ./scripts/apply-stow.sh
 ```
 
-现在脚本会自动把这些“不是 Stow 创建的旧文件”移动到 `~/.local/share/dotfiles-backups/stow-时间戳/`，再重新执行链接，因此第一次迁移时不需要手工逐个清理。
+现在脚本会在 `stow` 报出“existing target is not owned by stow”冲突时，把旧文件移动到：
 
-对 Rime 做了特殊处理：仓库不会再尝试接管 `build/` 和 `rime_ice.userdb/` 这类运行时产物，避免把编译缓存和用户词频当成受管配置。
+```bash
+~/.local/state/dotfiles/stow-backups/<timestamp>/
+```
+
+备份后会自动重试并接管目标路径，因此第一次迁移通常不需要手工逐个清理。如果你想回滚，直接把备份目录里的文件移回原位置即可。
+
+对 Rime 做了特殊处理：只管理静态配置文件，不再接管 `build/`、`rime_ice.userdb/`、`.DS_Store` 这类运行时或系统产物，避免把编译缓存和用户词频当成受管配置。
 
 ### 3. Fish 没有成为默认 shell
 

@@ -1,3 +1,5 @@
 (^|/)\.DS_Store$
 ^Library/Rime/build(/|$)
 ^Library/Rime/rime_ice\.userdb(/|$)
+^Library/Rime/.*\.log$
+^Library/Rime/.*LOCK$

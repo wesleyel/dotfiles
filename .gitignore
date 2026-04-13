@@ -1,5 +1,7 @@
 .DS_Store
 .direnv/
+stow/rime/Library/Rime/build/
+stow/rime/Library/Rime/rime_ice.userdb/
 stow/rime/Library/Rime/rime_ice.userdb/*.log
 result
 result-*
