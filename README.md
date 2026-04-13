@@ -1,4 +1,4 @@
-# nixconfig
+# dotfiles
 
 纯 macOS 的 Homebrew + GNU Stow 配置仓。目标是在 Apple Silicon Mac 上用一套可重复执行的脚本恢复 CLI 工具、语言运行时、GUI 应用、shell 配置、编辑器配置和常用系统 defaults，不再依赖 Nix、nix-darwin 或 home-manager。
 
@@ -113,7 +113,7 @@
 ./scripts/apply-stow.sh
 ```
 
-现在脚本会自动把这些“不是 Stow 创建的旧文件”移动到 `~/.local/share/nixconfig-backups/stow-时间戳/`，再重新执行链接，因此第一次迁移时不需要手工逐个清理。
+现在脚本会自动把这些“不是 Stow 创建的旧文件”移动到 `~/.local/share/dotfiles-backups/stow-时间戳/`，再重新执行链接，因此第一次迁移时不需要手工逐个清理。
 
 对 Rime 做了特殊处理：仓库不会再尝试接管 `build/` 和 `rime_ice.userdb/` 这类运行时产物，避免把编译缓存和用户词频当成受管配置。
 

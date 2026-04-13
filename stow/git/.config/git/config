@@ -9,7 +9,7 @@
     st = status -sb
 
 [core]
-    editor = nano
+    editor = vim
 
 [fetch]
     prune = true

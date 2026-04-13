@@ -5,7 +5,7 @@ repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 stow_root="${repo_root}/stow"
 packages=(atuin fish gh git mirrors rime snipaste vscode)
 timestamp="$(date +%Y%m%d-%H%M%S)"
-backup_root="${HOME}/.local/share/nixconfig-backups/stow-${timestamp}"
+backup_root="${HOME}/.local/share/dotfiles-backups/stow-${timestamp}"
 
 if ! command -v stow >/dev/null 2>&1; then
   echo "ERROR: GNU Stow is not installed. Run scripts/install-packages.sh first." >&2

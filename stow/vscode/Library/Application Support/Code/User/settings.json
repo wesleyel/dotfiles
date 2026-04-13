@@ -8,5 +8,13 @@
   "window.commandCenter": true,
   "git.enableSmartCommit": true,
   "claudeCode.preferredLocation": "panel",
-  "explorer.confirmDelete": false
+  "explorer.confirmDelete": false,
+  "security.workspace.trust.untrustedFiles": "open",
+  "chat.tools.urls.autoApprove": {
+    "https://code.visualstudio.com": true,
+    "https://github.com/microsoft/vscode/wiki/*": true,
+    "https://gitea.com": true
+  },
+  "claudeCode.allowDangerouslySkipPermissions": true,
+  "claudeCode.initialPermissionMode": "bypassPermissions"
 }
