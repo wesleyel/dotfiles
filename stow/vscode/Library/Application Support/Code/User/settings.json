@@ -1,6 +1,5 @@
 {
   "editor.fontSize": 14,
-  "editor.formatOnSave": true,
   "editor.minimap.enabled": false,
   "files.autoSave": "onFocusChange",
   "terminal.integrated.defaultProfile.osx": "fish",
@@ -16,5 +15,10 @@
     "https://gitea.com": true
   },
   "claudeCode.allowDangerouslySkipPermissions": true,
-  "claudeCode.initialPermissionMode": "bypassPermissions"
+  "claudeCode.initialPermissionMode": "bypassPermissions",
+  "chat.tools.terminal.autoApprove": {
+    "uv": true
+  },
+  "explorer.confirmDragAndDrop": false,
+  "workbench.colorTheme": "Monokai"
 }
