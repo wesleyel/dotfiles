@@ -1,6 +1,7 @@
 [user]
     name = wesleyel
     email = 48174882+wesleyel@users.noreply.github.com
+	signingkey = ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfKPRYas5caY18y8PfIVt3LrWxAev+7Bu5fNXYDjo1nR4IciINRfy1VvP1zhNcIjI7KFhMVHvBXgIRu6y4cEgmy+0PbILIfI0dyPSkaby8G5rV8/lLYYdBftKxd6ID4CXC9x6qiHoj5tE6rQlt+cdGd3Hybmq8h0wIaaWOqQa9Y/W1ep7xgwUVll5ixOn/VRxDYVgaT8iF8h73Lel+q/+FIAXiNG6fYAHrQLi1y5S1c2LiYZeWe7f9Grwi4LBwIcavWOb4y59+qGjjk9ALEbbKkFEndHFjRU6o6nQ7O30dJ1T0loqZ0cJ1RedQCu+iqNvtqCPpldXZwwFvvKvlXRDP
 
 [alias]
     br = branch
@@ -34,3 +35,9 @@
     smudge = git-lfs smudge -- %f
     process = git-lfs filter-process
     required = true
+[gpg]
+	format = ssh
+[gpg "ssh"]
+	program = /Applications/1Password.app/Contents/MacOS/op-ssh-sign
+[commit]
+	gpgsign = true

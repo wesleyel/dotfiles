@@ -20,5 +20,16 @@
     "uv": true
   },
   "explorer.confirmDragAndDrop": false,
-  "workbench.colorTheme": "Monokai"
+  "workbench.colorTheme": "Monokai",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "chat.viewSessions.orientation": "stacked",
+  "js/ts.updateImportsOnFileMove.enabled": "always",
+  "python.analysis.typeCheckingMode": "standard",
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": true,
+    "scminput": false,
+    "shellscript": true
+  }
 }
