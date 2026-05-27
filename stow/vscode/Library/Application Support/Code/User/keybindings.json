@@ -2,5 +2,10 @@
   {
     "command": "workbench.action.terminal.toggleTerminal",
     "key": "cmd+j"
+  },
+  {
+    "key": "alt+right",
+    "command": "editor.action.inlineSuggest.acceptNextLine",
+    "when": "cursorBeforeGhostText && inlineSuggestionVisible && !accessibilityModeEnabled && !editorReadonly"
   }
 ]

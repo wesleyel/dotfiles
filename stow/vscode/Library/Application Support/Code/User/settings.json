@@ -22,14 +22,31 @@
   "explorer.confirmDragAndDrop": false,
   "workbench.colorTheme": "Monokai",
   "diffEditor.ignoreTrimWhitespace": false,
-  "chat.viewSessions.orientation": "stacked",
   "js/ts.updateImportsOnFileMove.enabled": "always",
   "python.analysis.typeCheckingMode": "standard",
   "github.copilot.enable": {
-    "*": false,
+    "*": true,
     "plaintext": false,
     "markdown": true,
     "scminput": false,
-    "shellscript": true
+    "shellscript": true,
+    "makefile": true
+  },
+  "extensions.ignoreRecommendations": true,
+  "chatgpt.localeOverride": "zh-CN",
+  "[latex]": {
+    "editor.defaultFormatter": "James-Yu.latex-workshop"
+  },
+  "github.copilot.nextEditSuggestions.eagerness": "high",
+  "security.promptForLocalFileProtocolHandling": false,
+  "security.promptForRemoteFileProtocolHandling": false,
+  "files.associations": {
+    "*.qmd": "quarto"
+  },
+  "[quarto]": {
+    "editor.defaultFormatter": "quarto.quarto"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
   }
 }
