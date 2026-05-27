@@ -60,7 +60,7 @@
 - stow/git：Git 身份、别名、LFS 和默认行为。
 - stow/gh：GitHub CLI 基础配置。
 - stow/mirrors：npm、bun、pip、cargo、pnpm 镜像与缓存配置。
-- stow/vscode：VS Code 用户设置和快捷键。
+- stow/vscode：VS Code 用户设置、快捷键和 HyperSnips 片段。
 - stow/atuin：Atuin 配置。
 - stow/rime：Rime 输入法配置。
 - stow/snipaste：Snipaste 配置。

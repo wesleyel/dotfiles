@@ -1,0 +1,109 @@
+snippet snot "sidenote" A
+#sidenote[$1]
+endsnippet
+
+snippet snon "unnumbered sidenote" A
+#sidenote(numbered: false)[$1]
+endsnippet
+
+snippet wbk "wideblock" A
+#wideblock[$1]
+endsnippet
+
+# --------- math ---------
+
+snippet lm "inline Math" iwA
+$${1}$
+endsnippet
+
+snippet dm "display Math" iwA
+$ ${1} $
+endsnippet
+
+snippet pp "parenthesis" iAm
+(${1})
+endsnippet
+
+snippet ;; "\;" iAm
+\;
+endsnippet
+
+snippet ,, "\," iAm
+\,
+endsnippet
+
+snippet ` {3}` "space" iAm
+ space $0
+endsnippet
+
+snippet ,, "\," iAm
+\,
+endsnippet
+
+snippet `lx([0i+x-])` "limit x" iAm
+``
+const map = {
+  0: "0",
+  i: "oo",
+  "+": "+oo",
+  "-": "-oo",
+  x: "x_0",
+}
+rv = "lim_(${1:x} → ${2:" + map[m[1]] + "})"
+`` $0
+endsnippet
+
+snippet `(abs|sqrt)` "single operand function" iAm
+``rv = m[1]``(${1:${VISUAL}}) $0
+endsnippet
+
+snippet frac "fraction" iAm
+frac(${1:${VISUAL}}, ${2}) $0
+endsnippet
+
+snippet `ar([rRlLB])` "arrow" iAm
+``
+const map={
+  r: "→",
+  R: "⇒",
+  l: "←",
+  L: "⇐",
+  B: "⇔",
+}
+rv = map[m[1]] ?? ""
+``
+endsnippet
+
+priority 100
+snippet `cas([es])([1-9]|\s)` "cases environment" iAm
+``
+const withCondition = m[1] === "s"
+const n = /^\s$/.test(m[2]) ? 2 : Number(m[2])
+const rows = []
+const placeholder = (index, text) => "${" + index + ":" + text + "}"
+
+for (let i = 0; i < n; i++) {
+  const expr = placeholder(withCondition ? 2 * i + 1 : i + 1, "expr")
+  if (withCondition) {
+    rows.push("  " + expr + "\\, space & " + placeholder(2 * i + 2, "cond") + ",")
+  } else {
+    rows.push("  " + expr + ",")
+  }
+}
+
+rv = "cases(\n" + rows.join("\n") + "\n)"
+``
+endsnippet
+
+
+snippet `([A-Za-z\)])(\d)` "auto subscript" iAm
+`` rv = m[1] + "_" + m[2]``
+endsnippet
+
+snippet `([A-Za-z\)])_(\d{2})` "auto subscript" iAm
+`` rv = m[1] + "_(" + m[2] + ")" ``
+endsnippet
+
+snippet `(?<![A-Za-z])([A-Za-hk-z])([acdijkmnpqrstABCDIJKMNPQRST])\2` "auto subscript" iAm
+`` rv = m[1] + "_" + m[2] ``
+endsnippet

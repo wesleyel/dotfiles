@@ -1,0 +1,55 @@
+snippet mk "inline math" iA
+\$$0\$
+endsnippet
+
+snippet dm "display math" iA
+\\[
+    $0
+\\]
+endsnippet
+
+snippet frac "frac" iA
+\\frac{$1}{$2}$0
+endsnippet
+
+snippet bft "bold text" iA
+\\textbf{${1:${VISUAL}}}$0
+endsnippet
+
+snippet itt "italic text" iA
+\\textit{${1:${VISUAL}}}$0
+endsnippet
+
+snippet red "red text" iA
+\\textcolor{red}{${1:${VISUAL}}}$0
+endsnippet
+
+snippet ali "align" A
+\\begin{aligned}
+    $0
+\\end{aligned}
+endsnippet
+
+snippet desc "description block" A
+\\begin{description}
+    \\item[${1:标签}] ${2:内容}
+\\end{description}
+endsnippet
+
+snippet itemize "itemize block" A
+\\begin{itemize}
+    \\item ${1:内容}
+\\end{itemize}
+endsnippet
+
+snippet enumerate "enumerate block" A
+\\begin{enumerate}
+    \\item ${1:内容}
+\\end{enumerate}
+endsnippet
+
+snippet beg "begin-end" A
+\\begin{$1}
+    $0
+\\end{$1}
+endsnippet
