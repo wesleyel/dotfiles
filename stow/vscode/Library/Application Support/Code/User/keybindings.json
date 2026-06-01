@@ -7,5 +7,45 @@
     "key": "alt+right",
     "command": "editor.action.inlineSuggest.acceptNextLine",
     "when": "cursorBeforeGhostText && inlineSuggestionVisible && !accessibilityModeEnabled && !editorReadonly"
+  },
+  {
+    "key": "cmd+;",
+    "command": "editor.action.inlineSuggest.commit",
+    "when": "inlineEditIsVisible && tabShouldAcceptInlineEdit && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineEditIsVisible && inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineEditIsVisible && inlineSuggestionVisible && tabShouldAcceptInlineEdit && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible"
+  },
+  {
+    "key": "tab",
+    "command": "-editor.action.inlineSuggest.commit",
+    "when": "inlineEditIsVisible && tabShouldAcceptInlineEdit && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineEditIsVisible && inlineSuggestionHasIndentationLessThanTabSize && inlineSuggestionVisible && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible || inlineEditIsVisible && inlineSuggestionVisible && tabShouldAcceptInlineEdit && !editorHoverFocused && !editorTabMovesFocus && !suggestWidgetVisible"
+  },
+  {
+    "key": "cmd+;",
+    "command": "editor.action.inlineSuggest.commit",
+    "when": "inInlineEditsPreviewEditor"
+  },
+  {
+    "key": "tab",
+    "command": "-editor.action.inlineSuggest.commit",
+    "when": "inInlineEditsPreviewEditor"
+  },
+  {
+    "key": "cmd+'",
+    "command": "editor.action.inlineSuggest.acceptNextWord",
+    "when": "cppSuggestion && !editorReadonly || inlineSuggestionVisible && !editorReadonly"
+  },
+  {
+    "key": "cmd+right",
+    "command": "-editor.action.inlineSuggest.acceptNextWord",
+    "when": "cppSuggestion && !editorReadonly || inlineSuggestionVisible && !editorReadonly"
+  },
+  {
+    "key": "cmd+;",
+    "command": "editor.action.acceptCursorTabSuggestion",
+    "when": "cpp.shouldAcceptTab"
+  },
+  {
+    "key": "tab",
+    "command": "-editor.action.acceptCursorTabSuggestion",
+    "when": "cpp.shouldAcceptTab"
   }
 ]

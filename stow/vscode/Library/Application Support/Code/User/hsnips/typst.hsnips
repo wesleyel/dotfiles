@@ -73,18 +73,6 @@ snippet fra "fraction" iAm
 frac(${1:${VISUAL}}, ${2}) $0
 endsnippet
 
-snippet sum "summation" iAm
-sum_(${1:i} = ${2:1})^${3:n} ${4:${VISUAL}} $0
-endsnippet
-
-snippet int "integral" iAm
-integral_${1:a}^${2:b} ${3:${VISUAL}} dif ${4:x} $0
-endsnippet
-
-snippet pro "product" iAm
-product_(${1:k} = ${2:1})^${3:n} ${4:${VISUAL}} $0
-endsnippet
-
 snippet `ar([rRlLB])` "arrow" iAm
 ``
 const map={
@@ -96,6 +84,48 @@ const map={
 }
 rv = map[m[1]] ?? ""
 ``
+endsnippet
+
+snippet `d([xytuvz])` "differential" iAm
+`` rv = "dif " + m[1] `` $0
+endsnippet
+
+snippet `d ` "differential blank" iAm
+`` rv = "dif " `` $0
+endsnippet
+
+snippet `par([xytuvz])` "partial" iAm
+`` rv = "partial " + m[1] `` $0
+endsnippet
+
+snippet `par ` "partial blank" iAm
+`` rv = "partial " `` $0
+endsnippet
+
+# --------- math env ---------
+
+snippet `suma` "summation" iAm
+sum_(${1:i} = ${2:1})^${3:n} ${4:${VISUAL}} $0
+endsnippet
+
+snippet `sum ` "summation blank" iAm
+sum 
+endsnippet
+
+snippet `inta` "integral" iAm
+integral_${1:a}^${2:b} ${3:${VISUAL}} dif ${4:x} $0
+endsnippet
+
+snippet `int ` "integral blank" iAm
+integral 
+endsnippet
+
+snippet `proa` "product" iAm
+product_(${1:k} = ${2:1})^${3:n} ${4:${VISUAL}} $0
+endsnippet
+
+snippet `pro ` "product blank" iAm
+product 
 endsnippet
 
 priority 100

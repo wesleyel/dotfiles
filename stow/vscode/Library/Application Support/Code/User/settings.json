@@ -30,7 +30,8 @@
     "markdown": true,
     "scminput": false,
     "shellscript": true,
-    "makefile": true
+    "makefile": true,
+    "typst": true
   },
   "extensions.ignoreRecommendations": true,
   "chatgpt.localeOverride": "zh-CN",
@@ -48,5 +49,11 @@
   },
   "[jsonc]": {
     "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  },
+  "supermaven.enable": {
+    "*": false
+  },
+  "deepseek-copilot.visionModel": "claude-haiku-4.5",
+  "chat.editing.confirmEditRequestRemoval": false,
+  "chat.viewSessions.orientation": "stacked"
 }
