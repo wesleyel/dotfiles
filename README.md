@@ -62,10 +62,10 @@
 - stow/mirrors：npm、bun、pip、cargo、pnpm 镜像与缓存配置。
 - stow/vscode：VS Code 用户设置、快捷键和 HyperSnips 片段。
 - stow/atuin：Atuin 配置。
-- stow/rime：Rime 输入法配置。
+- stow/rime：Rime 输入法静态配置（Stow）；用户词频与 `user.yaml` 经 Rime sync 写入 `stow/rime/sync/`。
 - stow/snipaste：Snipaste 配置。
 
-仓库根目录的 `.stowrc` 统一关闭目录折叠，并忽略 `.DS_Store` 之类的 macOS 噪音文件。这样 `~/.config/git` 这类目录会保持为真实目录，既方便增量接管，也避免本地覆盖文件被意外写回仓库。像 Rime 这种同时包含静态配置和运行时缓存的包，则额外通过包内的 `.stow-local-ignore` 把 `build/`、`rime_ice.userdb/` 等产物排除在受管范围外。
+仓库根目录的 `.stowrc` 统一关闭目录折叠，并忽略 `.DS_Store` 之类的 macOS 噪音文件。这样 `~/.config/git` 这类目录会保持为真实目录，既方便增量接管，也避免本地覆盖文件被意外写回仓库。Rime 另做分层：Stow 只链接 schema、词库 YAML、Lua 等静态配置；`build/`、`*.userdb/` 留在 `~/Library/Rime`；`user.yaml` 与 `*.userdb.txt` 通过 `sync_dir`（`stow/rime/sync/`）由「同步用户数据」纳入 Git。详见 `stow/rime/sync/README.md`。
 
 ## 本地覆盖
 
@@ -125,7 +125,7 @@
 
 备份后会自动重试并接管目标路径，因此第一次迁移通常不需要手工逐个清理。如果你想回滚，直接把备份目录里的文件移回原位置即可。
 
-对 Rime 做了特殊处理：只管理静态配置文件，不再接管 `build/`、`rime_ice.userdb/`、`.DS_Store` 这类运行时或系统产物，避免把编译缓存和用户词频当成受管配置。
+对 Rime 做了特殊处理：Stow 不接管 `build/`、`*.userdb/`、`user.yaml`。用户习惯词库在鼠须管菜单选择 **同步用户数据** 导出到 `stow/rime/sync/`，再把其中的 `*.userdb.txt` 与 `user.yaml` 提交到仓库（详见 `stow/rime/sync/README.md`）。
 
 ### 3. Fish 没有成为默认 shell
 
@@ -137,9 +137,13 @@
 
 ### 4. 输入法列表没有刷新
 
-Rime 资源链接后，重新运行系统设置脚本并注销一次当前会话：
+Rime 资源链接后：
 
 ```bash
 ./scripts/apply-stow.sh
 ./scripts/apply-macos-defaults.sh
 ```
+
+然后在鼠须管菜单 **重新部署**，需要备份词频时选择 **同步用户数据**。
+
+新机器恢复时：先 `apply-stow.sh` 并重新部署，再 **同步用户数据**，以把 `stow/rime/sync/` 中的 `*.userdb.txt` 合并进本地 `*.userdb/`。

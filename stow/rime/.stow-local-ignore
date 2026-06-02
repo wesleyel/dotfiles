@@ -1,5 +1,8 @@
 (^|/)\.DS_Store$
 ^Library/Rime/build(/|$)
-^Library/Rime/rime_ice\.userdb(/|$)
+^Library/Rime/.*\.userdb(/|$)
+^Library/Rime/.*\.userdb\.(txt|kct)$
+^Library/Rime/user\.yaml$
+^Library/Rime/sync(/|$)
 ^Library/Rime/.*\.log$
 ^Library/Rime/.*LOCK$

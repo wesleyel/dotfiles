@@ -52,6 +52,7 @@ switches:
 # 输入引擎
 engine:
   processors:
+    - lua_processor@shift_commit_raw      # Shift 上屏编码，不切换英文模式
     - lua_processor@select_character      # 以词定字
     - lua_processor@dollar_to_ascii       # 输入 $ 自动切换为英文模式
     - ascii_composer

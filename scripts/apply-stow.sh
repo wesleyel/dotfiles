@@ -221,3 +221,7 @@ apply_local_links() {
 
 apply_stow_packages
 apply_local_links
+
+if [ -d "${stow_root}/rime" ]; then
+  "${repo_root}/scripts/configure-rime-sync.sh"
+fi

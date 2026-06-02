@@ -1,0 +1,5 @@
+# Rime table
+# coding: utf-8
+#@/db_name	custom_phrase_double.txt
+#
+# 小鹤双拼自定义短语（可选，每行：词条<Tab>编码<Tab>权重）

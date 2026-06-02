@@ -1,8 +1,16 @@
 .DS_Store
 .direnv/
 stow/rime/Library/Rime/build/
-stow/rime/Library/Rime/rime_ice.userdb/
-stow/rime/Library/Rime/rime_ice.userdb/*.log
+stow/rime/Library/Rime/**/*.userdb/
+stow/rime/Library/Rime/**/*.userdb/**
+
+# Rime sync exports (see stow/rime/sync/README.md)
+stow/rime/sync/**/*
+!stow/rime/sync/
+!stow/rime/sync/**/
+!stow/rime/sync/README.md
+!stow/rime/sync/**/*.userdb.txt
+!stow/rime/sync/**/user.yaml
 result
 result-*
 local/Brewfile
