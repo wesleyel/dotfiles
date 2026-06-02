@@ -5,15 +5,6 @@
 
 -- processors:
 
--- Shift 松开上屏原始编码，不切换 ascii_mode（default.yaml 中 Shift_* 须为 noop）
-do
-  local ok, mod = pcall(require, "shift_commit_raw")
-  shift_commit_raw = ok and mod or function() return 2 end
-  if not ok then
-    log.warning("shift_commit_raw not loaded: " .. tostring(mod))
-  end
-end
-
 -- 以词定字，可在 default.yaml key_binder 下配置快捷键，默认为左右中括号 [ ]
 select_character = require("select_character")
 
