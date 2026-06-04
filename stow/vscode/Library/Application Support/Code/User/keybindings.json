@@ -1,5 +1,26 @@
 [
   {
+    "key": "cmd+c",
+    "command": "-workbench.action.terminal.sendSequence",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "cmd+c",
+    "command": "workbench.action.terminal.copySelection",
+    "when": "terminalFocus && terminalTextSelected"
+  },
+  {
+    "key": "cmd+v",
+    "command": "workbench.action.terminal.paste",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "workbench.action.terminal.sendSequence",
+    "args": { "text": "\u0003" },
+    "when": "terminalFocus"
+  },
+  {
     "command": "workbench.action.terminal.toggleTerminal",
     "key": "cmd+j"
   },

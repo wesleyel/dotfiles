@@ -3,6 +3,7 @@
   "editor.minimap.enabled": false,
   "files.autoSave": "onFocusChange",
   "terminal.integrated.defaultProfile.osx": "fish",
+  "terminal.integrated.copyOnSelection": true,
   "workbench.startupEditor": "none",
   "window.commandCenter": true,
   "git.enableSmartCommit": true,

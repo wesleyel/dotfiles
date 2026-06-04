@@ -3,6 +3,6 @@ distribution_name: "鼠鬚管"
 distribution_version: 1.1.2
 install_time: "Wed Aug 30 22:07:47 2023"
 installation_id: "69f93761-ef11-41a2-8f14-307e889deef6"
-rime_version: 1.16.0
-update_time: "Mon Apr  6 20:17:41 2026"
+rime_version: 1.16.1
 sync_dir: "/Volumes/APFS/codes/dotfiles/stow/rime/sync"
+update_time: "Tue Jun  2 15:44:06 2026"
