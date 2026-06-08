@@ -8,32 +8,9 @@
 -- 以词定字，可在 default.yaml key_binder 下配置快捷键，默认为左右中括号 [ ]
 select_character = require("select_character")
 
--- 输入 $ 自动切换为英文模式
-function dollar_to_ascii(key, env)
-  local engine = env.engine
-  local context = engine.context
-  local key_repr = key:repr()
-  local key_code = key.keycode
-  
-  -- 调试信息
-  log.info("dollar_to_ascii: key_repr=" .. key_repr .. ", keycode=" .. tostring(key_code))
-  log.info("dollar_to_ascii: ascii_mode=" .. tostring(context:get_option("ascii_mode")))
-  
-  -- 检测 $ 符号（Shift+4）
-  if key_repr == "dollar" or (key_repr == "Shift+dollar" or key_code == 0x24) then
-    local is_ascii = context:get_option("ascii_mode")
-    log.info("dollar_to_ascii: detected $, current ascii_mode=" .. tostring(is_ascii))
-    
-    if not is_ascii then
-      log.info("dollar_to_ascii: switching to ascii_mode")
-      context:set_option("ascii_mode", true)
-      -- 让 $ 字符继续处理
-      return 2  -- kNoop，让字符继续处理
-    end
-  end
-  
-  return 2  -- kNoop
-end
+-- 输入 #、$ 时上屏当前组合并切换英文
+punct_to_ascii = require("punct_to_ascii")
+dollar_to_ascii = punct_to_ascii
 
 
 

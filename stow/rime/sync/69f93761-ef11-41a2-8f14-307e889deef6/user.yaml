@@ -1,5 +1,7 @@
 var:
   last_build_time: 1780386247
+  option:
+    ascii_punct: true
   previously_selected_schema: double_pinyin_flypy
   schema_access_time:
     double_pinyin_flypy: 1780373000

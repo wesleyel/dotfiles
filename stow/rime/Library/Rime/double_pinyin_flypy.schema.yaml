@@ -53,7 +53,7 @@ switches:
 engine:
   processors:
     - lua_processor@select_character      # 以词定字
-    - lua_processor@dollar_to_ascii       # 输入 $ 自动切换为英文模式
+    - lua_processor@punct_to_ascii        # 输入 #、$ 上屏并切换英文
     - ascii_composer
     - recognizer
     - key_binder

@@ -17,7 +17,9 @@
   {
     "key": "ctrl+c",
     "command": "workbench.action.terminal.sendSequence",
-    "args": { "text": "\u0003" },
+    "args": {
+      "text": "\u0003"
+    },
     "when": "terminalFocus"
   },
   {
@@ -68,5 +70,25 @@
     "key": "tab",
     "command": "-editor.action.acceptCursorTabSuggestion",
     "when": "cpp.shouldAcceptTab"
+  },
+  {
+    "key": "cmd+up",
+    "command": "editor.action.wordHighlight.next",
+    "when": "editorTextFocus && hasWordHighlights"
+  },
+  {
+    "key": "f7",
+    "command": "-editor.action.wordHighlight.next",
+    "when": "editorTextFocus && hasWordHighlights"
+  },
+  {
+    "key": "cmd+down",
+    "command": "editor.action.wordHighlight.prev",
+    "when": "editorTextFocus && hasWordHighlights"
+  },
+  {
+    "key": "shift+f7",
+    "command": "-editor.action.wordHighlight.prev",
+    "when": "editorTextFocus && hasWordHighlights"
   }
 ]
