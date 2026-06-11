@@ -5,6 +5,7 @@ brew "bat"
 brew "cliproxyapi", restart_service: :changed
 brew "curl"
 brew "direnv"
+brew "emacs"
 brew "eza"
 brew "fd"
 brew "fish"

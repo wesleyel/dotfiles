@@ -18,6 +18,7 @@ set -gx HOMEBREW_INSTALL_FROM_API 1
 set -gx HOMEBREW_NO_ANALYTICS 1
 set -gx HOMEBREW_PIP_INDEX_URL https://pypi.tuna.tsinghua.edu.cn/web/simple
 set -gx HOMEBREW_LOGS "$DOTFILES_CACHE_ROOT/homebrew/logs"
+set -gx HOMEBREW_NO_REQUIRE_TAP_TRUST 1
 set -gx SSH_AUTH_SOCK "$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
 
 fish_add_path "$HOME/.local/bin"

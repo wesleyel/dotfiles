@@ -5,7 +5,7 @@
 ## 设计边界
 
 - 软件安装统一走 Homebrew：公式、cask、tap 都收敛到 Brewfile。
-- 用户态配置统一走 GNU Stow：Fish、Git、GitHub CLI、VS Code、Atuin、Rime、镜像配置都在 stow/ 下管理。
+- 用户态配置统一走 GNU Stow：Fish、Git、GitHub CLI、Emacs、VS Code、Atuin、Rime、镜像配置都在 stow/ 下管理。
 - macOS 系统设置统一走脚本：键盘、滚动方向、输入法和默认 shell 都由 scripts/apply-macos-defaults.sh 处理。
 - 私有覆盖保留在 local/：仅在本机使用，不提交到仓库。
 - 默认启用中国大陆镜像，但允许本地覆盖。
@@ -21,6 +21,7 @@
 ├── scripts
 └── stow
     ├── atuin
+    ├── emacs
     ├── fish
     ├── gh
     ├── git
@@ -59,13 +60,14 @@
 - stow/fish：Fish 环境变量、abbreviations、direnv、zoxide、atuin 初始化。
 - stow/git：Git 身份、别名、LFS 和默认行为。
 - stow/gh：GitHub CLI 基础配置。
+- stow/emacs：`~/.emacs.d` 启动文件与 `lisp/` 模块；`elpa/`、`.emacs.desktop`、`rime/` 等运行态目录留在本机，不纳入 Stow。
 - stow/mirrors：npm、bun、pip、cargo、pnpm 镜像与缓存配置。
 - stow/vscode：VS Code 用户设置、快捷键和 HyperSnips 片段。
 - stow/atuin：Atuin 配置。
 - stow/rime：Rime 输入法静态配置（Stow）；用户词频与 `user.yaml` 经 Rime sync 写入 `stow/rime/sync/`。
 - stow/snipaste：Snipaste 配置。
 
-仓库根目录的 `.stowrc` 统一关闭目录折叠，并忽略 `.DS_Store` 之类的 macOS 噪音文件。这样 `~/.config/git` 这类目录会保持为真实目录，既方便增量接管，也避免本地覆盖文件被意外写回仓库。Rime 另做分层：Stow 只链接 schema、词库 YAML、Lua 等静态配置；`build/`、`*.userdb/` 留在 `~/Library/Rime`；`user.yaml` 与 `*.userdb.txt` 通过 `sync_dir`（`stow/rime/sync/`）由「同步用户数据」纳入 Git。详见 `stow/rime/sync/README.md`。
+仓库根目录的 `.stowrc` 统一关闭目录折叠，并忽略 `.DS_Store` 之类的 macOS 噪音文件。这样 `~/.config/git` 这类目录会保持为真实目录，既方便增量接管，也避免本地覆盖文件被意外写回仓库。Rime 另做分层：Stow 只链接 schema、词库 YAML、Lua 等静态配置；`build/`、`*.userdb/` 留在 `~/Library/Rime`；`user.yaml` 与 `*.userdb.txt` 通过 `sync_dir`（`stow/rime/sync/`）由「同步用户数据」纳入 Git。详见 `stow/rime/sync/README.md`。Emacs 同理：`stow/emacs/.emacs.d/` 只包含 `init.el`、`lisp/`、`notes/` 等源码；`elpa/`、`.emacs.desktop`、`~/.emacs.d/rime/` 等运行态目录留在本机。
 
 ## 本地覆盖
 
@@ -147,3 +149,7 @@ Rime 资源链接后：
 然后在鼠须管菜单 **重新部署**，需要备份词频时选择 **同步用户数据**。
 
 新机器恢复时：先 `apply-stow.sh` 并重新部署，再 **同步用户数据**，以把 `stow/rime/sync/` 中的 `*.userdb.txt` 合并进本地 `*.userdb/`。
+
+### 5. Emacs 配置
+
+`stow/emacs/.emacs.d/` 由 dotfiles 统一管理；`~/.emacs.d` 不应再维护独立 Git 仓库。执行 `./scripts/apply-stow.sh` 后，`init.el`、`lisp/`、`notes/` 等源码会链接到仓库，`elpa/`、`.emacs.desktop`、`~/.emacs.d/rime/` 等运行态目录仍留在本机。若曾存在 `~/.emacs.d/.git`，确认 Stow 链接正常后删除即可。首次链接后启动 Emacs 会自动安装 `init-package.el` 中声明的包。

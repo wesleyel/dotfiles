@@ -222,6 +222,11 @@ apply_local_links() {
 apply_stow_packages
 apply_local_links
 
+if [ -d "${stow_root}/emacs" ]; then
+  # Stow skips dotfiles inside packages; link .gitignore explicitly.
+  link_declared_file "stow/emacs/.emacs.d/.gitignore" ".emacs.d/.gitignore"
+fi
+
 if [ -d "${stow_root}/rime" ]; then
   "${repo_root}/scripts/configure-rime-sync.sh"
 fi

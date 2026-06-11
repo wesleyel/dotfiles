@@ -1,0 +1,31 @@
+# Installed packages and generated package metadata
+/elpa/
+/eln-cache/
+/straight/
+/tree-sitter/
+
+# Emacs runtime state
+/.emacs.desktop
+/.emacs.desktop.lock
+/auto-save-list/
+/transient/
+/url/
+/var/
+/.cache/
+/rime/
+/recentf
+/bookmarks
+/places
+/tramp
+/network-security.data
+
+# Project discovery state
+/projects
+/projectile-bookmarks.eld
+
+# Auto-save, lock, and backup files
+\#*\#
+.\#*
+*~
+*.elc
+*.eln

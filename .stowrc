@@ -1,2 +1,3 @@
 --no-folding
+--dotfiles
 --ignore='(^|/)\.DS_Store$'

@@ -1,8 +1,8 @@
-distribution_code_name: Squirrel
-distribution_name: "鼠鬚管"
-distribution_version: 1.1.2
+distribution_code_name: "emacs-rime"
+distribution_name: Rime
+distribution_version: 1.0.1
 install_time: "Wed Aug 30 22:07:47 2023"
 installation_id: "69f93761-ef11-41a2-8f14-307e889deef6"
-rime_version: 1.16.1
+rime_version: 1.17.0
 sync_dir: "/Volumes/APFS/codes/dotfiles/stow/rime/sync"
-update_time: "Tue Jun  2 15:44:06 2026"
+update_time: "Thu Jun 11 11:54:04 2026"

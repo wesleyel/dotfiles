@@ -1,0 +1,132 @@
+#+title: Emacs Notes
+
+* Notes
+
+** typst
+:PROPERTIES:
+:CREATED: [2026-06-11 Thu 11:25]
+:END:
+
+M-x consult-imenu: search symbol
+C-s: search line
+C-c t p：开启/关闭 Typst preview
+C-c t s：把当前位置同步到预览
+C-c t o：打开预览浏览器
+C-c t R：重启 preview
+C-c t q：停止 preview
+C-c t d/r/i：定义跳转、引用、文档符号
+
+** git
+:PROPERTIES:
+:CREATED: [2026-06-11 Thu 11:28]
+:END:
+
+C-x g：打开 Magit status
+C-c g s：打开 Magit status
+C-c g b：当前行 blame
+C-c g l：当前文件日志
+C-c g f：当前文件 Git 操作菜单
+
+** windows/buffer
+:PROPERTIES:
+:CREATED: [2026-06-11 Thu 11:38]
+:END:
+
+*** buffer 切换
+
+C-x <left>：上一个 buffer
+C-x <right>：下一个 buffer
+C-x b: 选择buffer
+
+*** 打开笔记
+
+C-x f: 替换打开
+C-x 4 f: 垂直分屏打开
+C-x 3 b: 水平打开buffer
+
+*** 窗口切换
+
+M-数字: 切换对应窗口
+C-x o: 顺时针切换
+
+** emacs编辑
+:PROPERTIES:
+:CREATED: [2026-06-11 Thu 13:28]
+:END:
+
+*** 导航
+
+| 功能       | 快捷键 |
+|------------+--------|
+| 左移字符   | C-b    |
+| 右移字符   | C-f    |
+| 上移一行   | C-p    |
+| 下移一行   | C-n    |
+| 行首       | C-a    |
+| 行尾       | C-e    |
+| 上一个单词 | M-b    |
+| 下一个单词 | M-f    |
+| 文档开头   | M-<    |
+| 文档结尾   | M->    |
+| 向下翻页   | C-v    |
+| 向上翻页   | M-v    |
+| 跳转指定行 | M-g g  |
+
+*** 编辑
+
+| 功能           | 快捷键      |
+|----------------+-------------|
+| 删除后一个字符 | C-d         |
+| 删除前一个字符 | DEL         |
+| 删除后一个单词 | M-d         |
+| 删除前一个单词 | M-DEL       |
+| 删除到行尾     | C-k         |
+| 打开新行       | C-o         |
+| 换行           | RET         |
+| 缩进           | TAB         |
+| 撤销           | C-/         |
+
+*** 选择与剪贴
+
+| 功能       | 快捷键 |
+|------------+--------|
+| 开始选择   | C-SPC  |
+| 取消选择   | C-g    |
+| 剪切区域   | C-w    |
+| 复制区域   | M-w    |
+| 粘贴       | C-y    |
+| 粘贴历史   | M-y    |
+
+*** 搜索与替换
+
+| 功能         | 快捷键 |
+|--------------+--------|
+| 向前搜索     | C-s    |
+| 向后搜索     | C-r    |
+| 查询替换     | M-%    |
+| 正则查询替换 | C-M-%  |
+
+** org-mode
+:PROPERTIES:
+:CREATED: [2026-06-11 Thu 14:07]
+:END:
+
+| 功能               | 快捷键      |
+|--------------------+-------------|
+| 创建同级标题       | M-RET       |
+| 创建下级标题       | C-RET       |
+| 标题升降级         | M-<left/right> |
+| 标题上下移动       | M-<up/down>   |
+| 展开/折叠子树      | TAB         |
+| 全局展开/折叠      | S-TAB       |
+| 标记 TODO          | C-c C-t     |
+| 完成 TODO          | C-c C-t d   |
+| 设置优先级         | C-c ,       |
+| 插入时间戳         | C-c .       |
+| 插入日期           | C-c !       |
+| 插入代码块         | <s TAB      |
+| 插入示例块         | <e TAB      |
+| 执行代码块         | C-c C-c     |
+| 导出               | C-c C-e     |
+| 添加标签           | C-c C-q     |
+| 创建表格/编辑表格  | 直接输入 | 分隔线后 TAB |
