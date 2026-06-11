@@ -12,6 +12,7 @@
 (require 'init-git)
 (require 'init-gptel)
 (require 'init-typst)
+(require 'init-snippet)
 (require 'init-help)
 (require 'init-discovery)
 

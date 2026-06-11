@@ -18,6 +18,7 @@
     magit diff-hl
     rime vterm
     gptel
+    tempel
     typst-ts-mode typst-preview)
   "Community packages needed by this configuration.")
 

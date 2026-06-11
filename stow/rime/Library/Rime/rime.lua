@@ -8,12 +8,6 @@
 -- 以词定字，可在 default.yaml key_binder 下配置快捷键，默认为左右中括号 [ ]
 select_character = require("select_character")
 
--- 输入 #、$ 时上屏当前组合并切换英文
-punct_to_ascii = require("punct_to_ascii")
-dollar_to_ascii = punct_to_ascii
-
-
-
 -- translators:
 
 -- 日期时间，可在方案中配置触发关键字。

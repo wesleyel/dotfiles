@@ -1,7 +1,7 @@
 # Rime user dictionary
 #@/db_name	rime_ice
 #@/db_type	userdb
-#@/rime_version	1.16.0
+#@/rime_version	1.17.0
 #@/tick	19327
 #@/user_id	69f93761-ef11-41a2-8f14-307e889deef6
 A 	A	c=1 d=1.7461e-28 t=19327
@@ -35,10 +35,10 @@ an yue 	按月	c=1 d=6.11669e-12 t=19327
 an zhao 	按照	c=27 d=0.913047 t=19327
 an zhuang 	安装	c=14 d=1.01903 t=19327
 an zhuang dao 	安装到	c=1 d=0.00458484 t=19327
-ao 	凹	c=1 d=0.285444 t=18738
-ao li yong 	凹利用	c=1 d=1 t=18739
+ao 	凹	c=1 d=0.0150149 t=19327
+ao li yong 	凹利用	c=1 d=0.0528657 t=19327
 ba 	把	c=28 d=0.511272 t=19327
-ba ri ben 	把日本	c=1 d=1 t=19175
+ba ri ben 	把日本	c=1 d=0.467666 t=19327
 ba ta 	把他	c=1 d=2.80536e-18 t=19327
 ba wo 	把我	c=1 d=7.73574e-10 t=19327
 bai piao 	白嫖	c=1 d=8.59217e-10 t=19327
@@ -84,7 +84,7 @@ bei ji han shu 	被积函数	c=1 d=0.484325 t=19327
 bei jing 	背景	c=1 d=3.03065e-15 t=19327
 bei jing se 	背景色	c=2 d=3.23596e-21 t=19327
 bei kao 	备考	c=1 d=1.46657e-05 t=19327
-bei ke 	贝壳	c=1 d=1 t=18350
+bei ke 	贝壳	c=1 d=0.00755912 t=19327
 bei lv 	倍率	c=3 d=9.86756e-10 t=19327
 bei ni 	被你	c=1 d=1.28954e-21 t=19327
 bei yong 	备用	c=1 d=1.19388e-26 t=19327
@@ -96,14 +96,14 @@ ben di tu pian 	本地图片	c=1 d=3.81372e-13 t=19327
 ben ji 	本机	c=5 d=2.47984e-20 t=19327
 ben ji 	本集	c=0 d=4.40882e-14 t=19327
 ben ji he 	本集合	c=1 d=4.43092e-13 t=19327
-ben jin 	本金	c=2 d=1.89137 t=18209
+ben jin 	本金	c=2 d=0.00706432 t=19327
 ben shen 	本身	c=2 d=0.0702988 t=19327
 ben ti 	本题	c=2 d=0.103312 t=19327
 ben xiang mu 	本项目	c=13 d=0.00355287 t=19327
 ben zhi shang 	本质上	c=2 d=0.137381 t=19327
 ben zhou 	本周	c=1 d=0.00402593 t=19327
 beng kui 	崩溃	c=1 d=8.28086e-17 t=19327
-bi 	必	c=0 d=0.1 t=18721
+bi 	必	c=0 d=0.00483156 t=19327
 bi 	比	c=7 d=0.697676 t=19327
 bi 	逼	c=0 d=1.99439e-05 t=19327
 bi bao 	闭包	c=1 d=2.73539e-06 t=19327
@@ -115,9 +115,9 @@ bi jiao ci shu 	比较次数	c=1 d=0.000542133 t=19327
 bi jiao hao 	比较好	c=2 d=0.0228227 t=19327
 bi jiao wen tuo 	比较稳妥	c=1 d=0.0241131 t=19327
 bi jie 	比阶	c=1 d=0.000158461 t=19327
-bi lian xu 	必连续	c=1 d=1 t=18722
-bi mian 	避免	c=1 d=1 t=18058
-bi sheng 	必胜	c=1 d=1 t=18952
+bi lian xu 	必连续	c=1 d=0.0485578 t=19327
+bi mian 	避免	c=1 d=0.0017555 t=19327
+bi sheng 	必胜	c=1 d=0.153355 t=19327
 bi xu 	必须	c=5 d=0.501576 t=19327
 bi xuan 	必选	c=1 d=6.28777e-13 t=19327
 bi yao 	必要	c=3 d=0.000564257 t=19327
@@ -126,7 +126,7 @@ bi you 	必有	c=0 d=1.54865e-29 t=19327
 bi yuan 	闭源	c=1 d=7.75023e-32 t=19327
 bian 	变	c=0 d=2.54808e-05 t=19327
 bian 	边	c=6 d=0.00309616 t=19327
-bian 	遍	c=1 d=1 t=18562
+bian 	遍	c=1 d=0.0218184 t=19327
 bian cheng 	变成	c=4 d=0.000331491 t=19327
 bian cheng 	编程	c=1 d=4.2756e-06 t=19327
 bian cheng zhe yang 	变成这样	c=1 d=0.0023344 t=19327
@@ -139,7 +139,7 @@ bian huan 	变换	c=1 d=0.0002139 t=19327
 bian ji 	编辑	c=20 d=0.00160753 t=19327
 bian ji an niu 	编辑按钮	c=1 d=9.02472e-29 t=19327
 bian ji hou 	编辑后	c=1 d=2.05437e-29 t=19327
-bian ji qi 	编辑器	c=1 d=1 t=18552
+bian ji qi 	编辑器	c=1 d=0.0207543 t=19327
 bian ji qu 	编辑区	c=1 d=3.53816e-13 t=19327
 bian ju 	边距	c=1 d=0.000973123 t=19327
 bian kuang 	边框	c=3 d=3.35021e-21 t=19327
@@ -159,13 +159,13 @@ bian xie 	编写	c=14 d=0.879043 t=19327
 bian xie yi fen 	编写一份	c=1 d=0.031117 t=19327
 bian xie yi ge 	编写一个	c=1 d=0.00852289 t=19327
 bian yi 	编译	c=21 d=0.256358 t=19327
-bian yi chu 	边移除	c=1 d=1 t=18068
+bian yi chu 	边移除	c=1 d=0.00184551 t=19327
 bian yi shi bai 	边以失败	c=1 d=2.55372e-30 t=19327
 bian yu 	便于	c=3 d=6.60186e-27 t=19327
 bian yu li jie 	便于理解	c=1 d=6.17501e-06 t=19327
 bian yuan 	边缘	c=1 d=2.11916e-12 t=19327
-bian yuan xing zhe 	边缘行者	c=1 d=1 t=18802
-bian zhu 	边注	c=3 d=2.8376 t=18062
+bian yuan xing zhe 	边缘行者	c=1 d=0.0724398 t=19327
+bian zhu 	边注	c=3 d=0.00508205 t=19327
 biao 	表	c=7 d=1.05464 t=19327
 biao dan 	表单	c=1 d=7.54603e-12 t=19327
 biao ge 	表格	c=7 d=0.928922 t=19327
@@ -179,8 +179,8 @@ biao zhu 	标注	c=2 d=0.135335 t=19327
 biao zhun 	标准	c=2 d=5.04434e-09 t=19327
 bie 	别	c=1 d=2.89828e-19 t=19327
 bie ming 	别名	c=2 d=4.73778e-33 t=19327
-bie re wo 	别惹我	c=1 d=1 t=17330
-bie ren 	别人	c=1 d=1 t=18943
+bie re wo 	别惹我	c=1 d=4.60861e-05 t=19327
+bie ren 	别人	c=1 d=0.146607 t=19327
 bing 	并	c=185 d=3.7615 t=19327
 bing bian cheng 	并编程	c=1 d=4.29704e-05 t=19327
 bing bu hui 	并不会	c=1 d=4.81238e-14 t=19327
@@ -193,8 +193,8 @@ bing mei you 	并没有	c=1 d=0.000196945 t=19327
 bing pai 	并排	c=1 d=0.000104117 t=19327
 bing qie 	并且	c=17 d=1.08149 t=19327
 bing shi xian 	并实现	c=1 d=0.000131698 t=19327
-bing shuo ming 	并说明	c=2 d=1.36604 t=17561
-bing tao lun 	并讨论	c=1 d=1 t=19315
+bing shuo ming 	并说明	c=2 d=0.000199822 t=19327
+bing tao lun 	并讨论	c=1 d=0.941765 t=19327
 bing xian shi 	并显示	c=1 d=5.16923e-32 t=19327
 bing yun xu 	并允许	c=1 d=0.141564 t=19327
 bing zai 	并在	c=3 d=1.96601e-20 t=19327
@@ -205,23 +205,23 @@ bo fang 	播放	c=2 d=1.22918 t=19327
 bo li 	玻璃	c=1 d=2.98553e-15 t=19327
 bo nu li 	伯努利	c=1 d=0.0220377 t=19327
 bu 	不	c=37 d=0.820578 t=19327
-bu 	布	c=0 d=0.1 t=18012
+bu 	布	c=0 d=0.000139481 t=19327
 bu 	补	c=10 d=0.286183 t=19327
 bu 	部	c=1 d=0.00236968 t=19327
 bu bao cun 	不保存	c=1 d=4.76612e-18 t=19327
 bu bao liu 	不保留	c=2 d=0.00129402 t=19327
 bu bei 	不被	c=1 d=3.40938e-18 t=19327
 bu bi 	不必	c=1 d=1.20277e-25 t=19327
-bu bian 	不变	c=1 d=1 t=17083
-bu bian xing 	不变形	c=1 d=1 t=19246
+bu bian 	不变	c=1 d=1.34034e-05 t=19327
+bu bian xing 	不变形	c=1 d=0.666977 t=19327
 bu chang yong 	不常用	c=1 d=0.000902809 t=19327
 bu cheng 	不成	c=1 d=1.2987e-16 t=19327
 bu cheng gong 	不成功	c=1 d=4.11075e-13 t=19327
-bu cheng li 	不成立	c=2 d=1.96079 t=18113
-bu chong 	补充	c=43 d=1.32813 t=19327
+bu cheng li 	不成立	c=2 d=0.00453173 t=19327
+bu chong 	补充	c=43 d=2.75105 t=19327
 bu chong yi xie 	补充一些	c=1 d=0.0800583 t=19327
 bu chu xian 	不出现	c=1 d=2.08868e-18 t=19327
-bu cun 	不存	c=1 d=1 t=17762
+bu cun 	不存	c=1 d=0.000399619 t=19327
 bu cun zai 	不存在	c=8 d=0.169767 t=19327
 bu cuo 	不错	c=1 d=0.606531 t=19327
 bu dao 	不到	c=1 d=6.65708e-08 t=19327
@@ -241,12 +241,12 @@ bu guan 	不管	c=2 d=0.000825105 t=19327
 bu guo 	不过	c=1 d=0.145876 t=19327
 bu han 	不含	c=1 d=0.00173804 t=19327
 bu hao 	不好	c=3 d=0.817587 t=19327
-bu hao zou 	不好走	c=1 d=1 t=18973
+bu hao zou 	不好走	c=1 d=0.170333 t=19327
 bu hou xiang jian rong 	不后向兼容	c=1 d=0.00131358 t=19327
 bu hui 	不会	c=3 d=2.44235e-16 t=19327
 bu hui 	不回	c=1 d=0.767206 t=19327
 bu hui fu 	不回复	c=1 d=3.25261e-23 t=19327
-bu hui you 	不会有	c=1 d=1 t=18465
+bu hui you 	不会有	c=1 d=0.0134335 t=19327
 bu huo de 	不获得	c=1 d=1.11955e-05 t=19327
 bu ji lu 	不记录	c=1 d=6.34664e-05 t=19327
 bu jia 	不加	c=1 d=4.84902e-15 t=19327
@@ -256,11 +256,11 @@ bu ju 	布局	c=4 d=3.55468e-09 t=19327
 bu kai yuan 	不开源	c=1 d=7.82812e-32 t=19327
 bu kao lv 	不考虑	c=1 d=2.967e-30 t=19327
 bu ke 	不可	c=1 d=0.00588705 t=19327
-bu ke dao 	不可导	c=4 d=2.99242 t=18858
-bu ke dao dian 	不可导点	c=2 d=1.11136 t=18845
-bu ke neng 	不可能	c=1 d=1 t=18403
+bu ke dao 	不可导	c=4 d=0.286815 t=19327
+bu ke dao dian 	不可导点	c=2 d=0.0998171 t=19327
+bu ke neng 	不可能	c=1 d=0.0098528 t=19327
 bu lie 	补列	c=1 d=8.13374e-12 t=19327
-bu man zu 	不满足	c=1 d=1 t=17392
+bu man zu 	不满足	c=1 d=6.28349e-05 t=19327
 bu min gan 	不敏感	c=2 d=7.92182e-17 t=19327
 bu neng 	不能	c=21 d=0.813755 t=19327
 bu ping heng 	不平衡	c=1 d=0.00283702 t=19327
@@ -271,7 +271,7 @@ bu qiang zhi 	不强制	c=1 d=4.06072e-16 t=19327
 bu qu fen 	不区分	c=1 d=0.000871757 t=19327
 bu quan 	不全	c=1 d=6.98151e-09 t=19327
 bu quan 	补全	c=6 d=0.204083 t=19327
-bu que xin 	不确信	c=1 d=1 t=18909
+bu que xin 	不确信	c=1 d=0.123687 t=19327
 bu ru 	不如	c=1 d=0.0343896 t=19327
 bu shang 	补上	c=1 d=4.59109e-19 t=19327
 bu sheng cheng 	不生成	c=1 d=7.06873e-08 t=19327
@@ -280,13 +280,13 @@ bu shi yong 	不使用	c=3 d=0.0148464 t=19327
 bu shi yong 	不适用	c=3 d=2.60939e-19 t=19327
 bu shi you 	不是有	c=1 d=0.0017555 t=19327
 bu shu 	部署	c=30 d=0.000156102 t=19327
-bu tai 	不太	c=1 d=1 t=18867
+bu tai 	不太	c=1 d=0.100259 t=19327
 bu ti gong 	不提供	c=1 d=3.11054e-27 t=19327
 bu tiao 	布条	c=1 d=6.04431e-19 t=19327
 bu tiao guo 	不跳过	c=1 d=6.0746e-19 t=19327
 bu tong 	不同	c=8 d=1.03266e-06 t=19327
 bu wan quan 	不完全	c=1 d=3.59514e-19 t=19327
-bu xi huan 	不喜欢	c=1 d=1 t=17207
+bu xi huan 	不喜欢	c=1 d=2.4916e-05 t=19327
 bu xian 	不显	c=0 d=0.00277367 t=19327
 bu xian han 	不显含	c=2 d=0.0582244 t=19327
 bu xian shi 	不显示	c=4 d=0.000106752 t=19327
@@ -297,14 +297,14 @@ bu xiang ying 	不响应	c=1 d=0.00878245 t=19327
 bu xing 	不行	c=6 d=0.0523408 t=19327
 bu xu yao 	不需要	c=6 d=0.0143359 t=19327
 bu yao 	不要	c=61 d=1.07795 t=19327
-bu yao hu lve 	不要忽略	c=1 d=1 t=18272
+bu yao hu lve 	不要忽略	c=1 d=0.00511796 t=19327
 bu yao pao chu 	不要抛出	c=1 d=3.15981e-06 t=19327
-bu yao qiu 	不要求	c=1 d=1 t=17977
+bu yao qiu 	不要求	c=1 d=0.00117088 t=19327
 bu yao shuo 	不要说	c=1 d=5.25914e-29 t=19327
 bu yao yong 	不要用	c=1 d=0.076779 t=19327
 bu yao yong fang cheng zu 	不要用方程组	c=1 d=0.00628242 t=19327
 bu yao you 	不要有	c=1 d=2.94258e-21 t=19327
-bu yao zai 	不要再	c=1 d=1 t=18962
+bu yao zai 	不要再	c=1 d=0.161218 t=19327
 bu yi ding 	不一定	c=2 d=0.000191619 t=19327
 bu yi lai 	不依赖	c=1 d=1.08813e-23 t=19327
 bu yi zhi 	不一致	c=1 d=0.179066 t=19327
@@ -312,10 +312,10 @@ bu ying 	不应	c=2 d=6.12423e-08 t=19327
 bu ying gai 	不应该	c=3 d=3.51517e-06 t=19327
 bu ying xiang 	不影响	c=1 d=0.0333733 t=19327
 bu yong 	不用	c=17 d=0.379889 t=19327
-bu yu 	不与	c=1 d=1 t=18079
+bu yu 	不与	c=1 d=0.00194986 t=19327
 bu yun xu 	不允许	c=1 d=6.20913e-12 t=19327
 bu zai 	不再	c=23 d=0.878122 t=19327
-bu zai 	不在	c=3 d=1.58244 t=17379
+bu zai 	不在	c=3 d=9.31749e-05 t=19327
 bu zhi chi 	不支持	c=3 d=0.228779 t=19327
 bu zhou 	步骤	c=2 d=0.0923116 t=19327
 bu zou 	不走	c=2 d=8.93183e-17 t=19327
@@ -331,28 +331,28 @@ cai liao 	材料	c=1 d=6.27047e-10 t=19327
 cai qu le 	采取了	c=1 d=7.77981e-18 t=19327
 cai se 	彩色	c=2 d=5.6445e-08 t=19327
 cai yong 	采用	c=11 d=0.00241755 t=19327
-cai yong jian li 	采用建立	c=1 d=1 t=17422
+cai yong jian li 	采用建立	c=1 d=7.30037e-05 t=19327
 cai zhi 	才智	c=1 d=0.0118551 t=19327
 can 	参	c=1 d=8.88129e-17 t=19327
 can ju 	餐具	c=2 d=1.2501e-30 t=19327
 can kao 	参考	c=56 d=1.18988 t=19327
 can liu 	残留	c=0 d=4.48932e-21 t=19327
 can liu de 	残留的	c=1 d=4.51183e-20 t=19327
-can qu 	残躯	c=2 d=1.92774 t=18806
+can qu 	残躯	c=2 d=0.142466 t=19327
 can shu 	参数	c=15 d=0.539111 t=19327
 cang 	仓	c=1 d=1.14668e-22 t=19327
 cang ku 	仓库	c=18 d=5.05572e-06 t=19327
 cao 	草	c=1 d=0.000281606 t=19327
-cao zuo 	操作	c=13 d=0.327915 t=19327
+cao zuo 	操作	c=13 d=0.932394 t=19327
 cao zuo tai 	操作台	c=1 d=3.3656e-13 t=19327
 ce 	侧	c=4 d=0.882497 t=19327
 ce 	测	c=1 d=4.63723e-19 t=19327
 ce bian lan 	侧边栏	c=2 d=0.00147367 t=19327
-ce lan 	侧栏	c=2 d=1.9802 t=18587
+ce lan 	侧栏	c=2 d=0.0489575 t=19327
 ce liang 	测量	c=1 d=8.07091e-09 t=19327
 ce lve 	策略	c=6 d=0.985112 t=19327
 ce shi 	测试	c=141 d=1.05568 t=19327
-ce shi hao 	测试号	c=1 d=1 t=17021
+ce shi hao 	测试号	c=1 d=9.8307e-06 t=19327
 ce shi lian jie 	测试连接	c=1 d=1.47492e-13 t=19327
 ce shi qian 	测试前	c=1 d=1.97214e-19 t=19327
 ce shi shi 	测试时	c=3 d=2.30538e-14 t=19327
@@ -373,7 +373,7 @@ cha jian 	插件	c=6 d=0.667091 t=19327
 cha kan 	查看	c=18 d=0.0236356 t=19327
 cha qu 	插曲	c=1 d=0.00499159 t=19327
 cha ru 	插入	c=16 d=0.723538 t=19327
-cha ru dao 	插入到	c=1 d=1 t=17278
+cha ru dao 	插入到	c=1 d=3.55347e-05 t=19327
 cha ru shi 	插入时	c=1 d=1.76917e-06 t=19327
 cha xun 	查询	c=19 d=2.7226e-07 t=19327
 cha yi 	差异	c=5 d=0.000845993 t=19327
@@ -405,7 +405,7 @@ chao guo 	超过	c=1 d=7.10416e-08 t=19327
 chao ji 	超集	c=1 d=0.000171659 t=19327
 che di 	彻底	c=5 d=0.000169951 t=19327
 chen jin shi 	沉浸式	c=2 d=0.111715 t=19327
-chen mo cheng ben 	沉没成本	c=1 d=1 t=18942
+chen mo cheng ben 	沉没成本	c=1 d=0.145876 t=19327
 cheng 	成	c=2 d=0.453845 t=19327
 cheng 	称	c=5 d=0.451807 t=19327
 cheng ben 	成本	c=1 d=1.15982e-09 t=19327
@@ -415,7 +415,7 @@ cheng du 	程度	c=2 d=4.39594e-08 t=19327
 cheng gong 	成功	c=9 d=1.52227 t=19327
 cheng gong hou 	成功后	c=1 d=3.27459e-14 t=19327
 cheng gong jie dian 	成功结点	c=1 d=0.000569928 t=19327
-cheng ji 	乘积	c=3 d=2.8509 t=19242
+cheng ji 	乘积	c=3 d=1.86383 t=19327
 cheng le 	成了	c=1 d=1.16563e-09 t=19327
 cheng shu 	成熟	c=2 d=4.4775e-18 t=19327
 cheng wei 	称为	c=1 d=0.244143 t=19327
@@ -429,12 +429,12 @@ chi zi 	池子	c=1 d=4.01472e-29 t=19327
 chi zi yuan 	吃资源	c=1 d=0.00848038 t=19327
 chong 	重	c=1 d=0.0151463 t=19327
 chong dian 	充电	c=1 d=2.22168e-09 t=19327
-chong die 	重叠	c=0 d=0.1 t=18041
-chong die shi 	重叠时	c=1 d=1 t=18042
+chong die 	重叠	c=0 d=0.000161245 t=19327
+chong die shi 	重叠时	c=1 d=0.00162053 t=19327
 chong fen 	充分	c=5 d=0.00946646 t=19327
-chong fen tiao jian 	充分条件	c=0 d=0.1 t=18368
+chong fen tiao jian 	充分条件	c=0 d=0.0008271 t=19327
 chong fu 	重复	c=16 d=0.100332 t=19327
-chong fu jia 	重复加	c=1 d=1 t=17912
+chong fu jia 	重复加	c=1 d=0.000845993 t=19327
 chong fu xiang 	重复项	c=1 d=4.5329e-16 t=19327
 chong gou 	重构	c=39 d=0.530507 t=19327
 chong hui 	重绘	c=1 d=0.000217133 t=19327
@@ -449,7 +449,7 @@ chong tu xiang 	冲突项	c=1 d=5.62495e-26 t=19327
 chong xie 	重写	c=7 d=0.0175975 t=19327
 chong xin 	重新	c=38 d=1.82335 t=19327
 chong xin xiu gai 	重新修改	c=1 d=3.53695e-09 t=19327
-chong yao 	充要	c=1 d=1 t=18825
+chong yao 	充要	c=1 d=0.0812682 t=19327
 chong yao tiao jian 	充要条件	c=1 d=0.00565622 t=19327
 chong zhi 	充值	c=6 d=1.59456e-09 t=19327
 chong zhi 	重置	c=2 d=9.03423e-12 t=19327
@@ -466,16 +466,16 @@ chu ci 	初次	c=1 d=1.60632e-17 t=19327
 chu dui 	出队	c=1 d=0.00135358 t=19327
 chu fa 	出发	c=1 d=2.78321e-13 t=19327
 chu fa 	触发	c=6 d=0.00166413 t=19327
-chu fa tiao jian 	触发条件	c=1 d=1 t=18798
+chu fa tiao jian 	触发条件	c=1 d=0.0710054 t=19327
 chu lai 	出来	c=3 d=0.00186406 t=19327
 chu le 	除了	c=3 d=0.0194482 t=19327
 chu li 	处理	c=8 d=0.00032906 t=19327
 chu li wei 	处理为	c=2 d=0.000212834 t=19327
 chu shi 	初始	c=6 d=0.0875977 t=19327
-chu shi gui bing duan 	初始归并段	c=1 d=1 t=17712
-chu shi hua 	初始化	c=3 d=1.01807 t=18196
-chu shi shi 	初始时	c=1 d=1 t=17182
-chu shi zhuang tai 	初始状态	c=1 d=1 t=17156
+chu shi gui bing duan 	初始归并段	c=1 d=0.000311223 t=19327
+chu shi hua 	初始化	c=3 d=0.00356322 t=19327
+chu shi shi 	初始时	c=1 d=2.19883e-05 t=19327
+chu shi zhuang tai 	初始状态	c=1 d=1.93078e-05 t=19327
 chu xian 	出现	c=7 d=0.000132358 t=19327
 chu xian guo 	出现过	c=1 d=2.42332e-31 t=19327
 chu xian le 	出现了	c=3 d=0.178173 t=19327
@@ -494,11 +494,11 @@ chuang 	床	c=1 d=0.00179097 t=19327
 chuang jian 	创建	c=36 d=0.440653 t=19327
 chuang jian yi ge 	创建一个	c=1 d=2.59947e-33 t=19327
 chuang jian yong hu 	创建用户	c=1 d=0.0315873 t=19327
-chuang kou 	窗口	c=6 d=0.427415 t=19327
+chuang kou 	窗口	c=6 d=1.73024 t=19327
 chuang kou nei 	窗口内	c=1 d=9.75642e-05 t=19327
 chuang zao 	创造	c=1 d=1.16762e-29 t=19327
 chui 	垂	c=1 d=1.94913e-28 t=19327
-chui zhi 	垂直	c=1 d=1 t=19153
+chui zhi 	垂直	c=1 d=0.418952 t=19327
 chun 	蠢	c=1 d=5.36921e-09 t=19327
 chun da yin 	蠢打印	c=1 d=5.39612e-08 t=19327
 chun wen ben 	纯文本	c=1 d=2.96398e-18 t=19327
@@ -515,7 +515,7 @@ ci ku 	词库	c=5 d=1.77065 t=19327
 ci pan 	磁盘	c=7 d=0.179979 t=19327
 ci pan kuai 	磁盘块	c=3 d=0.596315 t=19327
 ci pan zhong 	磁盘中	c=1 d=0.145148 t=19327
-ci ri 	次日	c=1 d=1 t=18502
+ci ri 	次日	c=1 d=0.0161635 t=19327
 ci shu 	次数	c=7 d=0.000434441 t=19327
 ci ti 	此题	c=4 d=0.192125 t=19327
 ci wen ti 	此问题	c=1 d=1.20987e-06 t=19327
@@ -532,7 +532,7 @@ cun dao 	存到	c=1 d=2.67636e-23 t=19327
 cun fang 	存放	c=4 d=0.147342 t=19327
 cun fang zai 	存放在	c=1 d=0.144424 t=19327
 cun liang 	存量	c=1 d=0.000682328 t=19327
-cun zai 	存在	c=26 d=1.39631 t=19327
+cun zai 	存在	c=26 d=1.95072 t=19327
 cun zai yu 	存在于	c=1 d=0.56836 t=19327
 cuo 	错	c=1 d=2.13305e-30 t=19327
 cuo le 	错了	c=4 d=0.287941 t=19327
@@ -542,18 +542,18 @@ cuo wu 	错误	c=33 d=0.194952 t=19327
 cuo wu shi 	错误时	c=1 d=1.06401e-24 t=19327
 da 	大	c=3 d=0.192858 t=19327
 da 	打	c=2 d=7.25385e-18 t=19327
-da 	达	c=0 d=0.1 t=18012
+da 	达	c=0 d=0.000139481 t=19327
 da an 	答案	c=9 d=1.98745e-21 t=19327
 da bao 	打包	c=2 d=2.13493e-12 t=19327
 da bao sheng cheng 	打包生成	c=1 d=2.14564e-11 t=19327
-da bu ding li 	达布定理	c=1 d=1 t=18013
+da bu ding li 	达布定理	c=1 d=0.0014018 t=19327
 da bu fen 	大部分	c=2 d=2.50409e-05 t=19327
-da cheng 	达成	c=1 d=1 t=18970
+da cheng 	达成	c=1 d=0.167797 t=19327
 da fu weng 	大富翁	c=1 d=1.11067e-29 t=19327
 da gai 	大概	c=3 d=4.55854e-09 t=19327
 da gang 	大纲	c=1 d=4.2985e-09 t=19327
 da ge dian hua 	打个电话	c=1 d=0.079659 t=19327
-da gen dui 	大根堆	c=0 d=0.1 t=17396
+da gen dui 	大根堆	c=0 d=6.41042e-06 t=19327
 da gong 	打工	c=1 d=1.3408e-09 t=19327
 da guan yuan 	大观园	c=1 d=1.57291e-05 t=19327
 da jian 	搭建	c=3 d=6.26378e-10 t=19327
@@ -564,7 +564,7 @@ da tou 	大头	c=1 d=0.000739157 t=19327
 da xiao 	大小	c=5 d=0.000876127 t=19327
 da yin 	打印	c=4 d=1.50591e-07 t=19327
 da yu 	大于	c=2 d=0.000833397 t=19327
-da zi 	打字	c=1 d=1 t=19120
+da zi 	打字	c=1 d=0.355226 t=19327
 dai 	带	c=16 d=3.50389 t=19327
 dai 	待	c=2 d=1.24371e-07 t=19327
 dai ban 	待办	c=1 d=3.57433e-15 t=19327
@@ -583,12 +583,12 @@ dan 	单	c=4 d=0.33622 t=19327
 dan bian 	单边	c=1 d=0.000143382 t=19327
 dan bu 	但不	c=0 d=0.000900478 t=19327
 dan bu yong 	但不用	c=1 d=0.00904991 t=19327
-dan ce 	单侧	c=1 d=1 t=17944
+dan ce 	单侧	c=1 d=0.000992781 t=19327
 dan ce 	单测	c=1 d=2.43257e-17 t=19327
 dan chun 	单纯	c=1 d=3.43768e-27 t=19327
 dan ci 	单词	c=39 d=0.135634 t=19327
 dan diao 	单调	c=2 d=0.000350903 t=19327
-dan diao xing 	单调性	c=1 d=1 t=18336
+dan diao xing 	单调性	c=1 d=0.00704808 t=19327
 dan du 	单独	c=9 d=0.267135 t=19327
 dan ren 	单人	c=1 d=7.9084e-05 t=19327
 dan shi 	但是	c=5 d=0.00538036 t=19327
@@ -613,13 +613,13 @@ dao 	道	c=0 d=1.32651e-31 t=19327
 dao chu 	导出	c=19 d=0.0502874 t=19327
 dao chu jie guo 	导出结果	c=1 d=7.10779e-14 t=19327
 dao chu shi 	导出时	c=1 d=2.1279e-31 t=19327
-dao han shu 	导函数	c=7 d=3.80207 t=19281
-dao hang 	导航	c=5 d=4.1279 t=19058
+dao han shu 	导函数	c=7 d=3.02087 t=19327
+dao hang 	导航	c=5 d=1.07548 t=19327
 dao le 	到了	c=1 d=1.00102e-12 t=19327
 dao ru 	导入	c=25 d=3.95428e-12 t=19327
 dao shu 	导数	c=26 d=2.01251 t=19327
-dao shu bu cun zai 	导数不存在	c=1 d=1 t=18274
-dao shu ding yi 	导数定义	c=1 d=1 t=18264
+dao shu bu cun zai 	导数不存在	c=1 d=0.00516939 t=19327
+dao shu ding yi 	导数定义	c=1 d=0.00491728 t=19327
 dao zhi 	倒置	c=1 d=0.021068 t=19327
 dao zhi 	导致	c=5 d=6.22097e-05 t=19327
 de 	地	c=1 d=0.000769323 t=19327
@@ -632,8 +632,8 @@ deng 	等	c=11 d=2.03115e-06 t=19327
 deng dai 	等待	c=1 d=0.000160856 t=19327
 deng dai zhong 	等待中	c=1 d=7.78511e-26 t=19327
 deng deng 	等等	c=2 d=0.0116786 t=19327
-deng e 	等额	c=1 d=1 t=18185
-deng hao 	等号	c=1 d=1 t=18382
+deng e 	等额	c=1 d=0.00331267 t=19327
+deng hao 	等号	c=1 d=0.00887071 t=19327
 deng jia 	等价	c=11 d=0.038919 t=19327
 deng le 	蹬了	c=1 d=3.82229e-10 t=19327
 deng lu 	登录	c=13 d=2.38983e-14 t=19327
@@ -647,30 +647,30 @@ di ceng 	底层	c=3 d=0.00767337 t=19327
 di ceng yuan li 	底层原理	c=1 d=0.00798652 t=19327
 di er 	第二	c=1 d=0.0944202 t=19327
 di er ci 	第二次	c=1 d=3.95979e-14 t=19327
-di er ge 	第二个	c=1 d=1 t=17585
+di er ge 	第二个	c=1 d=0.000164928 t=19327
 di er hang 	第二行	c=2 d=0.000893825 t=19327
 di er lun 	第二轮	c=1 d=2.3352e-07 t=19327
-di er tian 	第二天	c=2 d=1.98511 t=18476
+di er tian 	第二天	c=2 d=0.0281748 t=19327
 di er xiang 	第二项	c=1 d=0.000403635 t=19327
 di fang 	地方	c=1 d=8.41173e-25 t=19327
-di gui 	递归	c=1 d=1.02299 t=17481
-di gui shu 	递归树	c=1 d=1.0802 t=17192
-di jin 	递进	c=1 d=1 t=18010
-di kou 	抵扣	c=1 d=1 t=18533
-di san 	第三	c=0 d=0.1 t=18368
-di san chong fen tiao jian 	第三充分条件	c=1 d=1 t=18369
+di gui 	递归	c=1 d=0.000100307 t=19327
+di gui shu 	递归树	c=1 d=2.49695e-05 t=19327
+di jin 	递进	c=1 d=0.00138093 t=19327
+di kou 	抵扣	c=1 d=0.0188734 t=19327
+di san 	第三	c=0 d=0.0008271 t=19327
+di san chong fen tiao jian 	第三充分条件	c=1 d=0.00831246 t=19327
 di san tiao 	第三条	c=1 d=0.000450569 t=19327
 di yi 	第一	c=1 d=7.95752e-19 t=19327
 di yi ci 	第一次	c=2 d=2.25322e-13 t=19327
 di yi ge 	第一个	c=8 d=0.00222055 t=19327
 di yi hang 	第一行	c=2 d=0.000930303 t=19327
 di yi jie 	第一节	c=1 d=8.50378e-06 t=19327
-di yi lei 	第一类	c=1 d=1 t=17988
+di yi lei 	第一类	c=1 d=0.00123708 t=19327
 di yi lun 	第一轮	c=1 d=2.28896e-07 t=19327
 di yi xiang 	第一项	c=2 d=0.628135 t=19327
 di yi zhang 	第一章	c=3 d=0.00667569 t=19327
 di yi zhong 	第一种	c=1 d=4.5212e-15 t=19327
-di yu 	低于	c=1 d=1 t=18738
+di yu 	低于	c=1 d=0.0526021 t=19327
 di zeng 	递增	c=1 d=0.00177315 t=19327
 di zhi 	地址	c=4 d=2.05192e-15 t=19327
 dian 	点	c=17 d=0.334931 t=19327
@@ -687,7 +687,7 @@ diao yong shi 	调用时	c=1 d=2.59373e-07 t=19327
 die 	爹	c=1 d=2.11477e-17 t=19327
 die jia 	叠加	c=1 d=8.51536e-22 t=19327
 ding 	定	c=0 d=0.000923273 t=19327
-ding 	顶	c=1 d=1 t=17745
+ding 	顶	c=1 d=0.000367055 t=19327
 ding bu 	顶部	c=8 d=0.00136719 t=19327
 ding dian 	顶点	c=1 d=0.00160441 t=19327
 ding dui 	顶堆	c=1 d=0.000816895 t=19327
@@ -700,8 +700,8 @@ ding qi 	定期	c=1 d=1.33067e-08 t=19327
 ding qiao 	鼎桥	c=1 d=7.92457e-29 t=19327
 ding shi 	定时	c=1 d=3.24991e-13 t=19327
 ding shi ji hua 	定时计划	c=1 d=6.48147e-17 t=19327
-ding si 	定死	c=1 d=1 t=18516
-ding wei 	定位	c=4 d=1.27219 t=19059
+ding si 	定死	c=1 d=0.0173355 t=19327
+ding wei 	定位	c=4 d=0.333117 t=19327
 ding xi shu 	定系数	c=1 d=0.00927901 t=19327
 ding xiang 	定向	c=1 d=1.87563e-17 t=19327
 ding yi 	定义	c=22 d=0.601152 t=19327
@@ -718,21 +718,21 @@ dong 	动	c=2 d=0.000385874 t=19327
 dong liang 	动量	c=1 d=0.101266 t=19327
 dong tai 	动态	c=2 d=2.37662e-08 t=19327
 dong xi 	东西	c=3 d=0.166962 t=19327
-dong xi ma 	东西吗	c=1 d=1 t=18534
+dong xi ma 	东西吗	c=1 d=0.018968 t=19327
 dong xiao 	动效	c=1 d=3.26047e-22 t=19327
 dong zuo 	动作	c=1 d=0.634448 t=19327
 dong zuo shi bie 	动作识别	c=1 d=5.11883e-05 t=19327
 dou 	都	c=34 d=1.20226 t=19327
 dou di 	兜底	c=1 d=0.00130703 t=19327
-dou hao 	逗号	c=1 d=1 t=17902
+dou hao 	逗号	c=1 d=0.000804733 t=19327
 dou kan dao 	都看到	c=1 d=3.43885e-31 t=19327
 dou shi 	都是	c=3 d=5.46219e-10 t=19327
-dou suan 	都算	c=0 d=0.1 t=17109
-dou suan yi xia 	都算一下	c=1 d=1 t=17110
+dou suan 	都算	c=0 d=1.52642e-06 t=19327
+dou suan yi xia 	都算一下	c=1 d=1.53407e-05 t=19327
 dou suo 	抖索	c=1 d=1.34587e-24 t=19327
 dou xing ma 	都行吗	c=1 d=0.307279 t=19327
 dou xu yao 	都需要	c=2 d=0.438235 t=19327
-dou yao you 	都要有	c=1 d=1 t=17674
+dou yao you 	都要有	c=1 d=0.000257369 t=19327
 dou yi yang 	都一样	c=1 d=0.105399 t=19327
 dou ying gai 	都应该	c=1 d=1.77466e-13 t=19327
 dou you 	都有	c=1 d=1.58515e-08 t=19327
@@ -741,7 +741,7 @@ du 	度	c=1 d=0.000458484 t=19327
 du 	读	c=6 d=0.655132 t=19327
 du li 	独立	c=8 d=0.00152616 t=19327
 du qu 	读取	c=27 d=0.0178636 t=19327
-du ru 	读入	c=1 d=1 t=17633
+du ru 	读入	c=1 d=0.000209665 t=19327
 duan 	断	c=1 d=1.88273e-32 t=19327
 duan 	段	c=2 d=0.000121572 t=19327
 duan 	短	c=1 d=8.7747e-22 t=19327
@@ -753,42 +753,43 @@ duan luo 	段落	c=6 d=0.0678809 t=19327
 duan luo zhong 	段落中	c=1 d=2.05758e-18 t=19327
 duan nei 	段内	c=1 d=1.38998e-21 t=19327
 duan wen 	短文	c=1 d=2.96196e-10 t=19327
-dui 	堆	c=4 d=1.92419 t=17596
+dui 	堆	c=4 d=0.000335297 t=19327
 dui 	对	c=20 d=2.30021 t=19327
 dui bi 	对比	c=8 d=0.202909 t=19327
 dui chen 	对称	c=0 d=2.02867e-29 t=19327
 dui chen xing 	对称性	c=0 d=2.3348e-06 t=19327
-dui de 	对的	c=1 d=1 t=18140
+dui de 	对的	c=1 d=0.00264522 t=19327
 dui die 	堆叠	c=1 d=1.30903e-21 t=19327
-dui ding 	堆顶	c=1 d=1 t=17470
+dui ding 	堆顶	c=1 d=9.28059e-05 t=19327
 dui hao 	对号	c=1 d=1.97556e-10 t=19327
 dui hou 	对后	c=1 d=1.67592e-16 t=19327
 dui hua 	对话	c=3 d=4.64733e-07 t=19327
 dui jiao 	对角	c=1 d=2.32189e-28 t=19327
-dui le 	对了	c=1 d=1 t=17091
+dui le 	对了	c=1 d=1.39504e-05 t=19327
 dui lie 	队列	c=2 d=0.00134011 t=19327
 dui ma 	对吗	c=4 d=0.0111068 t=19327
-dui qi 	堆砌	c=1 d=1 t=18667
+dui qi 	堆砌	c=1 d=0.0368832 t=19327
 dui qi 	对齐	c=6 d=0.414849 t=19327
 dui shu 	对数	c=2 d=0.0187793 t=19327
 dui xiang 	对象	c=1 d=0.0682212 t=19327
-dui ying 	对应	c=20 d=0.141425 t=19327
+dui ying 	对应	c=20 d=0.873716 t=19327
 dui ying de 	对应的	c=1 d=0.000149981 t=19327
 dui yu 	对于	c=8 d=0.0821387 t=19327
+dui yu ke 	对于可	c=1 d=1 t=6
 dui zhao 	对照	c=3 d=2.88005e-09 t=19327
-dui zheng shu lai shuo 	对整数来说	c=1 d=1 t=17530
+dui zheng shu lai shuo 	对整数来说	c=1 d=0.000125275 t=19327
 duo 	多	c=6 d=0.126818 t=19327
-duo bu 	多不	c=1 d=1 t=17824
+duo bu 	多不	c=1 d=0.00054485 t=19327
 duo chong 	多重	c=1 d=2.38562e-23 t=19327
-duo chong fu 	多重复	c=0 d=0.1 t=18633
+duo chong fu 	多重复	c=0 d=0.0031117 t=19327
 duo ci 	多次	c=1 d=2.43339e-21 t=19327
 duo ge 	多个	c=2 d=0.136695 t=19327
-duo guan jian zi 	多关键字	c=1 d=1 t=17524
+duo guan jian zi 	多关键字	c=1 d=0.000121572 t=19327
 duo hang 	多行	c=3 d=1.86976e-23 t=19327
 duo ji 	多级	c=1 d=0.00127476 t=19327
 duo jiu 	多久	c=1 d=3.44963e-09 t=19327
 duo le 	多了	c=2 d=0.00882647 t=19327
-duo lu 	多路	c=1 d=1 t=17495
+duo lu 	多路	c=1 d=0.000105163 t=19327
 duo mo tai 	多模态	c=1 d=1.67074e-09 t=19327
 duo shao 	多少	c=3 d=0.00704921 t=19327
 duo wen jian 	多文件	c=1 d=8.97818e-27 t=19327
@@ -799,9 +800,9 @@ duo yuan 	多元	c=2 d=0.22426 t=19327
 e ban 	俄版	c=1 d=1.00014e-31 t=19327
 e du 	额度	c=2 d=0.00748391 t=19327
 e wai 	额外	c=2 d=0.064571 t=19327
-en 	嗯	c=1 d=1 t=18914
+en 	嗯	c=1 d=0.126818 t=19327
 er 	二	c=3 d=0.00347388 t=19327
-er bu 	而不	c=1 d=1 t=18045
+er bu 	而不	c=1 d=0.00164502 t=19327
 er bu shi 	而不是	c=10 d=0.00213355 t=19327
 er cha shu 	二叉树	c=3 d=0.00454223 t=19327
 er cha shu lai biao shi 	二叉树来表示	c=1 d=0.00047843 t=19327
@@ -812,6 +813,7 @@ er ji yu ming 	二级域名	c=2 d=9.90296e-11 t=19327
 er jie 	二阶	c=5 d=0.0669717 t=19327
 er jie chang xi shu 	二阶常系数	c=1 d=0.369723 t=19327
 er jie wei fen fang cheng 	二阶微分方程	c=1 d=0.036334 t=19327
+er leng 	二愣	c=0 d=0.1 t=22
 er qie 	而且	c=2 d=1.2254e-09 t=19327
 er shi 	而是	c=31 d=0.88692 t=19327
 er shi zai 	而是在	c=1 d=1.46453e-18 t=19327
@@ -824,7 +826,7 @@ fa fang 	发放	c=1 d=0.00269866 t=19327
 fa gui 	法规	c=1 d=1.09191e-05 t=19327
 fa hui 	发挥	c=1 d=0.0117371 t=19327
 fa ka 	发卡	c=1 d=2.44942e-10 t=19327
-fa li 	乏力	c=1 d=1 t=18880
+fa li 	乏力	c=1 d=0.106992 t=19327
 fa lv 	法律	c=4 d=0.00782838 t=19327
 fa lv shi 	法律是	c=1 d=0.00690852 t=19327
 fa lv wen jian 	法律文件	c=1 d=1.90793e-12 t=19327
@@ -835,13 +837,13 @@ fa qing qiu 	发情求	c=1 d=7.07595e-20 t=19327
 fa sheng 	发生	c=1 d=0.00285124 t=19327
 fa song 	发送	c=3 d=6.85181e-12 t=19327
 fa song le 	发送了	c=1 d=8.03886e-21 t=19327
-fa xian 	法线	c=1 d=1 t=18778
+fa xian 	法线	c=1 d=0.0642483 t=19327
 fa yin 	发音	c=2 d=2.52021e-06 t=19327
 fa ze 	法则	c=1 d=3.64343e-05 t=19327
 fan 	反	c=1 d=3.22024e-23 t=19327
 fan 	泛	c=0 d=5.72474e-28 t=19327
 fan dai 	反代	c=3 d=2.61636e-11 t=19327
-fan er 	反而	c=1 d=1 t=18981
+fan er 	反而	c=1 d=0.177284 t=19327
 fan han shu 	反函数	c=0 d=2.46547e-29 t=19327
 fan hui 	返回	c=5 d=0.013912 t=19327
 fan kui 	反馈	c=7 d=2.15396e-05 t=19327
@@ -858,10 +860,10 @@ fang 	放	c=1 d=0.0135009 t=19327
 fang 	方	c=1 d=4.31183e-16 t=19327
 fang an 	方案	c=21 d=1.84081 t=19327
 fang bian wan 	方便完	c=1 d=4.79669e-05 t=19327
-fang chan 	房产	c=1 d=1 t=18150
+fang chan 	房产	c=1 d=0.00278085 t=19327
 fang cheng 	方程	c=29 d=2.85483 t=19327
 fang cheng zu 	方程组	c=0 d=0.000625109 t=19327
-fang dai 	房贷	c=1 d=1 t=18123
+fang dai 	房贷	c=1 d=0.00242967 t=19327
 fang dao 	放到	c=4 d=0.0353817 t=19327
 fang fa 	方法	c=21 d=0.75666 t=19327
 fang jin 	放进	c=1 d=4.93588e-18 t=19327
@@ -869,7 +871,7 @@ fang ma 	放马	c=1 d=7.82546e-28 t=19327
 fang mian 	方面	c=1 d=7.86469e-28 t=19327
 fang pi 	放屁	c=1 d=2.681e-14 t=19327
 fang quan 	放权	c=1 d=1.11434e-09 t=19327
-fang ru 	放入	c=1 d=1 t=17319
+fang ru 	放入	c=1 d=4.36198e-05 t=19327
 fang shi 	方式	c=27 d=0.381151 t=19327
 fang shi biao shi 	方式表示	c=1 d=0.0102549 t=19327
 fang suo 	放缩	c=3 d=0.000666518 t=19327
@@ -883,28 +885,28 @@ fang zai 	放在	c=7 d=2.71732e-05 t=19327
 fang zhen 	方阵	c=1 d=2.98909e-29 t=19327
 fang zhi 	放置	c=6 d=1.75808e-14 t=19327
 fang zhi 	防止	c=2 d=1.70948e-14 t=19327
-fei 	费	c=1 d=0.931104 t=18389
+fei 	费	c=1 d=0.00855376 t=19327
 fei 	非	c=9 d=0.0528715 t=19327
 fei chang 	非常	c=1 d=1.55002e-09 t=19327
 fei chuan 	飞船	c=1 d=3.13753e-11 t=19327
-fei kuo zhan 	费扩展	c=1 d=1 t=18390
-fei le 	废了	c=1 d=1 t=19031
+fei kuo zhan 	费扩展	c=1 d=0.00923273 t=19327
+fei le 	废了	c=1 d=0.227638 t=19327
 fei ling 	非零	c=1 d=0.0327124 t=19327
 fei qi ci 	非齐次	c=3 d=0.373439 t=19327
-fei ye jie dian 	非叶节点	c=1 d=1 t=17305
+fei ye jie dian 	非叶节点	c=1 d=4.06708e-05 t=19327
 fen 	分	c=13 d=1.68528 t=19327
 fen bie 	分别	c=3 d=0.00264522 t=19327
 fen bu 	分布	c=1 d=2.92233e-28 t=19327
 fen ceng 	分层	c=1 d=0.15259 t=19327
 fen cheng 	分成	c=2 d=1.23009e-16 t=19327
-fen duan 	分段	c=3 d=1.24882 t=18691
-fen duan dian 	分段点	c=3 d=1.7796 t=18456
+fen duan 	分段	c=3 d=0.051933 t=19327
+fen duan dian 	分段点	c=3 d=0.0228544 t=19327
 fen fa 	分发	c=2 d=1.56991e-12 t=19327
 fen ge fu 	分隔符	c=1 d=2.29762e-22 t=19327
 fen ge xian 	分割线	c=2 d=0.272532 t=19327
 fen ge xian 	分隔线	c=1 d=5.22935e-21 t=19327
 fen jie 	分节	c=8 d=3.05424e-18 t=19327
-fen jie fa 	分解法	c=1 d=1 t=18732
+fen jie fa 	分解法	c=1 d=0.0510474 t=19327
 fen lan 	分栏	c=4 d=0.00145173 t=19327
 fen lei 	分类	c=17 d=1.5816e-11 t=19327
 fen lei ming 	分类名	c=1 d=6.37174e-22 t=19327
@@ -915,7 +917,7 @@ fen li 	分离	c=3 d=0.481909 t=19327
 fen mu 	分母	c=2 d=0.0185924 t=19327
 fen pei 	分配	c=2 d=1.46303e-06 t=19327
 fen pi 	分批	c=1 d=2.04558e-08 t=19327
-fen ping 	分屏	c=1 d=1 t=19101
+fen ping 	分屏	c=1 d=0.323033 t=19327
 fen san 	分散	c=0 d=1.98817e-27 t=19327
 fen san dao 	分散到	c=2 d=0.000154549 t=19327
 fen wei 	分为	c=3 d=1.95557e-08 t=19327
@@ -951,13 +953,13 @@ fu gai du 	覆盖度	c=2 d=2.33679e-15 t=19327
 fu gai lv 	覆盖率	c=2 d=4.37825e-25 t=19327
 fu hao 	符号	c=8 d=0.0599047 t=19327
 fu hao 	负号	c=1 d=0.060205 t=19327
-fu he 	复合	c=1 d=1 t=18257
+fu he 	复合	c=1 d=0.00474815 t=19327
 fu he 	符合	c=4 d=0.00472447 t=19327
 fu ji 	父级	c=1 d=5.99353e-08 t=19327
 fu jian 	附件	c=3 d=1.28468e-06 t=19327
 fu ke 	复刻	c=1 d=4.8725e-13 t=19327
-fu mian 	负面	c=1 d=1 t=17737
-fu shang 	附上	c=1 d=1 t=17376
+fu mian 	负面	c=1 d=0.000352662 t=19327
+fu shang 	附上	c=1 d=5.80039e-05 t=19327
 fu wen ben 	富文本	c=3 d=2.01095e-13 t=19327
 fu wu 	服务	c=8 d=0.810584 t=19327
 fu wu qi 	服务器	c=18 d=6.4101e-08 t=19327
@@ -982,7 +984,7 @@ gai cheng 	改成	c=10 d=0.465099 t=19327
 gai cheng le 	改成了	c=1 d=0.00217658 t=19327
 gai dao 	改到	c=1 d=1.14727e-28 t=19327
 gai dian 	改点	c=2 d=0.0448245 t=19327
-gai dian 	该点	c=1 d=1 t=18724
+gai dian 	该点	c=1 d=0.0490458 t=19327
 gai dong 	改动	c=4 d=0.251579 t=19327
 gai jiao ben 	改脚本	c=1 d=1.1808e-14 t=19327
 gai jin 	改进	c=1 d=8.98612e-09 t=19327
@@ -992,7 +994,7 @@ gai lv 	概率	c=2 d=1.3138e-05 t=19327
 gai lv mo xing 	概率模型	c=1 d=0.402524 t=19327
 gai ming 	改名	c=2 d=0.0222592 t=19327
 gai nian 	概念	c=10 d=0.684265 t=19327
-gai nian xing 	概念性	c=1 d=1 t=18707
+gai nian xing 	概念性	c=1 d=0.0450492 t=19327
 gai shan 	改善	c=4 d=0.00909974 t=19327
 gai wei 	改为	c=147 d=1.5095 t=19327
 gai wen ti 	该问题	c=1 d=1.55562e-22 t=19327
@@ -1008,8 +1010,8 @@ gan 	感	c=1 d=2.38278e-09 t=19327
 gan ga 	尴尬	c=2 d=3.36922e-09 t=19327
 gan jue 	感觉	c=6 d=0.0466538 t=19327
 gan ma 	干嘛	c=1 d=0.339596 t=19327
-gan she 	干涉	c=1 d=1 t=18080
-gan te tu 	甘特图	c=1 d=1 t=19304
+gan she 	干涉	c=1 d=0.00195963 t=19327
+gan te tu 	甘特图	c=1 d=0.891366 t=19327
 gan xing qu 	感兴趣	c=1 d=8.05144e-10 t=19327
 gang 	刚	c=1 d=1.01335e-09 t=19327
 gang cai 	刚才	c=5 d=0.431711 t=19327
@@ -1026,7 +1028,7 @@ gao du 	高度	c=7 d=0.377131 t=19327
 gao hao le 	搞好了	c=1 d=7.50711e-10 t=19327
 gao huai 	搞坏	c=1 d=3.40116e-19 t=19327
 gao jie 	高阶	c=3 d=0.00686948 t=19327
-gao jie dao shu 	高阶导数	c=1 d=1 t=18748
+gao jie dao shu 	高阶导数	c=1 d=0.055299 t=19327
 gao qiang du 	高强度	c=1 d=3.2409e-10 t=19327
 gao shu 	高数	c=1 d=1.28779e-05 t=19327
 gao su wo 	告诉我	c=3 d=0.00018046 t=19327
@@ -1047,7 +1049,7 @@ ge ren 	个人	c=2 d=0.000466618 t=19327
 ge shi 	格式	c=21 d=0.0841045 t=19327
 ge shi hua 	格式化	c=6 d=0.449329 t=19327
 ge shu 	个数	c=11 d=0.495966 t=19327
-ge shui 	个税	c=1 d=1 t=18545
+ge shui 	个税	c=1 d=0.0200405 t=19327
 ge ti gong shang hu 	个体工商户	c=1 d=8.61441e-11 t=19327
 ge xiang 	各项	c=1 d=7.12376e-11 t=19327
 ge yue 	个月	c=2 d=5.92544e-13 t=19327
@@ -1057,11 +1059,11 @@ gei 	给	c=12 d=0.279164 t=19327
 gei chu 	给出	c=25 d=0.0848808 t=19327
 gei de 	给的	c=1 d=0.0247235 t=19327
 gei ding 	给定	c=2 d=0.418004 t=19327
-gei ding xu lie 	给定序列	c=1 d=1 t=17396
+gei ding xu lie 	给定序列	c=1 d=6.41042e-05 t=19327
 gei ni 	给你	c=3 d=0.166027 t=19327
 gei wo 	给我	c=11 d=0.264477 t=19327
-gei wo yi xie 	给我一些	c=1 d=1 t=17790
-gei yi ge 	给一个	c=2 d=1.84789 t=18661
+gei wo yi xie 	给我一些	c=1 d=0.000459671 t=19327
+gei yi ge 	给一个	c=2 d=0.0661417 t=19327
 gen 	根	c=3 d=0.0255732 t=19327
 gen ben 	根本	c=1 d=0.008271 t=19327
 gen hao 	根号	c=2 d=0.0402865 t=19327
@@ -1093,13 +1095,13 @@ geng you 	更优	c=1 d=5.25735e-25 t=19327
 geng you 	更有	c=0 d=1.01771e-31 t=19327
 geng you mei 	更优美	c=1 d=0.071719 t=19327
 geng zhi 	更值	c=1 d=1.48565e-10 t=19327
-gong 	公	c=1 d=1 t=18684
+gong 	公	c=1 d=0.0401553 t=19327
 gong 	功	c=2 d=3.33714e-14 t=19327
 gong chang han shu 	工厂函数	c=1 d=0.140858 t=19327
 gong cheng 	工程	c=1 d=8.25078e-33 t=19327
 gong gao 	公告	c=1 d=1.75216e-10 t=19327
 gong gong 	公共	c=4 d=1.23729e-05 t=19327
-gong ji jin 	公积金	c=2 d=1.76721 t=18177
+gong ji jin 	公积金	c=2 d=0.00562464 t=19327
 gong ju 	工具	c=25 d=1.1068 t=19327
 gong ju jin xing 	工具进行	c=1 d=5.9021e-33 t=19327
 gong ju lian 	工具链	c=1 d=1.80393e-29 t=19327
@@ -1117,7 +1119,7 @@ gong zhong hao 	公众号	c=1 d=1.40978e-11 t=19327
 gong zuo 	工作	c=4 d=6.25221e-05 t=19327
 gong zuo liu 	工作流	c=1 d=1.65355e-05 t=19327
 gong zuo mu lu 	工作目录	c=1 d=1.42613e-29 t=19327
-gong zuo qu 	工作区	c=1 d=1 t=19147
+gong zuo qu 	工作区	c=1 d=0.40657 t=19327
 gong zuo shu 	工作树	c=1 d=1.32904e-23 t=19327
 gou 	够	c=1 d=1.38163e-09 t=19327
 gou jian 	构建	c=9 d=0.00186406 t=19327
@@ -1132,14 +1134,14 @@ gua 	挂	c=1 d=2.85561e-21 t=19327
 gua zai 	挂载	c=6 d=1.40926e-10 t=19327
 guai 	怪	c=0 d=2.77556e-11 t=19327
 guai bu de 	怪不得	c=1 d=4.9821e-10 t=19327
-guai dian 	拐点	c=2 d=1.83527 t=18429
+guai dian 	拐点	c=2 d=0.0205929 t=19327
 guai ka ren zhe 	怪咖忍者	c=1 d=2.78947e-10 t=19327
 guan 	管	c=1 d=5.1347e-12 t=19327
 guan bi 	关闭	c=5 d=0.470011 t=19327
-guan cha 	观察	c=0 d=0.1 t=19232
-guan cha de 	观察得	c=1 d=1 t=19233
-guan dian 	观点	c=1 d=1 t=18675
-guan diao 	关掉	c=1 d=1 t=19155
+guan cha 	观察	c=0 d=0.0621885 t=19327
+guan cha de 	观察得	c=1 d=0.625002 t=19327
+guan dian 	观点	c=1 d=0.0383884 t=19327
+guan diao 	关掉	c=1 d=0.423162 t=19327
 guan fang 	官方	c=12 d=2.03085e-05 t=19327
 guan jian 	关键	c=6 d=0.0909883 t=19327
 guan jian zi 	关键字	c=10 d=2.37221 t=19327
@@ -1156,23 +1158,23 @@ guan lian guan xi 	关联关系	c=4 d=1.18857e-06 t=19327
 guan lian ti mu 	关联题目	c=2 d=9.57626e-21 t=19327
 guan wang 	官网	c=1 d=1.46353e-10 t=19327
 guan xi 	关系	c=36 d=1.31754 t=19327
-guan xi tu 	关系图	c=1 d=1 t=17978
+guan xi tu 	关系图	c=1 d=0.00117675 t=19327
 guan yu 	关于	c=5 d=0.117898 t=19327
 guang 	光	c=1 d=5.74054e-30 t=19327
-guang biao wei zhi 	光标位置	c=1 d=1 t=17443
+guang biao wei zhi 	光标位置	c=1 d=8.1086e-05 t=19327
 guang bo 	广播	c=1 d=0.000141247 t=19327
 guang yi 	广义	c=2 d=5.80331e-29 t=19327
 gui bi 	规避	c=3 d=2.56216e-10 t=19327
-gui bing 	归并	c=6 d=2.71297 t=17824
+gui bing 	归并	c=6 d=0.00147816 t=19327
 gui hua 	规划	c=1 d=5.04519e-11 t=19327
 gui lei 	归类	c=1 d=0.00490777 t=19327
 gui lv 	规律	c=1 d=2.37008e-05 t=19327
 gui na 	归纳	c=3 d=7.22286e-05 t=19327
-gui na fa 	归纳法	c=1 d=1 t=18728
+gui na fa 	归纳法	c=1 d=0.0500366 t=19327
 gui ru 	归入	c=1 d=3.22189e-29 t=19327
 gui yi 	归一	c=1 d=1.22857e-10 t=19327
 gui yi hua 	归一化	c=4 d=3.67555e-20 t=19327
-gui ze 	规则	c=1 d=1 t=17089
+gui ze 	规则	c=1 d=1.38116e-05 t=19327
 gun dong 	滚动	c=6 d=6.88983e-22 t=19327
 guo 	过	c=4 d=3.2936e-10 t=19327
 guo chan 	国产	c=1 d=4.079e-10 t=19327
@@ -1180,22 +1182,22 @@ guo chang 	过长	c=2 d=2.18506e-18 t=19327
 guo cheng 	过程	c=4 d=5.51844e-07 t=19327
 guo da 	过大	c=5 d=0.00433948 t=19327
 guo kuan 	过宽	c=1 d=2.93598e-24 t=19327
-guo le yi bian 	过了一遍	c=1 d=1 t=18480
+guo le yi bian 	过了一遍	c=1 d=0.0144798 t=19327
 guo liang 	过量	c=1 d=1.17064e-30 t=19327
 guo lv 	过滤	c=2 d=6.70548e-05 t=19327
 guo nei 	国内	c=6 d=0.000223746 t=19327
 guo qi 	过期	c=1 d=1.73113e-15 t=19327
 guo qu 	过去	c=1 d=1.67706e-24 t=19327
 guo shi 	过时	c=2 d=0.0145524 t=19327
-ha fu man 	哈夫曼	c=1 d=1 t=17827
+ha fu man 	哈夫曼	c=1 d=0.000553084 t=19327
 hai 	还	c=4 d=4.6325e-07 t=19327
 hai bu cuo 	还不错	c=1 d=7.69716e-10 t=19327
-hai cha 	还差	c=1 d=1 t=19035
+hai cha 	还差	c=1 d=0.232236 t=19327
 hai mei you 	还没有	c=1 d=3.7498e-20 t=19327
 hai shi 	还是	c=21 d=0.787585 t=19327
 hai shi shuo 	还是说	c=2 d=1.98325e-15 t=19327
-hai xu 	还需	c=0 d=0.1 t=18144
-hai xu e wai 	还需额外	c=1 d=1 t=18145
+hai xu 	还需	c=0 d=0.000269866 t=19327
+hai xu e wai 	还需额外	c=1 d=0.00271219 t=19327
 hai xu yao 	还需要	c=5 d=5.57296e-05 t=19327
 hai yao 	还要	c=1 d=2.9835e-07 t=19327
 hai you 	还有	c=14 d=0.164474 t=19327
@@ -1205,8 +1207,8 @@ han 	含	c=1 d=0.0257325 t=19327
 han gai 	涵盖	c=1 d=1.84677e-11 t=19327
 han shu 	函数	c=44 d=3.89793 t=19327
 han shu jie gou 	函数结构	c=1 d=0.0593087 t=19327
-han shu lian xu xing 	函数连续性	c=1 d=1 t=18596
-han shu ming 	函数名	c=1 d=1 t=17837
+han shu lian xu xing 	函数连续性	c=1 d=0.0258615 t=19327
+han shu ming 	函数名	c=1 d=0.000581442 t=19327
 han wei zhi shu 	含未知数	c=1 d=0.0228227 t=19327
 han yi 	含义	c=4 d=0.000584864 t=19327
 han you 	含有	c=2 d=0.0137075 t=19327
@@ -1244,21 +1246,21 @@ he xin 	核心	c=5 d=0.913986 t=19327
 he yi chu 	和移除	c=1 d=4.48932e-20 t=19327
 hei se 	黑色	c=1 d=3.25039e-15 t=19327
 hen 	很	c=4 d=0.318271 t=19327
-hen cha 	很差	c=1 d=1 t=17884
-hen chou 	很丑	c=1 d=1 t=17665
+hen cha 	很差	c=1 d=0.000735471 t=19327
+hen chou 	很丑	c=1 d=0.000246044 t=19327
 hen da 	很大	c=2 d=0.00474815 t=19327
 hen duo 	很多	c=5 d=0.276102 t=19327
 hen hao 	很好	c=4 d=0.0141223 t=19327
 hen ke neng 	很可能	c=1 d=3.07488e-09 t=19327
-hen kun 	很困	c=1 d=1 t=18870
-hen man 	很慢	c=1 d=1 t=18882
+hen kun 	很困	c=1 d=0.101774 t=19327
+hen man 	很慢	c=1 d=0.108067 t=19327
 hen nai yong 	很耐用	c=1 d=1.50421e-09 t=19327
 hen nan zuo 	很难做	c=1 d=2.92035e-20 t=19327
 hen xiao 	很小	c=1 d=0.00467746 t=19327
-hen you 	很有	c=1 d=1 t=17111
+hen you 	很有	c=1 d=1.54176e-05 t=19327
 heng 	恒	c=1 d=5.66874e-29 t=19327
-heng deng shi 	恒等式	c=1 d=1 t=18741
-heng ding 	恒定	c=1 d=1 t=17618
+heng deng shi 	恒等式	c=1 d=0.053397 t=19327
+heng ding 	恒定	c=1 d=0.000194515 t=19327
 heng xian 	横线	c=1 d=0.0166557 t=19327
 heng xiang 	横向	c=1 d=0.00211225 t=19327
 hong hei shu 	红黑树	c=5 d=1.25311 t=19327
@@ -1268,7 +1270,7 @@ hou fang 	后方	c=1 d=1.41098e-21 t=19327
 hou mian 	后面	c=7 d=0.133989 t=19327
 hou qi 	后期	c=1 d=2.747e-06 t=19327
 hou tai 	后台	c=6 d=3.20759e-06 t=19327
-hou tian 	后天	c=1 d=1 t=17815
+hou tian 	后天	c=1 d=0.000520875 t=19327
 hou xiang 	后向	c=1 d=0.183599 t=19327
 hou xiang jian rong 	后向兼容	c=1 d=0.000130703 t=19327
 hou xu 	后续	c=13 d=7.25551e-05 t=19327
@@ -1284,8 +1286,8 @@ hua bu 	画布	c=2 d=0.000626727 t=19327
 hua chu 	画出	c=1 d=1.12245e-06 t=19327
 hua dong 	滑动	c=5 d=7.15825e-09 t=19327
 hua duo 	化多	c=1 d=0.000696112 t=19327
-hua fei 	花费	c=1 d=1 t=18938
-hua fen 	划分	c=1 d=1 t=17482
+hua fei 	花费	c=1 d=0.142987 t=19327
+hua fen 	划分	c=1 d=9.85447e-05 t=19327
 hua jian 	化简	c=1 d=0.045502 t=19327
 hua shi jian 	花时间	c=1 d=5.6173e-10 t=19327
 hua shuo 	话说	c=1 d=1.33411e-09 t=19327
@@ -1293,7 +1295,7 @@ hua wei 	化为	c=5 d=0.374192 t=19327
 hua you 	话有	c=1 d=6.08515e-10 t=19327
 huan cheng 	换成	c=1 d=1.98546e-10 t=19327
 huan cun 	缓存	c=6 d=0.000166586 t=19327
-huan dai 	还贷	c=1 d=1 t=18169
+huan dai 	还贷	c=1 d=0.00305798 t=19327
 huan hang 	换行	c=15 d=6.7151e-05 t=19327
 huan jing 	环境	c=61 d=0.037243 t=19327
 huan jing bian liang 	环境变量	c=23 d=3.12754e-14 t=19327
@@ -1309,7 +1311,7 @@ hui dao zhi 	会导致	c=1 d=2.07501e-29 t=19327
 hui diao 	回调	c=5 d=0.0181456 t=19327
 hui fu 	回复	c=8 d=0.187312 t=19327
 hui fu 	恢复	c=7 d=0.00145186 t=19327
-hui gu 	回顾	c=1 d=1 t=18935
+hui gu 	回顾	c=1 d=0.140858 t=19327
 hui gui 	回归	c=1 d=6.91911e-21 t=19327
 hui lai 	回来	c=1 d=3.32181e-06 t=19327
 hui shi 	会使	c=1 d=1.78878e-18 t=19327
@@ -1334,9 +1336,9 @@ huo zhe 	或者	c=3 d=0.00882647 t=19327
 ji 	即	c=14 d=0.723861 t=19327
 ji 	及	c=8 d=0.0199407 t=19327
 ji 	基	c=1 d=2.59859e-29 t=19327
-ji 	既	c=0 d=0.1 t=17149
+ji 	既	c=0 d=1.86437e-06 t=19327
 ji 	级	c=0 d=9.87462e-30 t=19327
-ji 	记	c=1 d=1 t=18417
+ji 	记	c=1 d=0.0105672 t=19327
 ji ba 	鸡巴	c=1 d=8.99989e-26 t=19327
 ji ben 	基本	c=7 d=0.43748 t=19327
 ji ben bu fu ze 	基本不负责	c=1 d=1.46982e-31 t=19327
@@ -1357,7 +1359,7 @@ ji fen yin zi 	积分因子	c=1 d=0.0356146 t=19327
 ji ge 	几个	c=4 d=4.79669e-05 t=19327
 ji ge ban fa 	几个办法	c=0 d=0.00287246 t=19327
 ji ge zu jian 	几个组件	c=1 d=2.54012e-26 t=19327
-ji han shu 	奇函数	c=2 d=1.98511 t=18326
+ji han shu 	奇函数	c=2 d=0.0133089 t=19327
 ji he 	几何	c=3 d=0.110254 t=19327
 ji he 	集合	c=2 d=1.92115e-06 t=19327
 ji hua 	计划	c=18 d=0.60076 t=19327
@@ -1365,17 +1367,17 @@ ji hua qing dan 	计划清单	c=1 d=1.02619e-10 t=19327
 ji huo 	激活	c=1 d=6.67658e-13 t=19327
 ji jian 	极简	c=1 d=7.8837e-27 t=19327
 ji jiao 	极角	c=1 d=3.42298e-06 t=19327
-ji jie 	几节	c=1 d=1 t=17223
+ji jie 	几节	c=1 d=2.69912e-05 t=19327
 ji ke 	即可	c=3 d=0.0822672 t=19327
 ji lu 	记录	c=16 d=0.232629 t=19327
-ji lu de 	记录的	c=1 d=1 t=17629
+ji lu de 	记录的	c=1 d=0.000205513 t=19327
 ji lu zhu dao 	记录主导	c=1 d=4.38384e-05 t=19327
 ji lun 	几轮	c=1 d=1.18325e-09 t=19327
 ji miao 	几秒	c=1 d=4.10084e-14 t=19327
 ji neng 	技能	c=7 d=3.62487e-32 t=19327
 ji ou 	奇偶	c=0 d=2.3348e-06 t=19327
 ji ou dui chen xing 	奇偶对称性	c=1 d=2.3465e-05 t=19327
-ji ou xing 	奇偶性	c=3 d=1.248 t=18725
+ji ou xing 	奇偶性	c=3 d=0.061516 t=19327
 ji qi 	机器	c=2 d=2.23822e-08 t=19327
 ji qi 	极其	c=3 d=0.117153 t=19327
 ji qi ren 	机器人	c=1 d=2.4372e-10 t=19327
@@ -1386,10 +1388,10 @@ ji shi 	及时	c=1 d=1.89319e-09 t=19327
 ji shi 	计时	c=4 d=0.000421229 t=19327
 ji shi ben 	记事本	c=1 d=1.13744e-15 t=19327
 ji shi chuang kou 	计时窗口	c=1 d=8.78394e-05 t=19327
-ji shi yong yu 	既适用于	c=1 d=1 t=17150
+ji shi yong yu 	既适用于	c=1 d=1.87372e-05 t=19327
 ji shu 	技术	c=1 d=2.26927e-23 t=19327
 ji shu 	计数	c=1 d=2.60628e-05 t=19327
-ji shu pai xu 	基数排序	c=1 d=1 t=17535
+ji shu pai xu 	基数排序	c=1 d=0.000128446 t=19327
 ji shu qi 	计数器	c=1 d=2.58035e-05 t=19327
 ji shu zhan 	技术栈	c=3 d=0.000144917 t=19327
 ji suan 	计算	c=29 d=0.426145 t=19327
@@ -1399,7 +1401,7 @@ ji tiao 	几条	c=1 d=4.60611e-28 t=19327
 ji wei 	即为	c=2 d=0.116484 t=19327
 ji wei 	记为	c=3 d=0.0198647 t=19327
 ji xian 	极限	c=11 d=0.565635 t=19327
-ji xian cun zai 	极限存在	c=1 d=1 t=18720
+ji xian cun zai 	极限存在	c=1 d=0.0480747 t=19327
 ji xing 	机型	c=2 d=8.21442e-16 t=19327
 ji xu 	继续	c=50 d=0.000328809 t=19327
 ji xu gai 	继续改	c=1 d=2.76265e-14 t=19327
@@ -1409,10 +1411,10 @@ ji yi fa 	记忆法	c=1 d=1.32403e-08 t=19327
 ji yu 	基于	c=10 d=0.591662 t=19327
 ji zhi 	机制	c=4 d=5.09416e-07 t=19327
 ji zhi 	极值	c=0 d=3.69849e-06 t=19327
-ji zhi dian 	极值点	c=4 d=3.60083 t=18451
+ji zhi dian 	极值点	c=4 d=0.960789 t=19327
 ji zhi wen ti 	极值问题	c=1 d=3.71703e-05 t=19327
 ji zhong 	集中	c=1 d=4.04185e-20 t=19327
-ji zui guai 	极最拐	c=1 d=1 t=18485
+ji zui guai 	极最拐	c=1 d=0.0148464 t=19327
 jia 	假	c=1 d=0.00719046 t=19327
 jia 	加	c=6 d=0.0191342 t=19327
 jia 	夹	c=1 d=1.99721e-05 t=19327
@@ -1455,8 +1457,8 @@ jian huan jia 	减换加	c=1 d=2.43008e-05 t=19327
 jian jie 	简洁	c=2 d=0.0177743 t=19327
 jian jie xi 	见解析	c=1 d=1.66926e-28 t=19327
 jian jin shi 	渐进式	c=1 d=1.37615e-21 t=19327
-jian jin xian 	渐近线	c=1 d=1 t=18339
-jian jin xing 	渐进性	c=1 d=1 t=18461
+jian jin xian 	渐近线	c=1 d=0.0071546 t=19327
+jian jin xing 	渐进性	c=1 d=0.0131675 t=19327
 jian ju 	间距	c=2 d=0.0246002 t=19327
 jian li 	建立	c=8 d=0.0135759 t=19327
 jian pan 	键盘	c=1 d=4.3417e-09 t=19327
@@ -1469,7 +1471,7 @@ jian shi qi 	检视器	c=2 d=3.5299e-26 t=19327
 jian shi qi 	监视器	c=1 d=9.92243e-27 t=19327
 jian suo 	检索	c=1 d=9.57952e-25 t=19327
 jian tou 	箭头	c=3 d=0.356387 t=19327
-jian wei 	键位	c=1 d=1 t=19090
+jian wei 	键位	c=1 d=0.305746 t=19327
 jian xiao 	减小	c=9 d=0.000611696 t=19327
 jian yao 	简要	c=2 d=0.000308127 t=19327
 jian yi 	建议	c=16 d=0.134204 t=19327
@@ -1479,38 +1481,38 @@ jian zhan 	建站	c=1 d=2.62069e-11 t=19327
 jian zhao 	见着	c=1 d=0.101266 t=19327
 jiang 	将	c=111 d=0.961427 t=19327
 jiang 	降	c=2 d=0.00597602 t=19327
-jiang di 	降低	c=1 d=1 t=17731
+jiang di 	降低	c=1 d=0.000342239 t=19327
 jiang ji 	降级	c=1 d=8.3786e-08 t=19327
 jiang shu 	讲述	c=1 d=0.000189713 t=19327
-jiang xia 	讲下	c=1 d=1 t=18793
+jiang xia 	讲下	c=1 d=0.0692522 t=19327
 jiang xiang 	奖项	c=1 d=8.4335e-26 t=19327
 jiang xu 	降序	c=2 d=3.67979e-24 t=19327
 jiang yi ge 	讲一个	c=1 d=2.78994e-12 t=19327
 jiang yi xia 	讲一下	c=0 d=0.000771183 t=19327
-jiang you 	将有	c=1 d=1 t=17627
+jiang you 	将有	c=1 d=0.000203468 t=19327
 jiang zhe xie 	将这些	c=1 d=8.20404e-25 t=19327
-jiao 	交	c=1 d=1 t=18122
+jiao 	交	c=1 d=0.00241755 t=19327
 jiao 	角	c=2 d=7.21516e-06 t=19327
 jiao ben 	脚本	c=26 d=0.694197 t=19327
 jiao cai 	教材	c=1 d=0.00740944 t=19327
 jiao cheng 	教程	c=1 d=1.35801e-12 t=19327
 jiao cuo 	交错	c=1 d=3.52351e-23 t=19327
-jiao da 	较大	c=1 d=1 t=17447
+jiao da 	较大	c=1 d=8.27241e-05 t=19327
 jiao dian 	焦点	c=0 d=1.05163e-05 t=19327
 jiao dian hou 	焦点后	c=1 d=0.00010569 t=19327
-jiao duo 	较多	c=2 d=1.1944 t=17605
-jiao duo shi 	较多时	c=1 d=1 t=17606
+jiao duo 	较多	c=2 d=0.000217708 t=19327
+jiao duo shi 	较多时	c=1 d=0.000183188 t=19327
 jiao gao 	较高	c=1 d=0.00229965 t=19327
 jiao hu 	交互	c=2 d=7.02086e-13 t=19327
-jiao huan 	交换	c=2 d=1.39259 t=17362
-jiao na 	缴纳	c=1 d=1 t=18146
+jiao huan 	交换	c=2 d=7.53147e-05 t=19327
+jiao na 	缴纳	c=1 d=0.00272578 t=19327
 jiao nan 	较难	c=2 d=1.64585e-05 t=19327
 jiao nang 	胶囊	c=1 d=5.65603e-32 t=19327
-jiao ni 	叫你	c=1 d=1 t=18631
+jiao ni 	叫你	c=1 d=0.0308074 t=19327
 jiao shen me 	叫什么	c=1 d=0.000212834 t=19327
 jiao you 	交由	c=2 d=4.62132e-08 t=19327
 jiao zheng 	矫正	c=1 d=7.01151e-30 t=19327
-jie 	结	c=1 d=1 t=18714
+jie 	结	c=1 d=0.0466538 t=19327
 jie 	节	c=2 d=0.00352628 t=19327
 jie 	解	c=11 d=0.193984 t=19327
 jie 	阶	c=3 d=0.259264 t=19327
@@ -1534,7 +1536,7 @@ jie hou 	节后	c=1 d=1.64867e-29 t=19327
 jie ji 	阶级	c=0 d=1.64441e-29 t=19327
 jie jue 	解决	c=21 d=0.017953 t=19327
 jie kou 	接口	c=8 d=0.650509 t=19327
-jie lun 	结论	c=3 d=1.21277 t=18837
+jie lun 	结论	c=3 d=0.104654 t=19327
 jie mi 	解密	c=3 d=2.46242e-15 t=19327
 jie mian 	界面	c=5 d=1.97826e-08 t=19327
 jie ping 	截屏	c=1 d=6.42555e-20 t=19327
@@ -1553,7 +1555,7 @@ jie xia lai 	接下来	c=6 d=0.08291 t=19327
 jie ya 	解压	c=1 d=1.22348e-20 t=19327
 jie yue 	节约	c=1 d=1.17651e-30 t=19327
 jie zhi 	截止	c=1 d=2.87981e-32 t=19327
-jie zhi xing 	介值性	c=1 d=1 t=17960
+jie zhi xing 	介值性	c=1 d=0.00107547 t=19327
 jie zhu 	借助	c=2 d=0.895834 t=19327
 jin 	仅	c=9 d=0.774924 t=19327
 jin 	进	c=1 d=7.11263e-22 t=19327
@@ -1607,24 +1609,24 @@ jiu 	旧	c=5 d=0.141625 t=19327
 jiu bu neng 	就不能	c=1 d=0.0483156 t=19327
 jiu chang 	酒厂	c=1 d=2.25327e-28 t=19327
 jiu de 	旧的	c=2 d=1.83542e-22 t=19327
-jiu hao 	就好	c=1 d=1 t=18978
+jiu hao 	就好	c=1 d=0.174645 t=19327
 jiu hui 	就会	c=1 d=5.62687e-30 t=19327
 jiu neng 	就能	c=1 d=4.70571e-15 t=19327
 jiu shi 	就是	c=4 d=0.985428 t=19327
 jiu shi yong 	就使用	c=1 d=0.0205478 t=19327
-jiu xiang 	就想	c=1 d=1 t=19192
-jiu xing 	就行	c=1 d=1 t=18377
+jiu xiang 	就想	c=1 d=0.509156 t=19327
+jiu xing 	就行	c=1 d=0.0086517 t=19327
 jiu yi jing 	就已经	c=1 d=1.08683e-09 t=19327
 jiu zhi chi 	就支持	c=1 d=0.0710054 t=19327
 ju 	居	c=1 d=2.66945e-22 t=19327
-ju 	据	c=1 d=1 t=18308
-ju bu 	局部	c=1 d=1 t=18827
+ju 	据	c=1 d=0.00612731 t=19327
+ju bu 	局部	c=1 d=0.082085 t=19327
 ju ci 	据此	c=1 d=5.55177e-19 t=19327
 ju da 	巨大	c=1 d=1.85988e-06 t=19327
 ju he 	聚合	c=2 d=1.05217e-10 t=19327
 ju li 	举例	c=2 d=0.00631391 t=19327
 ju li 	距离	c=3 d=0.0152222 t=19327
-ju se tang 	聚色堂	c=1 d=1 t=19290
+ju se tang 	聚色堂	c=1 d=0.831104 t=19327
 ju ti 	具体	c=11 d=0.151114 t=19327
 ju ti wei zhi 	具体位置	c=1 d=0.000389752 t=19327
 ju tong ji 	据统计	c=1 d=1.73025e-09 t=19327
@@ -1669,14 +1671,14 @@ kai tou 	开头	c=2 d=4.4393e-25 t=19327
 kai ye 	开业	c=1 d=1.73473e-10 t=19327
 kai yuan 	开源	c=9 d=1.79132e-05 t=19327
 kai yuan xiang mu 	开源项目	c=1 d=1.60714e-23 t=19327
-kan 	看	c=1 d=1 t=18979
+kan 	看	c=1 d=0.17552 t=19327
 kan bu 	看不	c=1 d=2.59144e-26 t=19327
 kan bu dao 	看不到	c=2 d=1.36083e-07 t=19327
 kan dao 	看到	c=1 d=7.07114e-12 t=19327
 kan kan 	看看	c=3 d=0.377192 t=19327
 kao 	考	c=1 d=2.67081e-28 t=19327
 kao bei 	拷贝	c=1 d=1.4547e-27 t=19327
-kao cha 	考察	c=1 d=1 t=17098
+kao cha 	考察	c=1 d=1.44473e-05 t=19327
 kao cha 	考查	c=1 d=0.000750328 t=19327
 kao lv 	考虑	c=19 d=1.39631 t=19327
 kao shi zhong 	考试中	c=1 d=0.225373 t=19327
@@ -1685,13 +1687,13 @@ kao yan 	考研	c=6 d=2.07825e-05 t=19327
 kao yan shu xue 	考研数学	c=1 d=1.26182e-30 t=19327
 ke 	可	c=17 d=0.13419 t=19327
 ke 	颗	c=1 d=0.000593188 t=19327
-ke ai 	可爱	c=1 d=1 t=19309
-ke dao 	可到	c=1 d=1 t=17947
-ke dao 	可导	c=7 d=1.79702 t=18817
-ke dao dian 	可导点	c=1 d=1 t=18402
+ke ai 	可爱	c=1 d=0.913931 t=19327
+ke dao 	可到	c=1 d=0.00100779 t=19327
+ke dao 	可导	c=7 d=0.140314 t=19327
+ke dao dian 	可导点	c=1 d=0.00980366 t=19327
 ke dian ji 	可点击	c=1 d=5.51186e-21 t=19327
 ke dian ji xing 	可点击性	c=1 d=4.90025e-21 t=19327
-ke du xing 	可读性	c=1 d=1 t=17671
+ke du xing 	可读性	c=1 d=0.000253537 t=19327
 ke fu yong 	可复用	c=1 d=1.06455e-30 t=19327
 ke gen ju 	可根据	c=1 d=1.60911e-08 t=19327
 ke gong 	可供	c=1 d=1.54412e-23 t=19327
@@ -1715,11 +1717,11 @@ ke xi 	可惜	c=1 d=1.59722e-09 t=19327
 ke xing ma 	可行吗	c=1 d=2.27831e-11 t=19327
 ke xing xing 	可行性	c=1 d=7.70895e-28 t=19327
 ke yi 	可以	c=38 d=0.0938478 t=19327
-ke yi shi 	可以使	c=1 d=1 t=18444
+ke yi shi 	可以使	c=1 d=0.0120946 t=19327
 ke yi yong 	可以用	c=1 d=8.46425e-10 t=19327
 ke yong 	可用	c=2 d=1.60742e-25 t=19327
 ke yong xing 	可用性	c=4 d=6.16017e-09 t=19327
-ke zhi xing xing 	可执行性	c=1 d=1 t=17673
+ke zhi xing xing 	可执行性	c=1 d=0.000256085 t=19327
 keng 	坑	c=0 d=2.16683e-10 t=19327
 kong 	控	c=1 d=3.62588e-07 t=19327
 kong 	空	c=7 d=0.00118265 t=19327
@@ -1760,8 +1762,8 @@ lai 	来	c=21 d=0.735725 t=19327
 lai biao shi 	来表示	c=0 d=4.76044e-05 t=19327
 lai bu ni ci 	莱布尼茨	c=2 d=0.919179 t=19327
 lai dian 	来点	c=3 d=0.154079 t=19327
-lai kan 	来看	c=1 d=1 t=18676
-lai shuo 	来说	c=0 d=0.1 t=17529
+lai kan 	来看	c=1 d=0.0385808 t=19327
+lai shuo 	来说	c=0 d=1.2465e-05 t=19327
 lai yuan 	来源	c=6 d=6.89496e-06 t=19327
 lai yuan ye 	来源页	c=2 d=1.05271e-19 t=19327
 lai zi 	来自	c=1 d=7.51478e-22 t=19327
@@ -1776,7 +1778,7 @@ lao yang shi 	老样式	c=1 d=0.177284 t=19327
 lao yang zi 	老样子	c=1 d=5.77834e-19 t=19327
 le 	了	c=77 d=1.89112 t=19327
 lei 	类	c=3 d=0.0197421 t=19327
-lei bi 	类比	c=1 d=1 t=17522
+lei bi 	类比	c=1 d=0.000120363 t=19327
 lei si 	类似	c=35 d=1.13606 t=19327
 lei si chan pin 	类似产品	c=1 d=1.41343e-12 t=19327
 lei si shan 	蕾丝衫	c=0 d=1.39937e-13 t=19327
@@ -1791,15 +1793,15 @@ li 	里	c=2 d=3.54589e-09 t=19327
 li du 	粒度	c=4 d=0.0121543 t=19327
 li ji 	立即	c=2 d=4.93336e-12 t=19327
 li jie 	理解	c=3 d=0.00188279 t=19327
-li jie cheng 	理解成	c=1 d=1 t=17135
+li jie cheng 	理解成	c=1 d=1.73833e-05 t=19327
 li kai 	离开	c=2 d=0.527292 t=19327
 li lun 	理论	c=1 d=2.0923e-09 t=19327
-li lv 	利率	c=3 d=2.75232 t=18182
+li lv 	利率	c=3 d=0.00898179 t=19327
 li ru 	例如	c=16 d=0.111364 t=19327
 li shi 	历史	c=2 d=0.00279667 t=19327
 li shi ji lu 	历史记录	c=1 d=1.52746e-13 t=19327
 li ti 	例题	c=7 d=0.444729 t=19327
-li xi 	利息	c=1 d=1 t=18134
+li xi 	利息	c=1 d=0.00256704 t=19327
 li yi 	利益	c=1 d=1.18878e-05 t=19327
 li yong 	利用	c=22 d=2.05141 t=19327
 li zheng yuan 	李正元	c=4 d=3.62301e-05 t=19327
@@ -1818,40 +1820,40 @@ lian xi 	练习	c=3 d=0.000208619 t=19327
 lian xi ye 	练习页	c=9 d=1.74848e-13 t=19327
 lian xi zhuang tai 	练习状态	c=2 d=1.00001e-20 t=19327
 lian xu 	连续	c=34 d=5.57375 t=19327
-lian xu xing 	连续性	c=2 d=1.00499 t=19317
+lian xu xing 	连续性	c=2 d=0.955976 t=19327
 liang 	两	c=4 d=8.47647e-29 t=19327
 liang 	亮	c=1 d=3.92853e-09 t=19327
 liang bian 	两边	c=2 d=0.0677384 t=19327
 liang bian qiu dao 	两边求导	c=1 d=0.489192 t=19327
 liang duan 	两端	c=3 d=0.557106 t=19327
-liang ge 	两个	c=17 d=0.00404956 t=19327
+liang ge 	两个	c=17 d=1.9605 t=19327
 liang hang 	两行	c=1 d=2.18935e-13 t=19327
-liang jie 	两节	c=2 d=1.03035 t=17817
+liang jie 	两节	c=2 d=0.000542078 t=19327
 liang jie duan 	两阶段	c=1 d=1.45346e-17 t=19327
 liang se 	亮色	c=1 d=2.84089e-19 t=19327
 liang tao 	两套	c=2 d=8.41276e-17 t=19327
-liang tian 	两天	c=1 d=1 t=18863
+liang tian 	两天	c=1 d=0.0982736 t=19327
 liang xiang 	两箱	c=1 d=3.03426e-29 t=19327
-liang xiang 	两项	c=1 d=1 t=19222
-liang zhang 	两掌	c=1 d=1 t=18478
-liang zhang 	两章	c=0 d=0.1 t=18491
-liang zhang xi ti 	两章习题	c=1 d=1 t=18492
+liang xiang 	两项	c=1 d=0.591555 t=19327
+liang zhang 	两掌	c=1 d=0.0143357 t=19327
+liang zhang 	两章	c=0 d=0.00152985 t=19327
+liang zhang xi ti 	两章习题	c=1 d=0.0153752 t=19327
 liang zhe 	两者	c=3 d=0.000175127 t=19327
 liang zhong 	两种	c=1 d=0.323033 t=19327
 liao jie 	了解	c=3 d=6.32853e-21 t=19327
 lie biao 	列表	c=5 d=4.48474e-08 t=19327
 lie chu 	列出	c=15 d=0.00554422 t=19327
-lie huo 	烈火	c=1 d=1 t=18808
-lie xiang 	裂项	c=1 d=1 t=18731
+lie huo 	烈火	c=1 d=0.0746459 t=19327
+lie xiang 	裂项	c=1 d=0.0507928 t=19327
 lin jie biao 	邻接表	c=1 d=0.00151855 t=19327
 lin shi 	临时	c=3 d=9.22301e-20 t=19327
 lin yu 	邻域	c=2 d=0.028297 t=19327
 ling 	令	c=10 d=1.15105 t=19327
-ling dian 	零点	c=1 d=1 t=17995
+ling dian 	零点	c=1 d=0.995012 t=19327
 ling qi yi hang 	另起一行	c=2 d=2.76478e-18 t=19327
 ling wai 	另外	c=10 d=0.159511 t=19327
 ling yi ge 	另一个	c=3 d=1.63821e-13 t=19327
-ling yi zhong 	另一种	c=1 d=1 t=18371
+ling yi zhong 	另一种	c=1 d=0.008396 t=19327
 liu 	留	c=1 d=1.87755e-29 t=19327
 liu chang 	流畅	c=1 d=4.79082e-20 t=19327
 liu cheng 	流程	c=21 d=0.422052 t=19327
@@ -1867,12 +1869,12 @@ lou si 	楼死	c=1 d=1.90891e-18 t=19327
 lu 	路	c=3 d=0.169809 t=19327
 lu jing 	路径	c=6 d=0.0317755 t=19327
 lu ru 	录入	c=2 d=0.0471227 t=19327
-lu shu 	路数	c=2 d=1.96079 t=17735
-lu xian tu 	路线图	c=1 d=1 t=17267
+lu shu 	路数	c=2 d=0.000684616 t=19327
+lu xian tu 	路线图	c=1 d=3.36331e-05 t=19327
 lu you 	路由	c=1 d=4.75138e-11 t=19327
 lu zhi 	录制	c=4 d=5.65184e-19 t=19327
 lu zhi jie guo 	录制结果	c=1 d=1.61465e-19 t=19327
-luan 	乱	c=2 d=1.72253 t=18626
+luan 	乱	c=2 d=0.0517565 t=19327
 luan ma 	乱码	c=5 d=4.50952e-14 t=19327
 luan xu 	乱序	c=1 d=1.97281e-23 t=19327
 lun xun 	轮询	c=4 d=1.97531 t=19327
@@ -1890,7 +1892,7 @@ luo yuan 	罗源	c=1 d=1.21465e-23 t=19327
 lv 	率	c=1 d=1.64811e-25 t=19327
 lv lan 	率栏	c=1 d=1.11856e-24 t=19327
 lve 	略	c=1 d=3.70542e-27 t=19327
-lve guo 	掠过	c=1 d=1 t=17813
+lve guo 	掠过	c=1 d=0.000515692 t=19327
 lve wei 	略微	c=1 d=0.171187 t=19327
 ma 	吗	c=39 d=0.733645 t=19327
 ma 	码	c=2 d=5.92456e-09 t=19327
@@ -1900,10 +1902,10 @@ ma tang 	麻糖	c=0 d=0.00448245 t=19327
 ma tang ling 	麻糖令	c=1 d=0.0450492 t=19327
 mai 	卖	c=2 d=0.0190631 t=19327
 mai 	埋	c=1 d=6.75999e-12 t=19327
-mai chu 	卖出	c=1 d=1 t=18144
-mai chu jia 	卖出价	c=1 d=1 t=18152
-mai fang 	买房	c=1 d=1 t=18529
-mai fang 	卖房	c=3 d=2.96042 t=18544
+mai chu 	卖出	c=1 d=0.00269866 t=19327
+mai chu jia 	卖出价	c=1 d=0.00280879 t=19327
+mai fang 	买房	c=1 d=0.0184997 t=19327
+mai fang 	卖房	c=3 d=0.0590324 t=19327
 mai le 	买了	c=1 d=4.1614e-10 t=19327
 man 	慢	c=1 d=0.0259911 t=19327
 man fen 	满分	c=1 d=1.99847e-28 t=19327
@@ -1912,7 +1914,7 @@ man zu 	满足	c=3 d=0.0247661 t=19327
 mao yan 	冒烟	c=2 d=3.74931e-12 t=19327
 mao yan ce shi 	冒烟测试	c=1 d=2.26772e-15 t=19327
 mei 	梅	c=1 d=4.28667e-06 t=19327
-mei 	每	c=2 d=1.08291 t=18001
+mei 	每	c=2 d=0.00142962 t=19327
 mei 	没	c=6 d=0.592574 t=19327
 mei bian hua 	没变化	c=1 d=0.0191587 t=19327
 mei ci 	每次	c=11 d=0.149569 t=19327
@@ -1925,12 +1927,12 @@ mei hang 	每行	c=1 d=1.88568e-21 t=19327
 mei le 	没了	c=2 d=0.535261 t=19327
 mei qu 	美区	c=1 d=3.32294e-10 t=19327
 mei ri 	每日	c=5 d=0.0365162 t=19327
-mei wen ti 	没问题	c=1 d=1 t=17357
+mei wen ti 	没问题	c=1 d=5.27472e-05 t=19327
 mei yi ge 	每一个	c=0 d=4.7843e-05 t=19327
 mei yi ge yuan xing jie dian 	每一个圆形结点	c=1 d=0.000480828 t=19327
-mei yi ji 	每一级	c=1 d=1 t=17516
+mei yi ji 	每一级	c=1 d=0.000116806 t=19327
 mei you 	没有	c=59 d=0.974183 t=19327
-mei you ban fa 	没有办法	c=1 d=1 t=18895
+mei you ban fa 	没有办法	c=1 d=0.115325 t=19327
 mei you bei 	没有被	c=1 d=2.61525e-16 t=19327
 mei you jiang 	没有讲	c=1 d=0.00759701 t=19327
 mei yu dao 	没遇到	c=1 d=2.16683e-09 t=19327
@@ -1938,7 +1940,7 @@ mei yuan 	美元	c=1 d=8.74609e-13 t=19327
 mei zai 	没在	c=1 d=1.28534e-12 t=19327
 mei zhang 	每章	c=2 d=0.0174229 t=19327
 mei zuo 	没做	c=1 d=0.124307 t=19327
-mei zuo wan 	没做完	c=1 d=1 t=19029
+mei zuo wan 	没做完	c=1 d=0.225373 t=19327
 men 	们	c=1 d=8.01128e-10 t=19327
 men jin ka 	门禁卡	c=1 d=0.0505395 t=19327
 men suo 	门锁	c=4 d=0.186152 t=19327
@@ -1960,18 +1962,18 @@ min gan 	敏感	c=5 d=6.73377e-16 t=19327
 min gan ci 	敏感词	c=1 d=2.575e-10 t=19327
 ming 	名	c=6 d=0.00194013 t=19327
 ming 	明	c=1 d=1.63905e-19 t=19327
-ming bai hua 	明白话	c=1 d=1 t=18663
+ming bai hua 	明白话	c=1 d=0.0361528 t=19327
 ming cheng 	名称	c=5 d=0.000150288 t=19327
 ming liao 	明了	c=1 d=1.13038e-30 t=19327
 ming ling 	命令	c=5 d=0.0185924 t=19327
 ming ming 	命名	c=2 d=0.000205513 t=19327
 ming ming 	明明	c=1 d=7.38253e-19 t=19327
-ming nian 	明年	c=2 d=1.8825 t=18167
+ming nian 	明年	c=2 d=0.00569937 t=19327
 ming que 	明确	c=3 d=0.514274 t=19327
-ming tian 	明天	c=2 d=1.02858 t=18514
+ming tian 	明天	c=2 d=0.0176535 t=19327
 ming xian 	明显	c=1 d=1.28311e-21 t=19327
 ming zi 	名字	c=2 d=8.44129e-07 t=19327
-mo de 	磨的	c=1 d=1 t=18566
+mo de 	磨的	c=1 d=0.0222592 t=19327
 mo kuai 	模块	c=6 d=6.95101e-07 t=19327
 mo ni 	模拟	c=1 d=1.30565e-20 t=19327
 mo ni ti 	模拟题	c=1 d=1.19141e-31 t=19327
@@ -1982,7 +1984,7 @@ mo shi pi pei 	模式匹配	c=1 d=0.00392653 t=19327
 mo wei 	末尾	c=4 d=1.55554e-18 t=19327
 mo xing 	模型	c=21 d=0.02684 t=19327
 mou 	某	c=2 d=0.00071734 t=19327
-mou dian 	某点	c=1 d=1 t=18696
+mou dian 	某点	c=1 d=0.0426384 t=19327
 mou ge 	某个	c=4 d=0.0513033 t=19327
 mou xie 	某些	c=2 d=0.00621991 t=19327
 mu ban 	模板	c=11 d=0.00139481 t=19327
@@ -2019,7 +2021,7 @@ nei cun 	内存	c=3 d=0.0111647 t=19327
 nei cun zhong 	内存中	c=1 d=0.155673 t=19327
 nei han 	内含	c=1 d=1.07247e-29 t=19327
 nei lian 	内联	c=2 d=1.41721e-15 t=19327
-nei rong 	内容	c=24 d=0.0337087 t=19327
+nei rong 	内容	c=24 d=0.923116 t=19327
 nei rong guan li 	内容管理	c=1 d=1.6733e-27 t=19327
 nei rong yuan 	内容源	c=1 d=9.94472e-24 t=19327
 nei wang 	内网	c=1 d=3.26158e-26 t=19327
@@ -2032,21 +2034,21 @@ neng fou yong 	能否用	c=1 d=1.10457e-23 t=19327
 neng gou 	能够	c=2 d=0.000242381 t=19327
 neng li 	能力	c=2 d=3.10093e-20 t=19327
 neng liang 	能量	c=1 d=0.101774 t=19327
-neng shi xian 	能实现	c=1 d=1 t=17567
+neng shi xian 	能实现	c=1 d=0.000150733 t=19327
 neng yong 	能用	c=1 d=7.178e-12 t=19327
-neng zheng chang 	能正常	c=1 d=1 t=18037
+neng zheng chang 	能正常	c=1 d=0.00158052 t=19327
 ni 	你	c=8 d=0.278299 t=19327
 ni de 	你的	c=7 d=0.034848 t=19327
 ni gai 	你改	c=1 d=0.00874712 t=19327
 ni gai hou 	你改后	c=1 d=0.000958635 t=19327
 ni hai 	你还	c=2 d=0.0029528 t=19327
-ni hao 	你好	c=3 d=2.90519e-24 t=19327
+ni hao 	你好	c=3 d=2.68752 t=19327
 ni ke 	你可	c=1 d=2.15156e-14 t=19327
 ni ke yi 	你可以	c=10 d=8.55077e-12 t=19327
 ni que ding 	你确定	c=1 d=1.53006e-33 t=19327
 ni shi 	你是	c=4 d=8.3872e-12 t=19327
 ni shi shen me 	你是什么	c=1 d=2.49933e-12 t=19327
-ni suan de 	你算得	c=1 d=1 t=18138
+ni suan de 	你算得	c=1 d=0.0026189 t=19327
 ni suo 	你所	c=0 d=1.84677e-12 t=19327
 ni suo ti de jian yi 	你所提的建议	c=1 d=1.85602e-11 t=19327
 ni ta ma 	你他妈	c=2 d=2.46723e-07 t=19327
@@ -2066,28 +2068,28 @@ nian 	念	c=0 d=5.5633e-15 t=19327
 nian di 	年底	c=1 d=2.89424e-32 t=19327
 nian du 	年度	c=1 d=2.63194e-32 t=19327
 nian fen 	年份	c=9 d=1.10221e-21 t=19327
-nian hua 	年化	c=1 d=1 t=18210
+nian hua 	年化	c=1 d=0.00375375 t=19327
 niu dun 	牛顿	c=1 d=0.0934807 t=19327
 nong 	农	c=1 d=2.59188e-28 t=19327
-nong 	弄	c=1 d=1 t=18633
+nong 	弄	c=1 d=0.031117 t=19327
 nong dian 	弄点	c=3 d=0.256233 t=19327
-nong fan 	弄反	c=1 d=1 t=17521
+nong fan 	弄反	c=1 d=0.000119762 t=19327
 o 	哦	c=0 d=1.52248e-05 t=19327
 o pei zhi wen jian 	哦配置文件	c=1 d=0.000153011 t=19327
 ou he 	耦合	c=1 d=1.59608e-30 t=19327
 ou la 	欧拉	c=2 d=0.00698304 t=19327
 pai ban 	排版	c=6 d=0.00468692 t=19327
-pai ban jian yi 	排版建议	c=1 d=1 t=18630
+pai ban jian yi 	排版建议	c=1 d=0.0306538 t=19327
 pai ban xi tong 	排版系统	c=2 d=0.0015415 t=19327
 pai ban yin qing 	排版引擎	c=1 d=2.57676e-18 t=19327
-pai bu 	排布	c=1 d=1 t=18021
+pai bu 	排布	c=1 d=0.00145901 t=19327
 pai chu 	排除	c=1 d=8.8049e-33 t=19327
 pai lie 	排列	c=3 d=0.00259284 t=19327
 pai sheng 	派生	c=12 d=0.0932572 t=19327
 pai xu 	排序	c=20 d=0.00235817 t=19327
-pai xu di gui shu 	排序递归树	c=1 d=1 t=17193
-pai xu tang shu 	排序趟数	c=1 d=1 t=17158
-pan bie 	判别	c=1 d=1 t=18387
+pai xu di gui shu 	排序递归树	c=1 d=2.32315e-05 t=19327
+pai xu tang shu 	排序趟数	c=1 d=1.95019e-05 t=19327
+pan bie 	判别	c=1 d=0.00909528 t=19327
 pan duan 	判断	c=5 d=0.0132133 t=19327
 pao 	抛	c=1 d=2.27592e-28 t=19327
 pao 	跑	c=3 d=2.22043e-15 t=19327
@@ -2098,8 +2100,8 @@ pei zhi fang an 	配置方案	c=1 d=1.43206e-19 t=19327
 pei zhi wen jian 	配置文件	c=0 d=1.52248e-05 t=19327
 pei zhi xiang 	配置项	c=1 d=1.21193e-26 t=19327
 pei zhi ye mian 	配置页面	c=1 d=4.97008e-11 t=19327
-peng ke 	朋克	c=1 d=1 t=18804
-peng zhuang 	碰撞	c=1 d=1 t=18057
+peng ke 	朋克	c=1 d=0.0731678 t=19327
+peng zhuang 	碰撞	c=1 d=0.00174675 t=19327
 pi liang 	批量	c=5 d=6.86908e-11 t=19327
 pi mei 	媲美	c=1 d=2.37622e-06 t=19327
 pi pei 	匹配	c=7 d=1.42298e-22 t=19327
@@ -2116,8 +2118,8 @@ piao yi 	漂移	c=1 d=3.87532e-25 t=19327
 pin 	品	c=0 d=1.39937e-13 t=19327
 pin fan 	频繁	c=2 d=1.14857e-09 t=19327
 pin jie 	拼接	c=5 d=3.79345e-25 t=19327
-pin lv 	频率	c=1 d=1 t=17542
-pin xie jian cha 	拼写检查	c=1 d=1 t=19177
+pin lv 	频率	c=1 d=0.000133021 t=19327
+pin xie jian cha 	拼写检查	c=1 d=0.472367 t=19327
 ping heng 	平衡	c=1 d=0.00305798 t=19327
 ping jia 	平价	c=1 d=4.46313e-10 t=19327
 ping jia shi 	评价师	c=1 d=1.02884e-11 t=19327
@@ -2127,10 +2129,10 @@ ping jun 	平均	c=2 d=0.00172937 t=19327
 ping lun 	评论	c=1 d=1.71362e-13 t=19327
 ping mian 	平面	c=3 d=0.127546 t=19327
 ping mu 	屏幕	c=1 d=2.62024e-09 t=19327
-ping shi 	平时	c=1 d=1 t=19119
+ping shi 	平时	c=1 d=0.353455 t=19327
 ping tai 	平台	c=5 d=3.85955e-06 t=19327
 ping xing 	平行	c=1 d=0.00701293 t=19327
-po huai 	破坏	c=1 d=1 t=17363
+po huai 	破坏	c=1 d=5.43536e-05 t=19327
 po wan yi 	破玩意	c=1 d=2.25289e-26 t=19327
 pu tong 	普通	c=5 d=0.0224829 t=19327
 qi 	其	c=8 d=0.000841815 t=19327
@@ -2139,7 +2141,7 @@ qi bao 	起包	c=1 d=1.65953e-18 t=19327
 qi bu jia 	起步价	c=1 d=1.25642e-09 t=19327
 qi ci 	其次	c=2 d=0.12938 t=19327
 qi ci 	齐次	c=12 d=0.0831217 t=19327
-qi dai 	期待	c=1 d=1 t=18945
+qi dai 	期待	c=1 d=0.14808 t=19327
 qi dian 	起点	c=1 d=0.000281606 t=19327
 qi dong 	启动	c=6 d=0.937067 t=19327
 qi dong hou 	启动后	c=1 d=2.10351e-13 t=19327
@@ -2148,10 +2150,10 @@ qi nei rong 	其内容	c=1 d=2.9279e-21 t=19327
 qi pao 	气泡	c=1 d=1.66784e-18 t=19327
 qi pi lang 	七匹狼	c=1 d=1.59668e-05 t=19327
 qi shi 	其实	c=2 d=3.56019e-09 t=19327
-qi shui 	契税	c=2 d=1.99501 t=18194
+qi shui 	契税	c=2 d=0.006913 t=19327
 qi ta 	其他	c=31 d=0.425577 t=19327
 qi ta fang fa 	其他方法	c=1 d=0.666977 t=19327
-qi ta xiang 	其他项	c=1 d=1 t=19237
+qi ta xiang 	其他项	c=1 d=0.637628 t=19327
 qi wang 	期望	c=1 d=0.40657 t=19327
 qi ye 	企业	c=1 d=9.01177e-11 t=19327
 qi yong 	启用	c=2 d=0.000130387 t=19327
@@ -2181,7 +2183,7 @@ qian ru shi 	嵌入式	c=1 d=2.01061e-11 t=19327
 qian se 	浅色	c=2 d=2.34501e-19 t=19327
 qian tai 	前台	c=1 d=4.61096e-11 t=19327
 qian tao 	嵌套	c=4 d=0.0051953 t=19327
-qian xiang 	前向	c=1 d=1 t=18987
+qian xiang 	前向	c=1 d=0.182684 t=19327
 qian yi 	迁移	c=19 d=0.273898 t=19327
 qian yi bu zhou 	迁移步骤	c=1 d=1.03738e-20 t=19327
 qian yi dao 	迁移到	c=12 d=0.863515 t=19327
@@ -2193,16 +2195,16 @@ qian zhui 	前缀	c=10 d=2.90338e-05 t=19327
 qiang diao 	强调	c=1 d=1.02263e-28 t=19327
 qiang hua 	强化	c=2 d=1.72996e-07 t=19327
 qiang xing 	强行	c=2 d=2.45618e-13 t=19327
-qiang zhi 	强制	c=1 d=1 t=17848
+qiang zhi 	强制	c=1 d=0.000614317 t=19327
 qie 	且	c=23 d=1.01402 t=19327
 qie 	切	c=3 d=1.07037 t=19327
 qie dao 	切到	c=1 d=4.99584e-13 t=19327
 qie huan 	切换	c=46 d=6.92154 t=19327
 qie huan wei 	切换为	c=1 d=6.4303e-12 t=19327
-qie hui 	切回	c=1 d=1 t=17047
+qie hui 	切回	c=1 d=1.11955e-05 t=19327
 qie qu 	窃取	c=1 d=3.44365e-18 t=19327
 qie xian 	切线	c=9 d=0.137132 t=19327
-qie xian yu 	切线与	c=1 d=1 t=18777
+qie xian yu 	切线与	c=1 d=0.0639279 t=19327
 qin hai 	侵害	c=1 d=1.17695e-05 t=19327
 qin qin 	亲亲	c=2 d=9.00733e-06 t=19327
 qing 	请	c=85 d=0.396001 t=19327
@@ -2236,16 +2238,16 @@ qing xian 	请先	c=1 d=1.66524e-29 t=19327
 qing xiu fu 	请修复	c=1 d=1.87787e-31 t=19327
 qing yi 	轻易	c=1 d=3.42647e-18 t=19327
 qing yi chu 	请移除	c=1 d=6.48478e-23 t=19327
-qing yong 	请用	c=1 d=1 t=18170
+qing yong 	请用	c=1 d=0.00307331 t=19327
 qing zai 	请在	c=2 d=2.17732e-07 t=19327
 qing zeng 	请增	c=1 d=1.78325e-11 t=19327
 qing zhu yi 	请注意	c=1 d=3.04947e-29 t=19327
 qiu 	求	c=23 d=2.33691 t=19327
 qiu dao 	求导	c=6 d=1.21614 t=19327
-qiu de 	求得	c=1 d=1 t=18750
+qiu de 	求得	c=1 d=0.0558548 t=19327
 qiu jie 	求解	c=4 d=0.423191 t=19327
 qiu qi ye 	求企业	c=1 d=6.13148e-11 t=19327
-qiu xu lie 	求序列	c=1 d=1 t=17539
+qiu xu lie 	求序列	c=1 d=0.000131041 t=19327
 qiu zheng 	求证	c=1 d=0.0620385 t=19327
 qu 	区	c=4 d=7.21444e-05 t=19327
 qu 	去	c=1 d=3.65473e-12 t=19327
@@ -2257,13 +2259,13 @@ qu dao 	渠道	c=5 d=2.9327e-09 t=19327
 qu de 	取得	c=1 d=2.53443e-29 t=19327
 qu diao 	去掉	c=1 d=7.49921e-27 t=19327
 qu dong 	驱动	c=3 d=4.96754e-05 t=19327
-qu fan 	取反	c=1 d=1 t=17432
+qu fan 	取反	c=1 d=7.67467e-05 t=19327
 qu fen 	区分	c=20 d=0.690769 t=19327
 qu fen du 	区分度	c=1 d=0.00244185 t=19327
 qu jian 	区间	c=2 d=0.000801075 t=19327
 qu lv 	曲率	c=2 d=0.061146 t=19327
 qu lv ban jing 	曲率半径	c=2 d=0.0796851 t=19327
-qu lv yuan 	曲率圆	c=1 d=1 t=18782
+qu lv yuan 	曲率圆	c=1 d=0.0655462 t=19327
 qu mian 	曲面	c=1 d=2.32315e-05 t=19327
 qu nian 	去年	c=1 d=1.00327e-09 t=19327
 qu ta 	娶她	c=1 d=8.61734e-15 t=19327
@@ -2272,13 +2274,13 @@ qu xiao 	取消	c=6 d=1.43205e-11 t=19327
 qu yu 	区域	c=3 d=0.0149956 t=19327
 qu yu 	趋于	c=2 d=0.000347637 t=19327
 qu yu ling 	趋于零	c=1 d=0.000141247 t=19327
-qu zhi 	取值	c=2 d=1.00015 t=19269
+qu zhi 	取值	c=2 d=0.748376 t=19327
 quan 	全	c=3 d=3.79212e-05 t=19327
 quan 	权	c=1 d=0.00197932 t=19327
 quan bu 	全部	c=22 d=0.000258669 t=19327
 quan bu shi 	全部是	c=2 d=1.7401e-09 t=19327
 quan bu tu pian 	全部图片	c=1 d=3.48548e-13 t=19327
-quan gong neng 	全功能	c=1 d=1 t=18993
+quan gong neng 	全功能	c=1 d=0.188247 t=19327
 quan heng 	权衡	c=1 d=2.79184e-20 t=19327
 quan jia tong 	全家桶	c=1 d=2.88186e-11 t=19327
 quan jiao 	全角	c=1 d=5.5815e-23 t=19327
@@ -2302,7 +2304,7 @@ que ren 	确认	c=4 d=0.802519 t=19327
 que shao 	缺少	c=1 d=1.41536e-28 t=19327
 que shi shi 	确实是	c=1 d=1.02636e-12 t=19327
 que shui 	缺水	c=1 d=2.05018e-05 t=19327
-que xin 	确信	c=1 d=1 t=18907
+que xin 	确信	c=1 d=0.122456 t=19327
 qun hui 	群晖	c=1 d=3.16519e-26 t=19327
 qun yu 	群与	c=1 d=1.56965e-10 t=19327
 ran hou 	然后	c=27 d=0.301456 t=19327
@@ -2311,14 +2313,14 @@ rang ni 	让你	c=2 d=1.92281e-15 t=19327
 rang ta 	让它	c=1 d=3.7718e-30 t=19327
 rang wo 	让我	c=1 d=3.90615e-30 t=19327
 re 	热	c=1 d=1.38733e-28 t=19327
-re su 	热塑	c=0 d=0.1 t=18081
-re su bing mei you 	热塑并没有	c=1 d=1 t=18082
-ren 	人	c=1 d=1 t=19311
+re su 	热塑	c=0 d=0.000196945 t=19327
+re su bing mei you 	热塑并没有	c=1 d=0.00197932 t=19327
+ren 	人	c=1 d=0.923116 t=19327
 ren gong 	人工	c=1 d=6.97654e-30 t=19327
 ren he 	任何	c=2 d=0.0138736 t=19327
 ren ji gong xue 	人机工学	c=1 d=6.44475e-09 t=19327
 ren qu 	任取	c=2 d=0.304224 t=19327
-ren sheng 	人生	c=1 d=1 t=18960
+ren sheng 	人生	c=1 d=0.159614 t=19327
 ren ti gong xue 	人体工学	c=1 d=1.54255e-11 t=19327
 ren wei 	认为	c=1 d=0.226502 t=19327
 ren wu 	任务	c=13 d=0.0859066 t=19327
@@ -2330,7 +2332,7 @@ ren zheng 	认证	c=4 d=1.97334e-25 t=19327
 reng 	仍	c=3 d=6.52304e-05 t=19327
 reng hui 	仍会	c=1 d=3.99959e-14 t=19327
 reng ran 	仍然	c=32 d=2.79352 t=19327
-reng shi yong 	仍使用	c=1 d=1 t=17861
+reng shi yong 	仍使用	c=1 d=0.000655574 t=19327
 reng wei 	仍为	c=1 d=3.4945e-14 t=19327
 reng yao 	仍要	c=1 d=0.421052 t=19327
 ri 	日	c=2 d=0.000121113 t=19327
@@ -2360,26 +2362,26 @@ ruo 	若	c=33 d=0.542589 t=19327
 ruo bu 	若不	c=0 d=1.03685e-15 t=19327
 ruo bu cun zai 	若不存在	c=1 d=1.04205e-14 t=19327
 ruo cun zai 	若存在	c=1 d=1.02142e-14 t=19327
-ruo fei 	若非	c=1 d=1 t=17170
-ruo gan 	若干	c=1 d=1 t=17637
+ruo fei 	若非	c=1 d=2.07078e-05 t=19327
+ruo gan 	若干	c=1 d=0.0002139 t=19327
 ruo guan kan 	若观看	c=1 d=0.00737249 t=19327
 ruo shi 	若是	c=2 d=0.000757869 t=19327
 ruo you 	若有	c=2 d=1.77082e-28 t=19327
-sai bo 	赛博	c=1 d=1 t=18803
-sai bo peng ke 	赛博朋克	c=1 d=1 t=18794
+sai bo 	赛博	c=1 d=0.0728029 t=19327
+sai bo peng ke 	赛博朋克	c=1 d=0.0695994 t=19327
 san 	三	c=3 d=0.0339596 t=19327
 san ge 	三个	c=4 d=1.31725e-17 t=19327
 san guan jian zi 	三关键字	c=1 d=0.341298 t=19327
 san he 	三和	c=1 d=5.79133e-16 t=19327
 san jiao 	三角	c=4 d=0.054204 t=19327
-san jiao han shu 	三角函数	c=1 d=1 t=18740
+san jiao han shu 	三角函数	c=1 d=0.0531307 t=19327
 san jie 	三节	c=1 d=0.00315111 t=19327
 san lan 	三栏	c=1 d=1.05888e-26 t=19327
-san lie 	散列	c=1 d=1 t=17938
+san lie 	散列	c=1 d=0.00096344 t=19327
 san lie biao 	散列表	c=7 d=2.53094 t=19327
 san xian 	三线	c=1 d=0.585092 t=19327
 san xian bao 	三线包	c=1 d=0.554327 t=19327
-san xian biao 	三线表	c=2 d=1.98511 t=17860
+san xian biao 	三线表	c=2 d=0.00129489 t=19327
 san yuan zu 	三元组	c=1 d=0.00124328 t=19327
 sao miao 	扫描	c=2 d=0.000147011 t=19327
 sao zi 	嫂子	c=1 d=0.0792617 t=19327
@@ -2399,7 +2401,7 @@ shang 	上	c=9 d=0.398599 t=19327
 shang 	商	c=3 d=3.06602e-13 t=19327
 shang chuan 	上传	c=1 d=1.40514e-31 t=19327
 shang ci 	上次	c=1 d=0.329559 t=19327
-shang dai 	商贷	c=2 d=1.76338 t=18180
+shang dai 	商贷	c=2 d=0.00569727 t=19327
 shang dian 	商店	c=3 d=0.0219278 t=19327
 shang fang 	上方	c=10 d=8.23255e-07 t=19327
 shang fen 	上坟	c=1 d=4.50094e-21 t=19327
@@ -2422,7 +2424,7 @@ shang you guan li 	上游管理	c=1 d=2.94008e-11 t=19327
 shao 	少	c=4 d=0.0643113 t=19327
 shao de 	少的	c=1 d=7.76236e-21 t=19327
 shao wei 	稍微	c=2 d=0.00382958 t=19327
-shao yi dian 	少一点	c=1 d=1 t=17658
+shao yi dian 	少一点	c=1 d=0.000237581 t=19327
 shao yong 	少用	c=2 d=0.00239505 t=19327
 she 	社	c=1 d=1.69541e-05 t=19327
 she 	设	c=27 d=2.26252 t=19327
@@ -2432,7 +2434,7 @@ she ji 	涉及	c=5 d=0.0200409 t=19327
 she ji 	设计	c=11 d=0.204639 t=19327
 she ji cheng 	设计成	c=1 d=5.80039e-05 t=19327
 she ji tu 	设计图	c=2 d=3.41909e-11 t=19327
-she ji yi ge 	设计一个	c=1 d=1 t=17225
+she ji yi ge 	设计一个	c=1 d=2.72625e-05 t=19327
 she ju zhen 	设矩阵	c=1 d=2.4046e-28 t=19327
 she li 	设立	c=1 d=2.29488e-08 t=19327
 she you yi tan xing 	设有一弹性	c=1 d=0.0858632 t=19327
@@ -2440,7 +2442,7 @@ she zhi 	设置	c=51 d=0.756661 t=19327
 she zhi guan li 	设置管理	c=1 d=1.5185e-32 t=19327
 shei 	谁	c=0 d=1.01771e-31 t=19327
 shei geng you 	谁更有	c=1 d=1.02281e-30 t=19327
-shei shi 	谁是	c=1 d=1 t=19307
+shei shi 	谁是	c=1 d=0.904837 t=19327
 shen 	神	c=0 d=0.00547488 t=19327
 shen du 	深度	c=1 d=8.44239e-09 t=19327
 shen he 	审核	c=4 d=3.26446e-07 t=19327
@@ -2473,7 +2475,7 @@ sheng xia de 	剩下的	c=1 d=0.000572785 t=19327
 sheng xiao 	生效	c=6 d=0.020932 t=19327
 sheng xu 	升序	c=3 d=3.68244e-24 t=19327
 sheng yu 	剩余	c=6 d=0.0839457 t=19327
-sheng yu ji suan 	剩余计算	c=1 d=1 t=19293
+sheng yu ji suan 	剩余计算	c=1 d=0.843665 t=19327
 sheng yu xiang 	剩余项	c=1 d=1.66756e-16 t=19327
 shi 	使	c=5 d=0.156453 t=19327
 shi 	实	c=0 d=2.02867e-29 t=19327
@@ -2533,8 +2535,8 @@ shi tu 	视图	c=9 d=0.000118574 t=19327
 shi wei 	视为	c=1 d=1.39168e-06 t=19327
 shi wei yi 	是唯一	c=1 d=0.00158052 t=19327
 shi xian 	实现	c=86 d=2.24711 t=19327
-shi xian da gen dui 	实现大根堆	c=1 d=1 t=17397
-shi xian le 	实现了	c=1 d=1 t=17255
+shi xian da gen dui 	实现大根堆	c=1 d=6.44256e-05 t=19327
+shi xian le 	实现了	c=1 d=3.16745e-05 t=19327
 shi xian qing kuang 	实现情况	c=1 d=2.7347e-12 t=19327
 shi xian zhuang tai 	实现状态	c=1 d=2.53883e-20 t=19327
 shi xiang 	事项	c=1 d=2.41706e-30 t=19327
@@ -2547,9 +2549,9 @@ shi yi ge 	是一个	c=1 d=2.35338e-10 t=19327
 shi yi tu 	示意图	c=2 d=0.00414091 t=19327
 shi yong 	使用	c=102 d=1.77888 t=19327
 shi yong 	试用	c=11 d=5.66697e-08 t=19327
-shi yong 	适用	c=1 d=1 t=17589
+shi yong 	适用	c=1 d=0.00016826 t=19327
 shi yong de 	适用的	c=1 d=0.00687406 t=19327
-shi yong qian 	使用前	c=1 d=1 t=17513
+shi yong qian 	使用前	c=1 d=0.000115067 t=19327
 shi yong shi 	使用时	c=1 d=1.23045e-28 t=19327
 shi yong shi 	试用时	c=1 d=6.27153e-12 t=19327
 shi yong xing 	适用性	c=1 d=7.50049e-29 t=19327
@@ -2572,7 +2574,7 @@ shou ci 	首次	c=9 d=1.49236e-08 t=19327
 shou dao 	收到	c=1 d=1.46378e-12 t=19327
 shou dong 	手动	c=9 d=0.0161267 t=19327
 shou fa you jian 	收发邮件	c=1 d=2.18214e-33 t=19327
-shou fu 	首付	c=1 d=1 t=18158
+shou fu 	首付	c=1 d=0.00289433 t=19327
 shou gong 	手工	c=9 d=0.000971763 t=19327
 shou gong shi xian 	手工实现	c=1 d=1.51484e-33 t=19327
 shou heng 	守恒	c=1 d=0.102284 t=19327
@@ -2582,16 +2584,16 @@ shou lian 	收敛	c=3 d=0.00107835 t=19327
 shou lian su du 	收敛速度	c=1 d=0.000357992 t=19327
 shou lian yu 	收敛域	c=2 d=3.386e-28 t=19327
 shou ping 	首屏	c=7 d=3.42769e-13 t=19327
-shou qi 	收起	c=1 d=1 t=19200
+shou qi 	收起	c=1 d=0.529935 t=19327
 shou qing 	售罄	c=1 d=4.11999e-10 t=19327
 shou quan 	授权	c=1 d=1.12516e-05 t=19327
 shou suo 	收缩	c=2 d=2.19758e-24 t=19327
 shou xian 	首先	c=1 d=0.000201444 t=19327
 shou ye 	首页	c=4 d=0.000277414 t=19327
-shou yi 	收益	c=1 d=1 t=18155
-shou yi lv 	收益率	c=1 d=1 t=18211
+shou yi 	收益	c=1 d=0.00285124 t=19327
+shou yi lv 	收益率	c=1 d=0.00377257 t=19327
 shou yu 	授予	c=2 d=2.13721e-15 t=19327
-shou zi mu 	首字母	c=1 d=1 t=17933
+shou zi mu 	首字母	c=1 d=0.000939653 t=19327
 shu 	数	c=3 d=0.0330415 t=19327
 shu 	树	c=17 d=1.46572 t=19327
 shu ben 	书本	c=1 d=3.12294e-15 t=19327
@@ -2612,14 +2614,14 @@ shu lian du biao ji 	熟练度标记	c=1 d=1.62164e-11 t=19327
 shu liang 	数量	c=0 d=1.00051e-07 t=19327
 shu lie 	数列	c=2 d=0.00274607 t=19327
 shu lie ding yi 	数列定义	c=1 d=0.000359786 t=19327
-shu lie ji xian 	数列极限	c=1 d=1 t=18609
+shu lie ji xian 	数列极限	c=1 d=0.0275983 t=19327
 shu pi 	书皮	c=1 d=3.28306e-15 t=19327
 shu ru 	输入	c=10 d=0.965615 t=19327
 shu ru fa 	输入法	c=4 d=0.82237 t=19327
 shu ru kuang 	输入框	c=2 d=1.37674e-23 t=19327
 shu shang 	书上	c=0 d=0.00578443 t=19327
 shu shang de 	书上的	c=1 d=3.29952e-15 t=19327
-shu xi 	熟悉	c=2 d=1.12873 t=18899
+shu xi 	熟悉	c=2 d=0.132801 t=19327
 shu xing 	属性	c=5 d=1.68289e-06 t=19327
 shu xu guan 	鼠须管	c=4 d=3.06444 t=19327
 shu xue 	数学	c=16 d=1.09026 t=19327
@@ -2628,8 +2630,9 @@ shu xue yi 	数学已	c=1 d=1.54949e-05 t=19327
 shu yu 	属于	c=2 d=5.13758e-08 t=19327
 shu zhi 	数值	c=1 d=0.000114493 t=19327
 shu zhong 	树中	c=2 d=0.00100341 t=19327
-shu zhou 	枢轴	c=1 d=1 t=17164
+shu zhou 	枢轴	c=1 d=2.00958e-05 t=19327
 shu zhuang 	树状	c=2 d=3.36445e-09 t=19327
+shu zi 	数字	c=1 d=1 t=4
 shua xin 	刷新	c=2 d=1.78355e-13 t=19327
 shuang 	双	c=3 d=0.0337922 t=19327
 shuang 	爽	c=1 d=5.96465e-10 t=19327
@@ -2642,12 +2645,13 @@ shuang xiang 	双向	c=3 d=0.435264 t=19327
 shuang yin hao 	双引号	c=1 d=3.6365e-12 t=19327
 shuang yong 	爽用	c=1 d=1.26905e-09 t=19327
 shui 	水	c=2 d=3.48489e-11 t=19327
-shui lv 	税率	c=1 d=1 t=18538
+shui lv 	税率	c=1 d=0.0193512 t=19327
 shui ping 	水平	c=3 d=0.427886 t=19327
+shun shi zhen 	顺时针	c=0 d=0.1 t=8
 shun shou 	顺手	c=1 d=0.00960953 t=19327
 shun xu 	顺序	c=20 d=0.23411 t=19327
 shuo 	说	c=5 d=0.0342181 t=19327
-shuo fa 	说法	c=1 d=1 t=17537
+shuo fa 	说法	c=1 d=0.000129737 t=19327
 shuo hua 	说话	c=1 d=2.41879e-09 t=19327
 shuo ming 	说明	c=16 d=0.611157 t=19327
 shuo ming zhong 	说明中	c=1 d=0.360595 t=19327
@@ -2674,8 +2678,8 @@ su song 	诉讼	c=1 d=1.05744e-10 t=19327
 su tong 	速通	c=1 d=3.11382e-10 t=19327
 su zhu 	宿主	c=1 d=4.36569e-15 t=19327
 suan 	算	c=4 d=0.423162 t=19327
-suan chu lai 	算出来	c=2 d=1.00285 t=18206
-suan de 	算得	c=0 d=0.1 t=18137
+suan chu lai 	算出来	c=2 d=0.00368991 t=19327
+suan de 	算得	c=0 d=0.000260584 t=19327
 suan fa 	算法	c=9 d=0.00311365 t=19327
 suan le 	算了	c=2 d=2.79326e-17 t=19327
 suan li 	算力	c=1 d=8.42203e-10 t=19327
@@ -2693,13 +2697,13 @@ suo ai ke yi 	索爱可以	c=1 d=5.34152e-06 t=19327
 suo ding 	锁定	c=1 d=1.58704e-22 t=19327
 suo jin 	缩进	c=3 d=0.00169675 t=19327
 suo xiao 	缩小	c=3 d=0.0250972 t=19327
-suo xuan 	所选	c=1 d=1 t=18213
+suo xuan 	所选	c=1 d=0.00381048 t=19327
 suo yi 	所以	c=2 d=2.2296e-12 t=19327
 suo yi lai 	所以来	c=1 d=4.92314e-17 t=19327
-suo yin 	索引	c=2 d=1.99005 t=17140
+suo yin 	索引	c=2 d=3.54694e-05 t=19327
 suo you 	所有	c=19 d=0.111299 t=19327
 suo zai 	所在	c=1 d=0.00170362 t=19327
-ta 	他	c=1 d=1 t=18946
+ta 	他	c=1 d=0.148823 t=19327
 ta 	她	c=1 d=0.0804596 t=19327
 ta 	它	c=6 d=0.162026 t=19327
 ta de 	他的	c=1 d=8.70691e-19 t=19327
@@ -2712,7 +2716,7 @@ tai 	太	c=7 d=0.0560351 t=19327
 tai 	态	c=1 d=1.46577e-28 t=19327
 tai da le 	太大了	c=1 d=0.00382958 t=19327
 tai duo 	太多	c=2 d=0.1764 t=19327
-tai duo chong fu 	太多重复	c=1 d=1 t=18634
+tai duo chong fu 	太多重复	c=1 d=0.031273 t=19327
 tai huan 	汰换	c=1 d=1.64162e-08 t=19327
 tai le 	泰勒	c=6 d=0.128523 t=19327
 tai qian 	太浅	c=1 d=5.85252e-22 t=19327
@@ -2721,13 +2725,15 @@ tan chu 	弹出	c=5 d=6.29874e-14 t=19327
 tan chuang 	弹窗	c=1 d=0.360595 t=19327
 tan huang 	弹簧	c=1 d=0.0845849 t=19327
 tan xing 	弹性	c=0 d=0.0085435 t=19327
-tang 	趟	c=2 d=1.19532 t=17490
+tang 	趟	c=2 d=0.0001226 t=19327
 tao li ta ke fu 	逃离塔克夫	c=1 d=0.00229965 t=19327
 te 	特	c=1 d=8.30088e-16 t=19327
 te bie de 	特别的	c=1 d=0.0256042 t=19327
 te bie shi 	特别是	c=1 d=0.0154523 t=19327
 te ding 	特定	c=2 d=0.112637 t=19327
 te jie 	特解	c=18 d=0.978615 t=19327
+te mei pu 	特没谱	c=0 d=0.1 t=22
+te mei pu er leng dai ti 	特没谱二愣代替	c=1 d=1 t=23
 te se 	特色	c=2 d=0.0229371 t=19327
 te shu 	特殊	c=2 d=0.00628242 t=19327
 te xiao 	特效	c=1 d=4.00231e-22 t=19327
@@ -2779,7 +2785,7 @@ tian ru 	填入	c=1 d=3.83806e-29 t=19327
 tian shu 	天数	c=1 d=5.94925e-09 t=19327
 tian xie 	填写	c=1 d=5.26004e-31 t=19327
 tiao 	条	c=1 d=3.37259e-08 t=19327
-tiao dan 	跳单	c=1 d=1 t=18355
+tiao dan 	跳单	c=1 d=0.00775048 t=19327
 tiao guo 	跳过	c=10 d=7.03347e-08 t=19327
 tiao jian 	条件	c=11 d=1.26829 t=19327
 tiao kuan 	条款	c=1 d=7.46308e-29 t=19327
@@ -2793,7 +2799,7 @@ ting liu zai 	停留在	c=2 d=5.3578e-12 t=19327
 ting yong 	停用	c=2 d=3.001e-17 t=19327
 ting zhi 	停止	c=7 d=0.906803 t=19327
 tong 	同	c=15 d=0.99924 t=19327
-tong 	桶	c=2 d=1.9802 t=17557
+tong 	桶	c=2 d=0.000283925 t=19327
 tong bu 	同步	c=19 d=0.000140548 t=19327
 tong bu dao 	同步到	c=1 d=0.900325 t=19327
 tong bu hou 	同步后	c=1 d=1.73951e-13 t=19327
@@ -2809,7 +2815,7 @@ tong ji ye 	统计页	c=2 d=1.86564e-13 t=19327
 tong jie 	通解	c=11 d=0.774378 t=19327
 tong li 	同理	c=3 d=0.0948935 t=19327
 tong shi 	同时	c=87 d=0.443892 t=19327
-tong su 	通俗	c=3 d=2.52318 t=17435
+tong su 	通俗	c=3 d=0.000196572 t=19327
 tong tong 	通通	c=2 d=1.54281e-13 t=19327
 tong xin 	通信	c=1 d=5.79724e-28 t=19327
 tong yang 	同样	c=2 d=1.74283e-06 t=19327
@@ -2831,7 +2837,7 @@ tou lan 	偷懒	c=1 d=2.91281e-19 t=19327
 tou ming 	透明	c=3 d=1.90767e-10 t=19327
 tou ming bei jing 	透明背景	c=1 d=2.7698e-15 t=19327
 tou ming du 	透明度	c=1 d=6.0715e-13 t=19327
-tu 	凸	c=1 d=1 t=18399
+tu 	凸	c=1 d=0.0096577 t=19327
 tu 	图	c=17 d=0.00600529 t=19327
 tu biao 	图标	c=14 d=0.075774 t=19327
 tu de 	图的	c=1 d=0.00182715 t=19327
@@ -2844,11 +2850,11 @@ tu xing 	图形	c=6 d=0.110803 t=19327
 tui 	退	c=1 d=5.09053e-28 t=19327
 tui chu 	推出	c=1 d=5.03988e-28 t=19327
 tui chu 	退出	c=2 d=9.13006e-18 t=19327
-tui dao 	推到	c=1 d=1 t=17814
+tui dao 	推到	c=1 d=0.000518277 t=19327
 tui dao 	推导	c=3 d=0.000819564 t=19327
 tui guang 	推广	c=2 d=1.20072e-05 t=19327
 tui jian 	推荐	c=5 d=0.000731802 t=19327
-tui lun 	推论	c=2 d=1.97531 t=17990
+tui lun 	推论	c=2 d=0.00246818 t=19327
 tui song 	推送	c=5 d=6.87874e-11 t=19327
 tuo 	脱	c=1 d=0.035437 t=19327
 tuo dong 	拖动	c=1 d=0.000623601 t=19327
@@ -2857,14 +2863,14 @@ tuo xie 	妥协	c=1 d=1.14789e-05 t=19327
 wai bu 	外部	c=8 d=0.0424086 t=19327
 wai bu ci pan 	外部磁盘	c=1 d=0.00472447 t=19327
 wai bu diao yong 	外部调用	c=1 d=0.71177 t=19327
-wai bu gui bing 	外部归并	c=1 d=1 t=17825
-wai bu pai xu 	外部排序	c=1 d=1 t=17498
-wai cun 	外存	c=1 d=1 t=17645
+wai bu gui bing 	外部归并	c=1 d=0.000547581 t=19327
+wai bu pai xu 	外部排序	c=1 d=0.000106752 t=19327
+wai cun 	外存	c=1 d=0.00022263 t=19327
 wai li 	外力	c=1 d=0.0880368 t=19327
 wai lian 	外链	c=3 d=3.79852e-12 t=19327
 wai wang 	外网	c=3 d=6.28166e-11 t=19327
-wai zhi 	外置	c=2 d=1.86936 t=17321
-wan 	万	c=8 d=7.04062 t=18184
+wai zhi 	外置	c=2 d=8.23606e-05 t=19327
+wan 	万	c=8 d=0.0232069 t=19327
 wan 	完	c=2 d=0.109154 t=19327
 wan 	玩	c=3 d=1.17825e-05 t=19327
 wan 	碗	c=1 d=6.14192e-31 t=19327
@@ -2875,7 +2881,7 @@ wan mei 	完美	c=1 d=5.93288e-06 t=19327
 wan quan 	完全	c=9 d=2.1698 t=19327
 wan quan bu tong 	完全不同	c=1 d=4.01758e-08 t=19327
 wan shan 	完善	c=10 d=0.00739971 t=19327
-wan shang 	晚上	c=1 d=1 t=18871
+wan shang 	晚上	c=1 d=0.102284 t=19327
 wan zheng 	完整	c=9 d=0.210147 t=19327
 wang ji 	忘记	c=2 d=0.00551656 t=19327
 wang luo 	网络	c=2 d=2.76024e-12 t=19327
@@ -2883,31 +2889,31 @@ wang shang 	网上	c=1 d=1.52954e-29 t=19327
 wang yi 	网易	c=2 d=0.609571 t=19327
 wang yi yun 	网易云	c=1 d=0.579842 t=19327
 wei 	为	c=140 d=2.24086 t=19327
-wei 	位	c=1 d=1 t=17504
+wei 	位	c=1 d=0.000110003 t=19327
 wei 	围	c=1 d=4.86737e-30 t=19327
-wei 	尾	c=1 d=1 t=17935
+wei 	尾	c=1 d=0.000949097 t=19327
 wei 	未	c=1 d=0.0277367 t=19327
 wei 	维	c=1 d=5.95939e-29 t=19327
 wei biao ji 	未标记	c=1 d=5.97075e-22 t=19327
 wei bu 	尾部	c=1 d=0.00349997 t=19327
 wei cheng 	围成	c=1 d=4.74719e-30 t=19327
 wei chi 	维持	c=2 d=7.37374e-05 t=19327
-wei dai ma 	伪代码	c=1 d=1 t=17381
+wei dai ma 	伪代码	c=1 d=5.94723e-05 t=19327
 wei deng lu 	未登录	c=2 d=8.34107e-14 t=19327
 wei fen 	微分	c=26 d=2.06124 t=19327
 wei fen fang cheng 	微分方程	c=2 d=0.374607 t=19327
 wei fen suan zi 	微分算子	c=0 d=0.000802655 t=19327
 wei fen suan zi fa 	微分算子法	c=2 d=0.0166324 t=19327
 wei fen xue 	微分学	c=1 d=1.24349e-05 t=19327
-wei fen zhong zhi ding li 	微分中值定理	c=1 d=1 t=18756
-wei hu 	维护	c=2 d=1.96079 t=17461
+wei fen zhong zhi ding li 	微分中值定理	c=1 d=0.0575558 t=19327
+wei hu 	维护	c=2 d=0.000173966 t=19327
 wei kuo zhan 	未扩展	c=1 d=0.00208081 t=19327
 wei lai 	未来	c=1 d=3.04263e-32 t=19327
 wei lan ben 	为蓝本	c=1 d=3.50773e-29 t=19327
 wei le 	为了	c=1 d=7.49538e-21 t=19327
 wei li 	为例	c=2 d=0.379083 t=19327
 wei ni 	为你	c=1 d=3.94755e-07 t=19327
-wei sha bu shi 	为啥不是	c=1 d=1 t=18376
+wei sha bu shi 	为啥不是	c=1 d=0.00860854 t=19327
 wei shen me 	为什么	c=60 d=0.8019 t=19327
 wei shen me bu neng 	为什么不能	c=1 d=0.00451658 t=19327
 wei shen me gan jue 	为什么感觉	c=1 d=0.00737249 t=19327
@@ -2918,7 +2924,7 @@ wei xin 	微信	c=4 d=9.51896e-11 t=19327
 wei xuan ran 	未渲染	c=1 d=1.16985e-22 t=19327
 wei yi 	唯一	c=2 d=0.0124629 t=19327
 wei yi de 	唯一的	c=1 d=0.000238772 t=19327
-wei yi xing 	唯一性	c=1 d=1 t=18299
+wei yi xing 	唯一性	c=1 d=0.00585769 t=19327
 wei zai 	未在	c=1 d=2.70372e-25 t=19327
 wei zhao dao 	未找到	c=1 d=1.77068e-16 t=19327
 wei zhe ge 	为这个	c=1 d=5.39319e-31 t=19327
@@ -2935,7 +2941,7 @@ wen ben 	文本	c=19 d=0.00482129 t=19327
 wen ben shi 	文本时	c=1 d=1.7455e-24 t=19327
 wen dang 	文档	c=30 d=0.310584 t=19327
 wen ding 	稳定	c=1 d=2.7206e-10 t=19327
-wen ding xing 	稳定性	c=1 d=1 t=17124
+wen ding xing 	稳定性	c=1 d=1.6453e-05 t=19327
 wen jian 	文件	c=46 d=1.25702 t=19327
 wen jian jia 	文件夹	c=5 d=0.276656 t=19327
 wen jian ming 	文件名	c=1 d=0.00172937 t=19327
@@ -2943,12 +2949,12 @@ wen jian xi tong 	文件系统	c=1 d=1.46174e-25 t=19327
 wen jie 	文杰	c=1 d=0.000131041 t=19327
 wen le 	问了	c=0 d=4.24546e-11 t=19327
 wen le ji ge 	问了几个	c=1 d=4.26674e-10 t=19327
-wen mo 	文末	c=1 d=1 t=17899
+wen mo 	文末	c=1 d=0.000792752 t=19327
 wen ti 	问题	c=94 d=0.452679 t=19327
 wen zhang 	文章	c=1 d=2.59461e-11 t=19327
 wen zi 	文字	c=6 d=2.17695e-05 t=19327
 wen zi chu 	文字处	c=1 d=1.13802e-21 t=19327
-wen zi miao shu 	文字描述	c=1 d=1 t=17177
+wen zi miao shu 	文字描述	c=1 d=2.14454e-05 t=19327
 wo 	我	c=40 d=1.24507 t=19327
 wo bu de bu 	我不得不	c=1 d=4.41872e-10 t=19327
 wo bu xiang 	我不想	c=1 d=1.23238e-17 t=19327
@@ -2971,8 +2977,8 @@ wo ti gong 	我提供	c=2 d=3.68318e-15 t=19327
 wo xi 	我系	c=1 d=1.30792e-11 t=19327
 wo xi wang 	我希望	c=23 d=0.0538316 t=19327
 wo xiang 	我想	c=1 d=9.12192e-08 t=19327
-wo xie 	我写	c=0 d=0.1 t=18622
-wo xie de 	我写的	c=1 d=1 t=18623
+wo xie 	我写	c=0 d=0.00294518 t=19327
+wo xie de 	我写的	c=1 d=0.0295994 t=19327
 wo xu yao 	我需要	c=8 d=0.625002 t=19327
 wo yao qu 	我要去	c=1 d=4.57286e-31 t=19327
 wo ye 	我也	c=1 d=0.0911727 t=19327
@@ -2985,7 +2991,7 @@ wo zhu yao 	我主要	c=1 d=8.43638e-30 t=19327
 wu 	吴	c=1 d=1.22074e-23 t=19327
 wu 	无	c=6 d=0.00377376 t=19327
 wu 	误	c=2 d=6.368e-31 t=19327
-wu ding yi 	无定义	c=2 d=1.29523 t=18697
+wu ding yi 	无定义	c=2 d=0.0555034 t=19327
 wu fa 	无法	c=3 d=0.218712 t=19327
 wu guan 	无关	c=10 d=0.0223678 t=19327
 wu jiang 	无疆	c=0 d=1.04493e-18 t=19327
@@ -2998,12 +3004,12 @@ wu shang 	误伤	c=1 d=4.82812e-23 t=19327
 wu xian 	无限	c=2 d=0.000319102 t=19327
 wu xian xiang 	无限项	c=1 d=0.000315927 t=19327
 wu xiang tu 	无向图	c=2 d=0.00161397 t=19327
-wu xu 	无序	c=1 d=1 t=17274
+wu xu 	无序	c=1 d=3.48311e-05 t=19327
 wu xu 	无须	c=13 d=6.50731e-05 t=19327
 wu xu fa bu 	无须发布	c=1 d=1.76821e-29 t=19327
 wu yong 	无用	c=4 d=0.0142642 t=19327
-xi er 	希尔	c=1 d=1 t=17593
-xi er pai xu 	希尔排序	c=1 d=1 t=17141
+xi er 	希尔	c=1 d=0.000171659 t=19327
+xi er pai xu 	希尔排序	c=1 d=1.79127e-05 t=19327
 xi guan 	习惯	c=1 d=0.843665 t=19327
 xi huan 	喜欢	c=2 d=0.14755 t=19327
 xi jie 	细节	c=4 d=0.700861 t=19327
@@ -3016,8 +3022,8 @@ xi tong pan 	系统盘	c=1 d=0.00465413 t=19327
 xi tong she zhi 	系统设置	c=1 d=7.83371e-11 t=19327
 xi wang 	希望	c=8 d=0.977563 t=19327
 xia 	下	c=16 d=0.831104 t=19327
-xia biao 	下标	c=3 d=1.6351 t=17296
-xia biao 	下表	c=1 d=1 t=17060
+xia biao 	下标	c=3 d=6.35746e-05 t=19327
+xia biao 	下表	c=1 d=1.19474e-05 t=19327
 xia bu 	下部	c=1 d=2.18556e-22 t=19327
 xia ceng 	下层	c=2 d=5.48998e-05 t=19327
 xia ci 	下次	c=2 d=0.100761 t=19327
@@ -3031,11 +3037,12 @@ xia ji 	下级	c=1 d=1.05378e-28 t=19327
 xia la 	下拉	c=1 d=0.00990218 t=19327
 xia la kuang 	下拉框	c=1 d=1.57179e-26 t=19327
 xia lai 	下来	c=1 d=1.19514e-09 t=19327
-xia lv 	下滤	c=2 d=1.73345 t=17369
-xia wu 	下午	c=2 d=1.98511 t=18877
+xia lv 	下滤	c=2 d=9.70886e-05 t=19327
+xia shun shi zhen 	下顺时针	c=1 d=1 t=9
+xia wu 	下午	c=2 d=0.209229 t=19327
 xia xian 	下线	c=1 d=7.29517e-26 t=19327
 xia yi ceng 	下一层	c=1 d=0.151072 t=19327
-xia yi ge 	下一个	c=1 d=1 t=18959
+xia yi ge 	下一个	c=1 d=0.158817 t=19327
 xia yi hang 	下一行	c=1 d=0.00226541 t=19327
 xia zai 	下载	c=27 d=0.0785382 t=19327
 xia zai shi 	下载时	c=1 d=3.2398e-06 t=19327
@@ -3045,7 +3052,7 @@ xian bu 	先不	c=1 d=1.11049e-27 t=19327
 xian cheng 	县城	c=1 d=2.11808e-06 t=19327
 xian cheng 	现成	c=1 d=2.1287e-06 t=19327
 xian cheng chi 	线程池	c=2 d=8.14311e-07 t=19327
-xian cong 	先从	c=1 d=1 t=17245
+xian cong 	先从	c=1 d=3.01297e-05 t=19327
 xian dai 	现代	c=3 d=2.89993e-23 t=19327
 xian dai 	线代	c=3 d=1.30073e-05 t=19327
 xian dai hua 	现代化	c=1 d=1.00068e-08 t=19327
@@ -3057,7 +3064,7 @@ xian shi 	显式	c=0 d=0.00655462 t=19327
 xian shi 	显示	c=69 d=0.0814954 t=19327
 xian shi cuo wu 	显示错误	c=1 d=4.72688e-09 t=19327
 xian shi dan wei 	显示单位	c=1 d=8.65906e-13 t=19327
-xian shi fang cheng 	显式方程	c=1 d=1 t=18783
+xian shi fang cheng 	显式方程	c=1 d=0.0658748 t=19327
 xian shi qi 	显示器	c=1 d=1.66467e-25 t=19327
 xian shi tong guo ming ling 	显式通过命令	c=1 d=7.70371e-20 t=19327
 xian shi xuan xiang 	显示选项	c=2 d=1.0409e-21 t=19327
@@ -3070,7 +3077,7 @@ xian xing fang cheng zu 	线性方程组	c=1 d=0.00504176 t=19327
 xian xing kong jian 	线性空间	c=1 d=5.16835e-30 t=19327
 xian xing tan ce 	线性探测	c=1 d=0.382893 t=19327
 xian xing wu guan 	线性无关	c=1 d=0.00551656 t=19327
-xian yong 	先用	c=1 d=1 t=18701
+xian yong 	先用	c=1 d=0.0437178 t=19327
 xian you 	现有	c=35 d=1.03769 t=19327
 xian you de 	现有的	c=2 d=0.0778305 t=19327
 xian you ge shi 	现有格式	c=1 d=0.00752142 t=19327
@@ -3094,7 +3101,7 @@ xiang gen jie dian 	向根节点	c=1 d=0.00217658 t=19327
 xiang guan 	相关	c=32 d=0.046449 t=19327
 xiang guan ce shi 	相关测试	c=1 d=3.70668e-31 t=19327
 xiang guan lian 	项关联	c=1 d=9.053e-07 t=19327
-xiang guan nei rong 	相关内容	c=1 d=1 t=18486
+xiang guan nei rong 	相关内容	c=1 d=0.0149208 t=19327
 xiang guan shi juan 	相关试卷	c=1 d=4.69676e-22 t=19327
 xiang guan xin xi 	相关信息	c=1 d=2.50964e-31 t=19327
 xiang hou 	向后	c=1 d=1.5285e-21 t=19327
@@ -3111,11 +3118,11 @@ xiang rong 	相容	c=1 d=4.54927e-29 t=19327
 xiang shang 	向上	c=2 d=0.00182715 t=19327
 xiang si du 	相似度	c=2 d=6.91422e-30 t=19327
 xiang tong 	相同	c=4 d=0.00640825 t=19327
-xiang xi 	详细	c=2 d=1.99005 t=17821
-xiang xi dian 	详细点	c=0 d=0.1 t=17738
+xiang xi 	详细	c=2 d=0.00106814 t=19327
+xiang xi dian 	详细点	c=0 d=3.5443e-05 t=19327
 xiang xia 	向下	c=1 d=2.15339e-24 t=19327
 xiang xian 	象限	c=1 d=3.00407e-29 t=19327
-xiang xiang 	想象	c=1 d=1 t=18947
+xiang xiang 	想象	c=1 d=0.149569 t=19327
 xiang xiang xiang 	向向想	c=1 d=1.26272e-09 t=19327
 xiang xin 	相信	c=1 d=2.8044e-14 t=19327
 xiang yao 	想要	c=1 d=0.0112206 t=19327
@@ -3128,7 +3135,7 @@ xiao chu 	消除	c=1 d=2.63606e-21 t=19327
 xiao chuang 	小窗	c=1 d=4.17004e-05 t=19327
 xiao fei 	消费	c=6 d=1.30144e-15 t=19327
 xiao fei duan 	消费端	c=1 d=5.87885e-16 t=19327
-xiao gen dui 	小根堆	c=1 d=1 t=17469
+xiao gen dui 	小根堆	c=1 d=9.23431e-05 t=19327
 xiao guo 	效果	c=7 d=0.000731802 t=19327
 xiao hei he 	小黑盒	c=1 d=2.94719e-10 t=19327
 xiao hua 	笑话	c=1 d=2.83211e-12 t=19327
@@ -3142,39 +3149,39 @@ xiao shi 	小时	c=1 d=3.47589e-10 t=19327
 xiao ti 	小题	c=2 d=1.00293e-05 t=19327
 xiao xin 	小心	c=1 d=0.102284 t=19327
 xiao yi xie 	小一些	c=1 d=0.00388746 t=19327
-xiao ying 	效应	c=1 d=1 t=17738
+xiao ying 	效应	c=1 d=0.00035443 t=19327
 xiao yu 	小于	c=1 d=0.000837575 t=19327
 xie 	写	c=5 d=0.516851 t=19327
-xie 	斜	c=1 d=1 t=18466
+xie 	斜	c=1 d=0.0135009 t=19327
 xie fa 	写法	c=3 d=0.0471227 t=19327
-xie qing chu 	写清楚	c=1 d=1 t=18331
+xie qing chu 	写清楚	c=1 d=0.00687406 t=19327
 xie ru 	写入	c=9 d=0.000221519 t=19327
 xie wan 	写完	c=2 d=0.239464 t=19327
-xie xiang xi dian 	写详细点	c=1 d=1 t=17739
+xie xiang xi dian 	写详细点	c=1 d=0.000356206 t=19327
 xie yi 	协议	c=3 d=1.04049e-11 t=19327
 xie yi ge 	写一个	c=6 d=0.690921 t=19327
-xie yi pian 	写一篇	c=1 d=1 t=19036
+xie yi pian 	写一篇	c=1 d=0.2334 t=19327
 xie zhu 	协助	c=1 d=6.79272e-10 t=19327
 xie zuo 	写作	c=3 d=0.126186 t=19327
 xin 	新	c=7 d=0.871401 t=19327
 xin ban ben 	新版本	c=2 d=2.51065e-28 t=19327
 xin dan ci 	新单词	c=2 d=7.33281e-07 t=19327
 xin de 	新的	c=1 d=0.00247875 t=19327
-xin fan 	心烦	c=1 d=1 t=18983
-xin hao 	信号	c=1 d=1 t=18770
+xin fan 	心烦	c=1 d=0.179066 t=19327
+xin hao 	信号	c=1 d=0.0617291 t=19327
 xin jia po 	新加坡	c=1 d=1.54628e-10 t=19327
 xin jian 	新建	c=5 d=5.97704e-05 t=19327
 xin mu lu 	新目录	c=1 d=1.68197e-29 t=19327
 xin pei zhi 	新配置	c=1 d=0.0250972 t=19327
 xin qi yi hang 	新起一行	c=1 d=1.6615e-32 t=19327
 xin shang 	新上	c=1 d=1.51175e-09 t=19327
-xin tai 	心态	c=1 d=1 t=18919
+xin tai 	心态	c=1 d=0.130029 t=19327
 xin ti 	新题	c=1 d=5.15588e-31 t=19327
 xin wen 	新闻	c=1 d=3.02231e-12 t=19327
 xin xi 	信息	c=12 d=0.740818 t=19327
 xin xian xing 	新线性	c=1 d=0.00530026 t=19327
 xin xiang mu 	新项目	c=1 d=1.37376e-30 t=19327
-xin xin 	信心	c=1 d=1 t=18954
+xin xin 	信心	c=1 d=0.154896 t=19327
 xin zeng 	新增	c=2 d=0.106459 t=19327
 xing 	型	c=3 d=5.45035e-08 t=19327
 xing 	形	c=1 d=5.47098e-23 t=19327
@@ -3208,7 +3215,7 @@ xu lie 	序列	c=1 d=0.00114769 t=19327
 xu qi 	续期	c=5 d=0.020141 t=19327
 xu qi hou 	续期后	c=1 d=2.92591e-13 t=19327
 xu qiu 	需求	c=3 d=0.0202419 t=19327
-xu shu 	叙述	c=1 d=1 t=17385
+xu shu 	叙述	c=1 d=6.06737e-05 t=19327
 xu xian 	虚线	c=1 d=3.71312e-22 t=19327
 xu yao 	需要	c=58 d=1.23882 t=19327
 xuan 	选	c=3 d=0.0324652 t=19327
@@ -3217,7 +3224,7 @@ xuan chuan tu 	宣传图	c=3 d=7.93665e-16 t=19327
 xuan chuan yu 	宣传语	c=2 d=1.12255e-27 t=19327
 xuan fu 	悬浮	c=1 d=8.69654e-05 t=19327
 xuan fu zai 	悬浮在	c=1 d=4.0321e-21 t=19327
-xuan qu 	选取	c=1 d=1 t=17166
+xuan qu 	选取	c=1 d=2.02978e-05 t=19327
 xuan ran 	渲染	c=16 d=0.0240508 t=19327
 xuan ran jie guo 	渲染结果	c=1 d=0.241714 t=19327
 xuan ran lian lu 	渲染链路	c=1 d=7.83238e-09 t=19327
@@ -3227,19 +3234,19 @@ xuan xiang kuang 	选项框	c=1 d=2.02764e-22 t=19327
 xuan ze 	选择	c=18 d=0.0170206 t=19327
 xuan ze qi 	选择器	c=2 d=1.19326e-23 t=19327
 xuan ze ti 	选择题	c=2 d=9.16609e-06 t=19327
-xuan ze tian kong 	选择填空	c=1 d=1 t=19292
+xuan ze tian kong 	选择填空	c=1 d=0.839457 t=19327
 xuan zhong 	选中	c=9 d=0.0687284 t=19327
 xuan zhong shi 	选中时	c=1 d=5.53932e-22 t=19327
 xuan zhuan 	旋转	c=2 d=0.0285909 t=19327
 xuan zhuan mian 	旋转面	c=1 d=0.0143357 t=19327
 xuan zhuan ti 	旋转体	c=1 d=0.0169148 t=19327
 xuan zhuan ti ti ji 	旋转体体积	c=1 d=0.0146986 t=19327
-xue 	学	c=1 d=1 t=18755
-xue guo 	学过	c=1 d=1 t=18901
-xue wan 	学完	c=2 d=1.13876 t=18892
+xue 	学	c=1 d=0.0572688 t=19327
+xue guo 	学过	c=1 d=0.118837 t=19327
+xue wan 	学完	c=2 d=0.129372 t=19327
 xue xi 	学习	c=10 d=0.237991 t=19327
-xue xi le 	学习了	c=1 d=1 t=17809
-xue zai 	学在	c=1 d=1 t=18851
+xue xi le 	学习了	c=1 d=0.000505481 t=19327
+xue zai 	学在	c=1 d=0.0925506 t=19327
 xun lian 	训练	c=2 d=1.28895e-05 t=19327
 xun zhao 	寻找	c=1 d=0.438235 t=19327
 ya 	呀	c=2 d=4.95725e-10 t=19327
@@ -3287,7 +3294,7 @@ ye shi 	也是	c=5 d=0.144424 t=19327
 ye wu jiang 	夜无疆	c=1 d=1.05016e-17 t=19327
 ye wu xu 	也无需	c=1 d=1.81297e-29 t=19327
 ye xu 	也许	c=1 d=0.000144823 t=19327
-ye xu yao 	也需要	c=1 d=1 t=18698
+ye xu yao 	也需要	c=1 d=0.0430669 t=19327
 ye ying gai 	也应该	c=1 d=6.39823e-12 t=19327
 ye zi 	叶子	c=1 d=0.2334 t=19327
 ye zi jie dian 	叶子节点	c=1 d=0.22091 t=19327
@@ -3296,9 +3303,9 @@ yi 	亿	c=1 d=4.20322e-10 t=19327
 yi 	以	c=22 d=0.608387 t=19327
 yi 	已	c=22 d=0.0127785 t=19327
 yi 	易	c=1 d=0.000251014 t=19327
-yi ban 	一半	c=1 d=1 t=18494
+yi ban 	一半	c=1 d=0.0155297 t=19327
 yi ban 	一般	c=3 d=0.143704 t=19327
-yi ban xuan 	一般选	c=1 d=1 t=17167
+yi ban xuan 	一般选	c=1 d=2.03995e-05 t=19327
 yi bian 	一遍	c=2 d=0.000147748 t=19327
 yi bu 	一部	c=1 d=3.41472e-07 t=19327
 yi bu dao wei 	一步到位	c=2 d=0.00887107 t=19327
@@ -3306,7 +3313,7 @@ yi ceng 	一层	c=1 d=4.89775e-15 t=19327
 yi chang 	异常	c=1 d=7.74364e-22 t=19327
 yi chu 	移除	c=100 d=2.81983 t=19327
 yi ci 	一次	c=8 d=0.0539337 t=19327
-yi ci 	依次	c=1 d=1 t=17632
+yi ci 	依次	c=1 d=0.000208619 t=19327
 yi cun zai 	已存在	c=1 d=0.000485661 t=19327
 yi dao ti 	一道题	c=2 d=6.27058e-29 t=19327
 yi dian 	一点	c=3 d=0.153124 t=19327
@@ -3322,15 +3329,15 @@ yi ge jie dian 	一个结点	c=1 d=0.146607 t=19327
 yi ge jie yi ge 	一个接一个	c=1 d=3.55589e-13 t=19327
 yi ge wan zheng 	一个完整	c=1 d=1.5516e-21 t=19327
 yi ge yue 	一个月	c=1 d=3.20146e-13 t=19327
-yi gu zuo qi 	一鼓作气	c=1 d=1 t=18957
+yi gu zuo qi 	一鼓作气	c=1 d=0.157237 t=19327
 yi hang 	一行	c=3 d=5.22223e-05 t=19327
-yi hao 	异号	c=1 d=1 t=17993
+yi hao 	异号	c=1 d=0.0012684 t=19327
 yi hou 	以后	c=1 d=1.7458e-26 t=19327
 yi ji 	一级	c=5 d=0.0135686 t=19327
 yi ji 	以及	c=36 d=0.309357 t=19327
 yi ji huo 	已激活	c=1 d=7.28648e-12 t=19327
-yi jiao 	已交	c=1 d=1 t=18135
-yi jie 	一阶	c=1 d=1 t=19247
+yi jiao 	已交	c=1 d=0.00257991 t=19327
+yi jie 	一阶	c=1 d=0.67032 t=19327
 yi jie fang cheng 	一阶方程	c=1 d=0.00660453 t=19327
 yi jie ji 	以阶级	c=1 d=1.65265e-28 t=19327
 yi jie xian xing wei fen 	一阶线性微分	c=1 d=0.000236397 t=19327
@@ -3343,7 +3350,7 @@ yi kao 	依靠	c=1 d=5.13732e-18 t=19327
 yi ke yi 	亦可以	c=1 d=0.100761 t=19327
 yi lai 	依赖	c=13 d=0.856415 t=19327
 yi lie 	一列	c=2 d=0.000656334 t=19327
-yi luan 	意乱	c=1 d=1 t=18984
+yi luan 	意乱	c=1 d=0.179964 t=19327
 yi lun 	一轮	c=1 d=0.00425356 t=19327
 yi pei zhi 	已配置	c=1 d=6.53526e-26 t=19327
 yi pi 	一批	c=1 d=3.46751e-11 t=19327
@@ -3363,20 +3370,20 @@ yi tu liu 	一图流	c=1 d=0.254107 t=19327
 yi wai 	以外	c=2 d=3.10473e-05 t=19327
 yi wai 	意外	c=2 d=2.08556e-29 t=19327
 yi wan cheng 	已完成	c=1 d=5.9043e-08 t=19327
-yi wei 	一位	c=1 d=1 t=17071
-yi wo 	以我	c=2 d=1.92774 t=18805
+yi wei 	一位	c=1 d=1.26229e-05 t=19327
+yi wo 	以我	c=2 d=0.141755 t=19327
 yi xi lie 	一系列	c=1 d=0.00491728 t=19327
 yi xia 	一下	c=24 d=1.04048 t=19327
 yi xia 	以下	c=2 d=0.421052 t=19327
 yi xiang 	一项	c=1 d=5.51169e-22 t=19327
 yi xiang 	意象	c=1 d=2.03572e-10 t=19327
-yi xiang 	臆想	c=1 d=1 t=19072
+yi xiang 	臆想	c=1 d=0.279431 t=19327
 yi xie 	一些	c=16 d=0.886248 t=19327
 yi yong 	易用	c=1 d=3.80971e-30 t=19327
 yi you 	已有	c=19 d=2.10545 t=19327
 yi you de 	已有的	c=1 d=3.69649e-28 t=19327
 yi yuan 	一元	c=21 d=1.90338 t=19327
-yi yuan han shu 	一元函数	c=1 d=1 t=18759
+yi yuan han shu 	一元函数	c=1 d=0.0584257 t=19327
 yi zhang 	一张	c=1 d=1.87468e-11 t=19327
 yi zhi 	一直	c=5 d=0.995012 t=19327
 yi zhi 	一致	c=5 d=0.182684 t=19327
@@ -3386,7 +3393,7 @@ yi zhi xing 	一致性	c=1 d=0.00204983 t=19327
 yi zhong 	一种	c=1 d=3.30862e-18 t=19327
 yi zu 	一组	c=1 d=1.46732e-11 t=19327
 yi zuo 	已做	c=1 d=4.7211e-24 t=19327
-yin 	隐	c=1 d=1 t=18785
+yin 	隐	c=1 d=0.0665368 t=19327
 yin bian liang 	因变量	c=2 d=0.681306 t=19327
 yin han 	隐含	c=3 d=0.912672 t=19327
 yin han shu 	隐函数	c=1 d=3.66169e-05 t=19327
@@ -3406,7 +3413,7 @@ ying gai xuan 	应该选	c=1 d=0.32628 t=19327
 ying hua 	樱花	c=1 d=0.0459593 t=19327
 ying she 	映射	c=8 d=0.000337144 t=19327
 ying wen 	英文	c=9 d=2.82527 t=19327
-ying xiang 	影响	c=1 d=1 t=17157
+ying xiang 	影响	c=1 d=1.94046e-05 t=19327
 ying xiao 	营销	c=1 d=8.76399e-21 t=19327
 ying xiao tu 	营销图	c=2 d=2.73145e-20 t=19327
 ying yong 	应用	c=34 d=0.252713 t=19327
@@ -3452,8 +3459,8 @@ you de shu shang 	有的书上	c=1 d=0.0581343 t=19327
 you dian 	优点	c=2 d=0.00412784 t=19327
 you dian ka 	有点卡	c=1 d=0.00414854 t=19327
 you duan 	右端	c=1 d=0.537944 t=19327
-you duo shao 	有多少	c=1 d=1 t=18136
-you ge 	有个	c=1 d=1 t=18239
+you duo shao 	有多少	c=1 d=0.00259284 t=19327
+you ge 	有个	c=1 d=0.00433948 t=19327
 you guan 	有关	c=4 d=0.212248 t=19327
 you hou 	油猴	c=2 d=1.67876e-28 t=19327
 you hua 	优化	c=63 d=1.28089 t=19327
@@ -3466,18 +3473,18 @@ you jian 	邮件	c=7 d=6.94359e-10 t=19327
 you jie 	有界	c=1 d=0.000352662 t=19327
 you jie 	有解	c=1 d=2.41665e-28 t=19327
 you ke 	游客	c=1 d=2.08003e-28 t=19327
-you ke neng 	有可能	c=1 d=1 t=17147
-you li shi 	有理式	c=1 d=1 t=18735
-you li yu 	游离于	c=1 d=1 t=18906
+you ke neng 	有可能	c=1 d=1.84582e-05 t=19327
+you li shi 	有理式	c=1 d=0.0518189 t=19327
+you li yu 	游离于	c=1 d=0.121846 t=19327
 you mei you 	有没有	c=13 d=1.30258 t=19327
 you mo 	幽默	c=1 d=2.80393e-12 t=19327
 you na xie 	有哪些	c=32 d=0.588835 t=19327
 you na xie she ji 	有哪些涉及	c=1 d=2.75309e-32 t=19327
 you qi shi 	尤其是	c=1 d=2.98654e-19 t=19327
 you sha 	有啥	c=1 d=0.0889216 t=19327
-you shen me 	有什么	c=1 d=1 t=18356
+you shen me 	有什么	c=1 d=0.00778933 t=19327
 you shi 	优势	c=2 d=2.09701e-06 t=19327
-you shi hou 	有时候	c=1 d=1 t=18971
+you shi hou 	有时候	c=1 d=0.168638 t=19327
 you ti 	由题	c=1 d=0.064894 t=19327
 you wen ti 	有问题	c=10 d=0.0614267 t=19327
 you wu 	有误	c=2 d=0.00199922 t=19327
@@ -3498,11 +3505,11 @@ you xin ban ben 	有新版本	c=1 d=2.11952e-14 t=19327
 you xing neng 	有性能	c=1 d=1.64699e-17 t=19327
 you xu 	有序	c=4 d=0.000275853 t=19327
 you ya 	优雅	c=1 d=0.158817 t=19327
-you yi 	右移	c=1 d=1 t=17070
+you yi 	右移	c=1 d=1.25599e-05 t=19327
 you yi 	有一	c=0 d=0.0085435 t=19327
 you yi ge 	有一个	c=1 d=6.26067e-21 t=19327
 you yi xie 	有一些	c=3 d=3.78426e-10 t=19327
-you yong 	有用	c=1 d=1 t=18637
+you yong 	有用	c=1 d=0.0317456 t=19327
 you you 	又有	c=1 d=3.07112e-24 t=19327
 you yu 	由于	c=6 d=0.790579 t=19327
 yu 	与	c=48 d=1.04547 t=19327
@@ -3511,12 +3518,12 @@ yu 	域	c=0 d=4.75867e-30 t=19327
 yu 	预	c=1 d=1.19864e-14 t=19327
 yu chu li 	预处理	c=2 d=0.000199439 t=19327
 yu fa 	语法	c=2 d=5.8379e-15 t=19327
-yu ji 	预计	c=3 d=2.85558 t=18154
-yu ju 	语句	c=1 d=1 t=17955
+yu ji 	预计	c=3 d=0.00810135 t=19327
+yu ju 	语句	c=1 d=0.00104891 t=19327
 yu lan 	预览	c=6 d=1.86222e-26 t=19327
 yu ming 	域名	c=7 d=7.63607e-10 t=19327
 yu ming ke yong xing 	域名可用性	c=1 d=3.36503e-11 t=19327
-yu qiu 	欲求	c=1 d=1 t=17446
+yu qiu 	欲求	c=1 d=8.23115e-05 t=19327
 yu she 	预设	c=5 d=0.222017 t=19327
 yu sheng cheng 	预生成	c=1 d=2.08435e-23 t=19327
 yu shi 	于是	c=2 d=9.98598e-10 t=19327
@@ -3539,9 +3546,9 @@ yuan ban 	原版	c=1 d=2.92392e-05 t=19327
 yuan ben 	原本	c=1 d=1.10134e-18 t=19327
 yuan cheng 	远程	c=8 d=3.79597e-20 t=19327
 yuan cheng cang ku 	远程仓库	c=1 d=4.09373e-23 t=19327
-yuan di 	原地	c=1 d=1 t=18963
+yuan di 	原地	c=1 d=0.162026 t=19327
 yuan duan 	远端	c=2 d=4.19594e-19 t=19327
-yuan han shu 	原函数	c=3 d=0.0118874 t=19327
+yuan han shu 	原函数	c=3 d=0.955997 t=19327
 yuan jia 	原价	c=4 d=4.49635e-09 t=19327
 yuan jia she 	原假设	c=1 d=0.00033379 t=19327
 yuan lai 	原来	c=3 d=0.00408677 t=19327
@@ -3552,7 +3559,7 @@ yuan shi 	原始	c=3 d=0.000393669 t=19327
 yuan shi 	原式	c=3 d=0.026517 t=19327
 yuan shi wen ben 	原始文本	c=1 d=1.11374e-32 t=19327
 yuan su 	元素	c=10 d=0.000542563 t=19327
-yuan su de 	元素的	c=1 d=1 t=17402
+yuan su de 	元素的	c=1 d=6.60565e-05 t=19327
 yuan tou 	源头	c=1 d=1.54014e-22 t=19327
 yuan wen 	原文	c=8 d=0.00155701 t=19327
 yuan xiang mu 	原项目	c=2 d=2.67784e-10 t=19327
@@ -3571,9 +3578,9 @@ yue ding yue 	月订阅	c=1 d=2.86544e-32 t=19327
 yue ding yue he nian ding yue 	月订阅和年订阅	c=1 d=2.79469e-32 t=19327
 yue du 	月度	c=2 d=5.2502e-09 t=19327
 yue du 	阅读	c=4 d=3.56543e-05 t=19327
-yue duo 	越多	c=1 d=1 t=17728
+yue duo 	越多	c=1 d=0.000337144 t=19327
 yue fei 	月费	c=1 d=6.02562e-12 t=19327
-yue jie 	越界	c=1 d=1 t=18063
+yue jie 	越界	c=1 d=0.00179994 t=19327
 yue lai yue 	越来越	c=2 d=2.34971e-09 t=19327
 yue shu 	约束	c=3 d=3.00621e-08 t=19327
 yun 	云	c=4 d=0.612626 t=19327
@@ -3583,7 +3590,7 @@ yun xing 	运行	c=13 d=0.621885 t=19327
 yun xing de 	运行的	c=1 d=5.8164e-08 t=19327
 yun xing shi 	运行时	c=7 d=1.91109e-15 t=19327
 yun xu 	允许	c=37 d=0.630069 t=19327
-za 	杂	c=1 d=1 t=18625
+za 	杂	c=1 d=0.0298969 t=19327
 zai 	再	c=29 d=1.35745 t=19327
 zai 	在	c=177 d=2.71501 t=19327
 zai ci 	在此	c=3 d=0.0573277 t=19327
@@ -3596,18 +3603,18 @@ zan shi 	暂时	c=2 d=5.88968e-30 t=19327
 zan zhu shang 	赞助商	c=1 d=3.76539e-10 t=19327
 zang shu ju 	脏数据	c=1 d=1.25574e-32 t=19327
 zao 	造	c=2 d=3.68381e-17 t=19327
-zao shang 	早上	c=1 d=1 t=18869
+zao shang 	早上	c=1 d=0.101266 t=19327
 ze 	则	c=29 d=1.66157 t=19327
 ze zeng jia 	则增加	c=1 d=2.44767e-31 t=19327
 zen me 	怎么	c=150 d=5.46787 t=19327
 zen me ban 	怎么办	c=1 d=1.70681e-25 t=19327
 zen me deng jia 	怎么等价	c=1 d=0.000925663 t=19327
 zen me gei 	怎么给	c=1 d=1.03954e-15 t=19327
-zen me jian cha 	怎么检查	c=1 d=1 t=19075
-zen me jiao 	怎么交	c=1 d=1 t=18542
+zen me jian cha 	怎么检查	c=1 d=0.283654 t=19327
+zen me jiao 	怎么交	c=1 d=0.0197421 t=19327
 zen me jie jue 	怎么解决	c=2 d=3.52171e-17 t=19327
 zen me pan duan 	怎么判断	c=1 d=0.0051953 t=19327
-zen me rang 	怎么让	c=1 d=1 t=17654
+zen me rang 	怎么让	c=1 d=0.000232877 t=19327
 zen me she zhi 	怎么设置	c=1 d=0.0434998 t=19327
 zen me shi xian 	怎么实现	c=4 d=2.55945e-23 t=19327
 zen me tian 	怎么填	c=1 d=0.00166156 t=19327
@@ -3624,7 +3631,7 @@ zeng jia 	增加	c=150 d=1.3357 t=19327
 zeng kua 	增跨	c=1 d=1.86241e-22 t=19327
 zeng liang 	增量	c=5 d=1.40915 t=19327
 zeng qiang 	增强	c=3 d=0.000380129 t=19327
-zeng zhi shui 	增值税	c=4 d=2.25229 t=18537
+zeng zhi shui 	增值税	c=4 d=0.0433672 t=19327
 zhai qu 	摘取	c=1 d=6.7904e-06 t=19327
 zhai yao 	摘要	c=1 d=7.47349e-16 t=19327
 zhan 	站	c=3 d=8.80366e-10 t=19327
@@ -3633,9 +3640,9 @@ zhan kai 	展开	c=4 d=0.527846 t=19327
 zhan kai fang shi 	展开方式	c=0 d=0.0323033 t=19327
 zhan lian 	粘连	c=2 d=0.00178203 t=19327
 zhan shi 	展示	c=20 d=0.777767 t=19327
-zhan wei 	占位	c=1 d=1 t=17195
+zhan wei 	占位	c=1 d=2.3465e-05 t=19327
 zhan wei 	站位	c=1 d=3.67617e-22 t=19327
-zhan wei fu 	占位符	c=4 d=3.84137 t=17786
+zhan wei fu 	占位符	c=4 d=0.0017308 t=19327
 zhan xian 	展现	c=1 d=0.33454 t=19327
 zhan yong 	占用	c=3 d=0.00433948 t=19327
 zhang 	章	c=6 d=0.0149081 t=19327
@@ -3644,7 +3651,7 @@ zhang hu 	账户	c=13 d=3.34007e-10 t=19327
 zhang hu mi ma 	账户密码	c=1 d=4.09722e-33 t=19327
 zhang hu xiang qing 	账户详情	c=1 d=1.17531e-18 t=19327
 zhang jie 	章节	c=15 d=0.00737249 t=19327
-zhang kong xing 	掌控性	c=1 d=1 t=17240
+zhang kong xing 	掌控性	c=1 d=2.93858e-05 t=19327
 zhang wo 	掌握	c=1 d=3.27737e-24 t=19327
 zhao 	找	c=3 d=0.778801 t=19327
 zhao 	照	c=2 d=0.00220948 t=19327
@@ -3660,7 +3667,7 @@ zhao zhao 	找找	c=3 d=0.66365 t=19327
 zhe 	折	c=2 d=7.28965e-30 t=19327
 zhe 	者	c=3 d=1.05002e-15 t=19327
 zhe 	这	c=17 d=0.0898171 t=19327
-zhe ban 	折半	c=2 d=1.1764 t=17939
+zhe ban 	折半	c=2 d=0.00113907 t=19327
 zhe ban cha zhao 	折半查找	c=4 d=0.16191 t=19327
 zhe dao ti 	这道题	c=1 d=7.29765e-30 t=19327
 zhe die 	折叠	c=3 d=1.05725 t=19327
@@ -3675,7 +3682,7 @@ zhe ge ti 	这个题	c=2 d=0.0306538 t=19327
 zhe ge wen dang 	这个文档	c=1 d=5.43999e-15 t=19327
 zhe hang 	这行	c=1 d=9.59125e-10 t=19327
 zhe ji ge 	这几个	c=1 d=5.45778e-24 t=19327
-zhe ju 	这句	c=1 d=1 t=17781
+zhe ju 	这句	c=1 d=0.000439444 t=19327
 zhe ke 	这可	c=1 d=0.000587285 t=19327
 zhe kou 	折扣	c=4 d=4.54154e-09 t=19327
 zhe kou jia 	折扣价	c=1 d=3.23078e-32 t=19327
@@ -3704,7 +3711,7 @@ zhe xie 	这些	c=18 d=0.25411 t=19327
 zhe xie wang luo 	这些网络	c=1 d=1.23792e-11 t=19327
 zhe yang 	这样	c=12 d=0.0106335 t=19327
 zhe yi 	这一	c=1 d=0.00130703 t=19327
-zhe yi bu 	这一步	c=1 d=1 t=18278
+zhe yi bu 	这一步	c=1 d=0.00527382 t=19327
 zhe yi duan 	这一段	c=1 d=0.000418012 t=19327
 zhe yi jie 	这一节	c=2 d=0.265803 t=19327
 zhe yi liu cheng 	这一流程	c=1 d=7.08318e-32 t=19327
@@ -3735,16 +3742,16 @@ zheng he dao 	整合到	c=1 d=5.48327e-20 t=19327
 zheng li 	整理	c=12 d=0.241999 t=19327
 zheng li de 	整理得	c=1 d=0.0194482 t=19327
 zheng li hao 	整理好	c=1 d=0.00332928 t=19327
-zheng li wan 	整理完	c=1 d=1 t=17798
+zheng li wan 	整理完	c=1 d=0.00047843 t=19327
 zheng li wei 	整理为	c=1 d=3.26214e-28 t=19327
 zheng li yi fen 	整理一份	c=1 d=1.00085e-10 t=19327
-zheng ming 	证明	c=6 d=0.207924 t=19327
+zheng ming 	证明	c=6 d=1.91238 t=19327
 zheng que 	正确	c=43 d=0.0762091 t=19327
 zheng que xian shi 	正确显示	c=1 d=1.08868e-29 t=19327
 zheng que xing 	正确性	c=3 d=0.00685346 t=19327
 zheng que xuan ran 	正确渲染	c=1 d=9.58115e-27 t=19327
 zheng shi 	正式	c=3 d=1.38532e-08 t=19327
-zheng shu 	整数	c=1 d=1.00002 t=19267
+zheng shu 	整数	c=1 d=0.740833 t=19327
 zheng ti 	整体	c=6 d=0.000510571 t=19327
 zheng xiang 	正向	c=3 d=0.656651 t=19327
 zheng yuan 	正元	c=0 d=3.9879e-10 t=19327
@@ -3773,7 +3780,7 @@ zhi fen 	只分	c=1 d=1.16742e-27 t=19327
 zhi fu bao 	支付宝	c=1 d=1.04692e-10 t=19327
 zhi fu ping tai 	支付平台	c=1 d=6.39714e-10 t=19327
 zhi gan 	质感	c=1 d=0.0428521 t=19327
-zhi gua 	只挂	c=1 d=1 t=17690
+zhi gua 	只挂	c=1 d=0.000278804 t=19327
 zhi he 	之和	c=1 d=0.00157264 t=19327
 zhi hou 	之后	c=6 d=0.012248 t=19327
 zhi jian 	之间	c=5 d=0.174915 t=19327
@@ -3787,13 +3794,13 @@ zhi ling 	指令	c=1 d=1.83662e-05 t=19327
 zhi lu chu 	只露出	c=1 d=3.18712e-19 t=19327
 zhi nan 	指南	c=4 d=0.00771334 t=19327
 zhi neng 	只能	c=4 d=0.0290133 t=19327
-zhi neng yong 	只能用	c=1 d=1 t=18594
+zhi neng yong 	只能用	c=1 d=0.0256042 t=19327
 zhi qian 	之前	c=11 d=0.00193045 t=19327
 zhi shang 	智商	c=1 d=1.57344e-09 t=19327
 zhi shao 	至少	c=2 d=2.56129e-06 t=19327
 zhi shi 	只是	c=1 d=1.25015e-09 t=19327
-zhi shi 	知识	c=1 d=1 t=18903
-zhi shi yong yu 	只适用于	c=1 d=1 t=18268
+zhi shi 	知识	c=1 d=0.120032 t=19327
+zhi shi yong yu 	只适用于	c=1 d=0.00501661 t=19327
 zhi shu 	指数	c=3 d=0.0462925 t=19327
 zhi wai 	之外	c=1 d=6.3432e-28 t=19327
 zhi wan cheng 	只完成	c=1 d=6.75769e-08 t=19327
@@ -3829,12 +3836,12 @@ zhong deng 	中等	c=1 d=8.81868e-22 t=19327
 zhong dian 	重点	c=1 d=3.9272e-05 t=19327
 zhong duan 	终端	c=1 d=1.51458e-31 t=19327
 zhong guo 	中国	c=3 d=1.08646e-05 t=19327
-zhong ji 	终极	c=2 d=1.0009 t=18629
+zhong ji 	终极	c=2 d=0.0305283 t=19327
 zhong ji qi 	中继器	c=1 d=3.13103e-16 t=19327
 zhong jian 	中键	c=1 d=0.000620491 t=19327
 zhong jian 	中间	c=3 d=3.50299e-13 t=19327
-zhong jie 	中介	c=1 d=1 t=18351
-zhong jie fei 	中介费	c=1 d=1 t=18147
+zhong jie 	中介	c=1 d=0.00759701 t=19327
+zhong jie fei 	中介费	c=1 d=0.00273944 t=19327
 zhong kuo hao 	中括号	c=2 d=2.95331e-05 t=19327
 zhong lei 	种类	c=1 d=0.00263203 t=19327
 zhong li 	重力	c=1 d=3.23639e-23 t=19327
@@ -3847,9 +3854,9 @@ zhong yao ji xian 	重要极限	c=1 d=0.00022263 t=19327
 zhong ying 	中英	c=3 d=0.0383884 t=19327
 zhong ying wen 	中英文	c=2 d=1.35225 t=19327
 zhong yu 	终于	c=1 d=5.9053e-10 t=19327
-zhong zhi 	中值	c=1 d=1 t=18768
+zhong zhi 	中值	c=1 d=0.0611149 t=19327
 zhong zhi 	种植	c=1 d=0.802519 t=19327
-zhong zhi ding li 	中值定理	c=2 d=1.95123 t=18602
+zhong zhi ding li 	中值定理	c=2 d=0.0519985 t=19327
 zhong zhuan 	中转	c=3 d=5.45637e-11 t=19327
 zhong zhuan zhan 	中转站	c=9 d=2.25781e-09 t=19327
 zhong zi 	种子	c=6 d=1.1537e-06 t=19327
@@ -3859,18 +3866,18 @@ zhou 	周	c=2 d=0.000183779 t=19327
 zhou qi 	周期	c=3 d=0.00075216 t=19327
 zhou qi xing 	周期性	c=3 d=0.00105519 t=19327
 zhu 	主	c=1 d=1.34913e-23 t=19327
-zhu 	注	c=2 d=1.96561 t=17095
+zhu 	注	c=2 d=2.79751e-05 t=19327
 zhu 	逐	c=1 d=0.00359671 t=19327
 zhu ce 	注册	c=4 d=0.0443785 t=19327
 zhu ce ji 	注册机	c=1 d=1.98438e-33 t=19327
 zhu chi 	主持	c=1 d=1.13879e-29 t=19327
 zhu dao 	主导	c=0 d=4.36198e-06 t=19327
-zhu dian 	驻点	c=1 d=1 t=18360
+zhu dian 	驻点	c=1 d=0.00794669 t=19327
 zhu ge 	逐个	c=2 d=0.428586 t=19327
 zhu ji 	主机	c=1 d=3.31087e-26 t=19327
 zhu jian 	逐渐	c=3 d=0.0025415 t=19327
 zhu jin cheng 	主进程	c=1 d=5.76637e-24 t=19327
-zhu lan 	主栏	c=1 d=1 t=18582
+zhu lan 	主栏	c=1 d=0.0241131 t=19327
 zhu nong 	主弄	c=1 d=0.125556 t=19327
 zhu ru 	注入	c=23 d=8.37913e-13 t=19327
 zhu shi 	注释	c=6 d=0.209087 t=19327
@@ -3881,7 +3888,7 @@ zhu yao 	主要	c=9 d=0.0902655 t=19327
 zhu yao shi 	主要是	c=1 d=4.4724e-05 t=19327
 zhu yi 	主意	c=1 d=1.54654e-12 t=19327
 zhu yi 	注意	c=58 d=1.16386 t=19327
-zhu yi dao 	注意到	c=2 d=1.14661 t=18704
+zhu yi dao 	注意到	c=2 d=0.0508848 t=19327
 zhu zhang 	诸章	c=1 d=0.00050296 t=19327
 zhu zhang jie 	逐章节	c=1 d=0.00114769 t=19327
 zhua 	抓	c=1 d=0.000735471 t=19327
@@ -3889,7 +3896,7 @@ zhuan 	专	c=1 d=5.43536e-05 t=19327
 zhuan 	转	c=1 d=6.45923e-06 t=19327
 zhuan huan 	转换	c=4 d=1.24783 t=19327
 zhuan men 	专门	c=1 d=1.07657e-15 t=19327
-zhuan quan 	转圈	c=1 d=1 t=18964
+zhuan quan 	转圈	c=1 d=0.162838 t=19327
 zhuan wei 	转为	c=9 d=0.359141 t=19327
 zhuan ye 	专业	c=1 d=2.64424e-28 t=19327
 zhuan ye ke 	专业课	c=1 d=1.22157e-31 t=19327
@@ -3917,7 +3924,7 @@ zi dai 	自带	c=1 d=3.98235e-22 t=19327
 zi ding 	自定	c=1 d=3.97342e-25 t=19327
 zi ding yi 	自定义	c=12 d=0.472981 t=19327
 zi dong 	自动	c=27 d=1.7998 t=19327
-zi dong geng xin 	自动更新	c=1 d=1 t=17043
+zi dong geng xin 	自动更新	c=1 d=1.09738e-05 t=19327
 zi dong hua 	自动化	c=4 d=1.02698 t=19327
 zi dong huan hang 	自动换行	c=1 d=1.72367e-23 t=19327
 zi dong ru kou 	自动入口	c=1 d=1.39192e-08 t=19327
@@ -3934,29 +3941,29 @@ zi jian 	自建	c=1 d=3.96451e-28 t=19327
 zi liao 	资料	c=3 d=0.798516 t=19327
 zi lie 	子列	c=1 d=0.00030659 t=19327
 zi mu lu 	子目录	c=2 d=6.64441e-15 t=19327
-zi ren wu 	子任务	c=1 d=1 t=19305
+zi ren wu 	子任务	c=1 d=0.895834 t=19327
 zi shen 	自身	c=1 d=0.00200924 t=19327
 zi shen 	资深	c=1 d=7.56041e-05 t=19327
 zi shi ying 	自适应	c=1 d=1.53037e-06 t=19327
 zi shu 	子树	c=5 d=0.208314 t=19327
 zi ti 	字体	c=6 d=1.8418e-13 t=19327
 zi tu 	子图	c=1 d=1.93177e-11 t=19327
-zi wen jian 	子文件	c=2 d=1.98511 t=17643
+zi wen jian 	子文件	c=2 d=0.000437547 t=19327
 zi xi 	仔细	c=3 d=0.0213864 t=19327
 zi xi jian cha 	仔细检查	c=1 d=2.04377e-27 t=19327
 zi xing 	自行	c=4 d=7.80284e-23 t=19327
-zi xu lie 	子序列	c=1 d=1 t=17483
+zi xu lie 	子序列	c=1 d=9.90387e-05 t=19327
 zi yang 	字样	c=1 d=0.000100535 t=19327
 zi yong 	自用	c=1 d=2.18861e-09 t=19327
 zi you 	自由	c=1 d=1.97966e-05 t=19327
 zi you du 	自由度	c=1 d=0.0713613 t=19327
 zi yuan 	资源	c=4 d=2.18259e-06 t=19327
 zong 	总	c=4 d=0.00276407 t=19327
-zong bi jiao 	总比较	c=1 d=1 t=17616
-zong fang jia 	总房价	c=1 d=1 t=18160
+zong bi jiao 	总比较	c=1 d=0.00019258 t=19327
+zong fang jia 	总房价	c=1 d=0.00292342 t=19327
 zong fen 	总分	c=1 d=3.07269e-30 t=19327
-zong he 	总和	c=1 d=1 t=17410
-zong jia 	总价	c=1 d=1 t=18183
+zong he 	总和	c=1 d=6.87523e-05 t=19327
+zong jia 	总价	c=1 d=0.00327971 t=19327
 zong jie 	总结	c=9 d=0.50483 t=19327
 zong shi 	总是	c=1 d=8.06653e-32 t=19327
 zong xiang 	纵向	c=2 d=0.172907 t=19327
@@ -3972,24 +3979,24 @@ zu jian 	组件	c=18 d=7.33697e-05 t=19327
 zu yi 	足以	c=1 d=1.42516e-21 t=19327
 zu zhi 	组织	c=3 d=1.16544e-07 t=19327
 zui 	最	c=5 d=0.910337 t=19327
-zui chang de 	最长的	c=1 d=1 t=17113
+zui chang de 	最长的	c=1 d=1.55726e-05 t=19327
 zui da 	最大	c=4 d=0.00013776 t=19327
-zui di 	最低	c=1 d=1 t=18128
+zui di 	最低	c=1 d=0.00249118 t=19327
 zui di ceng 	最底层	c=1 d=0.236928 t=19327
 zui duan 	最短	c=2 d=0.00388031 t=19327
 zui duo 	最多	c=1 d=2.17843e-13 t=19327
 zui gao 	最高	c=3 d=0.000257099 t=19327
-zui gao ceng ji 	最高层级	c=1 d=1 t=17238
-zui gao wei 	最高位	c=1 d=1 t=17531
+zui gao ceng ji 	最高层级	c=1 d=2.90934e-05 t=19327
+zui gao wei 	最高位	c=1 d=0.000125903 t=19327
 zui hao 	最好	c=5 d=0.072513 t=19327
 zui hao yong 	最好用	c=1 d=3.70732e-33 t=19327
 zui hou 	最后	c=10 d=0.015964 t=19327
-zui hou mian 	最后面	c=1 d=1 t=17115
+zui hou mian 	最后面	c=1 d=1.57291e-05 t=19327
 zui hou yi bu 	最后一步	c=1 d=0.0359725 t=19327
 zui hou yi lie 	最后一列	c=1 d=0.000323925 t=19327
 zui jia 	最佳	c=9 d=0.0377732 t=19327
-zui jia gui bing shu 	最佳归并树	c=1 d=1 t=17823
-zui jia qie huan 	最佳切换	c=1 d=1 t=19133
+zui jia gui bing shu 	最佳归并树	c=1 d=0.000542133 t=19327
+zui jia qie huan 	最佳切换	c=1 d=0.379083 t=19327
 zui jia shi jian 	最佳实践	c=8 d=0.000441647 t=19327
 zui jian 	最简	c=1 d=0.0461896 t=19327
 zui jian dan 	最简单	c=1 d=8.22668e-28 t=19327
@@ -3997,7 +4004,7 @@ zui jin 	最近	c=4 d=4.67826e-05 t=19327
 zui kai shi 	最开始	c=2 d=2.34591e-24 t=19327
 zui shang ceng 	最上层	c=1 d=1.43133e-13 t=19327
 zui xiao 	最小	c=6 d=0.00296392 t=19327
-zui xiao dui 	最小堆	c=1 d=1 t=17744
+zui xiao dui 	最小堆	c=1 d=0.000365224 t=19327
 zui xiao gao du 	最小高度	c=1 d=0.00170362 t=19327
 zui xiao hua 	最小化	c=1 d=1.90528e-25 t=19327
 zui xin 	最新	c=27 d=0.0179531 t=19327
@@ -4022,7 +4029,7 @@ zuo shen me 	做什么	c=3 d=0.00267181 t=19327
 zuo shen me de 	做什么的	c=1 d=2.4267e-18 t=19327
 zuo ti 	做题	c=3 d=1.62257e-11 t=19327
 zuo ti hou 	做题后	c=1 d=6.31371e-32 t=19327
-zuo tian 	昨天	c=1 d=1 t=18860
+zuo tian 	昨天	c=1 d=0.0968105 t=19327
 zuo wan 	做完	c=9 d=0.440395 t=19327
 zuo wan le 	做完了	c=1 d=0.00329615 t=19327
 zuo wei 	作为	c=13 d=0.00303824 t=19327

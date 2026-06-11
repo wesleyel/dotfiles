@@ -83,6 +83,135 @@
     (my/rime-bootstrap-from-system)
     (message "Emacs Rime bootstrap refreshed.")))
 
+(defun my/rime--typst-display-math-delimiter-p (beg end)
+  "Return non-nil when math between BEG and END is Typst display math.
+Display math uses `$ ... $' with whitespace on both sides of the content."
+  (and (> end (+ beg 2))
+       (char-equal (char-after beg) ?$)
+       (memq (char-after (1+ beg)) '(?\s ?\t))
+       (> end (+ beg 3))
+       (memq (char-before (1- end)) '(?\s ?\t))
+       (char-equal (char-before end) ?$)))
+
+(defun my/rime--typst-display-math-at-point-p ()
+  "Return non-nil when point is inside Typst display math (`$ ... $')."
+  (condition-case nil
+      (when (and (derived-mode-p 'typst-ts-mode)
+                 (featurep 'treesit)
+                 (treesit-language-available-p 'typst t))
+        (let ((node (treesit-node-at (point))))
+          (when-let ((math (and node
+                                (treesit-parent-until
+                                 node
+                                 (lambda (n)
+                                   (string= (treesit-node-type n) "math"))))))
+            (my/rime--typst-display-math-delimiter-p
+             (treesit-node-start math)
+             (treesit-node-end math)))))
+    (error nil)))
+
+(defun my/rime--typst-entering-display-math-p ()
+  "Return non-nil when the current key finishes a display-math opener (`$ ')."
+  (and rime--current-input-key
+       (= rime--current-input-key ?\s)
+       (char-equal (char-before) ?$)))
+
+(defun my/rime--typst-code-at-point-p ()
+  "Return non-nil when point is inside a Typst code fragment."
+  (condition-case nil
+      (and (derived-mode-p 'typst-ts-mode)
+           (featurep 'treesit)
+           (treesit-language-available-p 'typst t)
+           (let ((node (treesit-node-at (point))))
+             (and node
+                  (treesit-parent-until
+                   node
+                   (lambda (n)
+                     (string= (treesit-node-type n) "code"))))))
+    (error nil)))
+
+(defun my/rime--hash-triggered-on-line-p ()
+  "Return non-nil when a `#' appears earlier on the current line."
+  (let ((pos (point))
+        (line-start (line-beginning-position)))
+    (and (> pos line-start)
+         (save-excursion
+           (goto-char pos)
+           (and (re-search-backward "#" line-start t)
+                t)))))
+
+(defconst my/rime--pair-alist
+  '((?\( . ?\))
+    (?\[ . ?\])
+    (?\{ . ?\})
+    (?\$ . ?\$))
+  "Open characters that auto-insert a closing counterpart in ascii mode.")
+
+(defun my/rime--pair-close (open)
+  "Return the closing character paired with OPEN, or nil."
+  (cdr (assoc open my/rime--pair-alist)))
+
+(defun my/rime--should-pair-open-p (open)
+  "Return non-nil when OPEN should trigger auto-pairing in ascii mode."
+  (when-let ((close (my/rime--pair-close open)))
+    (if (equal open ?\$)
+        (and (not (my/rime--typst-display-math-at-point-p))
+             (not (memq (char-before) '(?\s ?\t))))
+      close)))
+
+(defun my/rime--commit-pending-composition ()
+  "Commit the current Rime composition, if any."
+  (when (and (fboundp 'rime-lib-get-context)
+             (fboundp 'rime--has-composition)
+             (rime--has-composition (rime-lib-get-context)))
+    (let ((context (rime-lib-get-context)))
+      (if-let ((preview (alist-get 'commit-text-preview context)))
+          (insert preview)
+        (when (rime-lib-process-key 32 0)
+          (when-let ((commit (rime-lib-get-commit)))
+            (insert commit))))
+      (when (fboundp 'rime--clear-state)
+        (rime--clear-state)))))
+
+(defun my/rime-input-method--around (orig key)
+  "Handle `#' commit-to-ascii and ascii-mode bracket pairing."
+  (setq rime--current-input-key key)
+  (if (and (fboundp 'rime--rime-lib-module-ready-p)
+           (rime--rime-lib-module-ready-p))
+      (cond
+       ((and (equal key ?#)
+             (fboundp 'rime--text-read-only-p)
+             (not (rime--text-read-only-p))
+             (fboundp 'rime--should-enable-p)
+             (rime--should-enable-p))
+        (my/rime--commit-pending-composition)
+        (insert ?#)
+        nil)
+       ((and (my/rime--should-pair-open-p key)
+             (fboundp 'rime--should-enable-p)
+             (not (rime--should-enable-p)))
+        (insert key (my/rime--pair-close key))
+        (backward-char 1)
+        nil)
+       (t
+        (funcall orig key)))
+    (list key)))
+
+(defun my/rime-predicate-hash-ascii-p ()
+  "Use ascii input after `#' in code or same-line comments."
+  (or (my/rime--typst-code-at-point-p)
+      (and (not (derived-mode-p 'typst-ts-mode))
+           (my/rime--hash-triggered-on-line-p))))
+
+(defun my/rime-predicate-typst-display-math-p ()
+  "In typst-ts-mode, use ascii input only inside display math (`$ ... $').
+
+Inline math (`$x$') and markup stay in Chinese.  Use `rime-force-enable'
+(`C-c i r') to input Chinese once inside display math."
+  (and (derived-mode-p 'typst-ts-mode)
+       (or (my/rime--typst-display-math-at-point-p)
+           (my/rime--typst-entering-display-math-p))))
+
 (use-package rime
   :demand t
   :bind
@@ -102,8 +231,11 @@
   (rime-posframe-style 'vertical)
   (rime-disable-predicates
    '(rime-predicate-current-uppercase-letter-p
-     rime-predicate-punctuation-after-ascii-p))
+     rime-predicate-punctuation-after-ascii-p
+     my/rime-predicate-hash-ascii-p
+     my/rime-predicate-typst-display-math-p))
   :config
+  (advice-add 'rime-input-method :around #'my/rime-input-method--around)
   (advice-add 'rime-activate :before
               (lambda (&rest _)
                 (my/rime-bootstrap-from-system))))
