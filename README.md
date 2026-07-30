@@ -27,6 +27,7 @@
     ├── git
     ├── mirrors
     ├── rime
+    ├── shellenv
     ├── snipaste
     └── vscode
 ```
@@ -45,13 +46,15 @@
 2. 安装 Homebrew。
 3. 根据 Brewfile 安装公式、tap 和 cask。
 4. 用 GNU Stow 链接 dotfiles。
-5. 应用 macOS defaults 并把默认 shell 切到 Homebrew Fish。
+5. 把跨 shell 环境变量写入 ~/.zshenv、~/.profile、~/.bashrc。
+6. 应用 macOS defaults 并把默认 shell 切到 Homebrew Fish。
 
 后续日常更新：
 
 ```bash
 ./scripts/install-packages.sh
 ./scripts/apply-stow.sh
+./scripts/install-shell-env.sh
 ./scripts/apply-macos-defaults.sh
 ```
 
@@ -62,6 +65,7 @@
 - stow/gh：GitHub CLI 基础配置。
 - stow/emacs：`~/.emacs.d` 启动文件与 `lisp/` 模块；`elpa/`、`.emacs.desktop`、`rime/` 等运行态目录留在本机，不纳入 Stow。
 - stow/mirrors：npm、bun、pip、cargo、pnpm 镜像与缓存配置。
+- stow/shellenv：非 fish shell（zsh/bash/sh）的环境变量与 PATH，见下节。
 - stow/vscode：VS Code 用户设置、快捷键和 HyperSnips 片段。
 - stow/atuin：Atuin 配置。
 - stow/rime：Rime 输入法静态配置（Stow）；用户词频与 `user.yaml` 经 Rime sync 写入 `stow/rime/sync/`。
@@ -89,13 +93,40 @@
 
 这些本地覆盖现在由 `scripts/apply-stow.sh` 统一按声明式映射处理：源文件缺失时自动跳过，目标路径已有旧文件时会先备份再接管。
 
+## 跨 shell 环境
+
+日常 shell 是 Fish，但 zsh / bash / `sh -c`（编辑器任务、agent、launchd、各种安装脚本）同样要看到一致的环境。所以缓存目录、`CARGO_HOME` / `GOMODCACHE` / `PNPM_HOME` 和 PATH 追加有两份实现，必须同步修改：
+
+- `stow/fish/.config/fish/conf.d/10-environment.fish`：Fish。
+- `stow/shellenv/.config/dotfiles/env.sh`：POSIX shell。由 `scripts/install-shell-env.sh` 以带标记的代码块追加到 `~/.zshenv`、`~/.profile`、`~/.bashrc`（这三个文件不走 Stow：rustup、SkillHub、Otty 都往里写过东西，Stow 接管会把它们挤掉）。`config/defaults.sh` 也 source 这一份，脚本与 shell 因此共用同一处定义。
+
+缓存目录都放在 `$DOTFILES_CACHE_ROOT` 下（cargo、rustup、go、homebrew）：系统盘是紧张的那块，rustup 工具链单独就有 1.7G。
+
+为什么必须显式导出 `CARGO_HOME`：rustup 生成的 `$CARGO_HOME/env` 只往 PATH 前面插 `$CARGO_HOME/bin`，从不导出 `CARGO_HOME`。少了这一行的 shell 会用「对的 cargo 二进制 + 错的 cargo home」：
+
+- `cargo install` 装到 `~/.cargo/bin`，而 PATH 上更靠前的 `$CARGO_HOME/bin` 里往往还留着旧版本，于是命令行跑的一直是旧的。
+- registry 缓存在 `~/.cargo` 下重下一份（几百 MB）。
+- `$CARGO_HOME/config.toml`（crates.io 镜像）读不到。
+
+`RUSTUP_HOME` 的失败方式比 `CARGO_HOME` 更硬：读不到就直接 "no default toolchain"，而不是安静地建第二份。非交互 `bash -c` / `sh -c` 不读任何 rc 文件，GUI 应用（Finder 启动）更是完全没有 shell 环境，所以 `scripts/apply-stow.sh` 额外把 `~/.rustup` 链接到 `$RUSTUP_HOME`，让没有环境变量的路径也能落到同一份工具链。
+
+`env.sh` 里 PATH 的写法是「先按倒序 prepend，再去重保留首次出现」，而不是「已存在就跳过」：这样即便 `~/.zshenv` 里 rustup 那行先执行过，最终优先级仍由这份文件决定，重复 source 也不会让 PATH 变长。
+
+校验：
+
+```bash
+env -i HOME="$HOME" zsh -c 'echo $CARGO_HOME; echo $PATH | tr : "\n" | head -3'
+```
+
 ## 镜像策略
 
 - Homebrew：TUNA API、bottles 和 git remote。
 - npm / pnpm / bun：npmmirror。
 - pip：TUNA PyPI。
-- Cargo：TUNA sparse index。
+- Cargo：TUNA sparse index。注意 cargo 只无条件读取 `$CARGO_HOME/config.toml`，`~/.cargo/config.toml` 要靠「从 cwd 逐级向上找 .cargo/」才会命中，因此 `$HOME` 以外的项目（也就是整个代码卷）根本读不到它。`scripts/apply-stow.sh` 会把同一份配置额外链接到 `$CARGO_HOME/config.toml`。
 - Go：goproxy.cn,direct。
+
+工具链与缓存位置：`CARGO_HOME=$DOTFILES_CACHE_ROOT/cargo`、`RUSTUP_HOME=$DOTFILES_CACHE_ROOT/rustup`。`~/.rustup` 是指向后者的软链接；`~/.cargo` 只保留 Stow 链接过去的 `config.toml`。
 
 注意：Homebrew cask 的实际安装包通常仍来自应用作者自己的上游地址，因此 GUI 下载只能做到尽力加速。
 

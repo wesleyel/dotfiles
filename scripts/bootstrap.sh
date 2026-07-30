@@ -23,4 +23,5 @@ fi
 "${repo_root}/scripts/install-homebrew.sh"
 "${repo_root}/scripts/install-packages.sh"
 "${repo_root}/scripts/apply-stow.sh"
+"${repo_root}/scripts/install-shell-env.sh"
 "${repo_root}/scripts/apply-macos-defaults.sh"

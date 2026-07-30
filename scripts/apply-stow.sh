@@ -2,6 +2,13 @@
 set -euo pipefail
 
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
+# For CARGO_HOME: this script may run from a shell that never exported it.
+# shellcheck source=../config/defaults.sh
+source "${repo_root}/config/defaults.sh"
+if [ -f "${repo_root}/local/env.sh" ]; then
+  # shellcheck source=/dev/null
+  source "${repo_root}/local/env.sh"
+fi
 stow_root="${repo_root}/stow"
 state_root="${XDG_STATE_HOME:-${HOME}/.local/state}/dotfiles"
 backup_root="${state_root}/stow-backups"
@@ -219,8 +226,66 @@ apply_local_links() {
   done
 }
 
+# Cargo reads $CARGO_HOME/config.toml unconditionally, but only finds a
+# .cargo/config.toml by walking up from the cwd — so the stowed ~/.cargo copy is
+# invisible to every project outside $HOME (i.e. all of the code volume), and
+# those builds silently bypass the crates.io mirror. Link it into $CARGO_HOME,
+# which lives outside $HOME and so is out of stow's reach.
+link_cargo_config() {
+  local source_path="${stow_root}/mirrors/.cargo/config.toml"
+  local cargo_home="${CARGO_HOME:-${HOME}/.cargo}"
+  local target_path="${cargo_home}/config.toml"
+
+  if [ ! -f "${source_path}" ]; then
+    return 0
+  fi
+
+  if [ -L "${target_path}" ] && [ "$(resolve_link_target "${target_path}")" = "${source_path}" ]; then
+    echo "==> Cargo config already linked: ${target_path}"
+    return 0
+  fi
+
+  if [ -e "${target_path}" ] && [ ! -L "${target_path}" ]; then
+    echo "WARN: ${target_path} exists and is not a link — leaving it alone" >&2
+    return 0
+  fi
+
+  mkdir -p "${cargo_home}"
+  ln -sfn "${source_path}" "${target_path}"
+  echo "==> Linked cargo config -> ${target_path}"
+}
+
+# rustup toolchains live on the code volume, but a context with no shell env
+# (a GUI app, `bash -c`) falls back to ~/.rustup and would then fail with "no
+# default toolchain" — unlike cargo, which merely duplicates. Point ~/.rustup at
+# $RUSTUP_HOME so both routes reach the same toolchains.
+link_rustup_home() {
+  local rustup_home="${RUSTUP_HOME:-}"
+  local target_path="${HOME}/.rustup"
+
+  if [ -z "${rustup_home}" ] || [ "${rustup_home}" = "${target_path}" ]; then
+    return 0
+  fi
+
+  if [ -L "${target_path}" ] && [ "$(resolve_link_target "${target_path}")" = "${rustup_home}" ]; then
+    echo "==> rustup home already linked: ${target_path}"
+    return 0
+  fi
+
+  if [ -e "${target_path}" ] && [ ! -L "${target_path}" ]; then
+    echo "WARN: ${target_path} is a real directory — move it to ${rustup_home} first" >&2
+    return 0
+  fi
+
+  mkdir -p "${rustup_home}"
+  ln -sfn "${rustup_home}" "${target_path}"
+  echo "==> Linked rustup home -> ${target_path}"
+}
+
 apply_stow_packages
 apply_local_links
+link_cargo_config
+link_rustup_home
 
 if [ -d "${stow_root}/emacs" ]; then
   # Stow skips dotfiles inside packages; link .gitignore explicitly.

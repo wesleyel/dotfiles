@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 
+# Cache roots, CARGO_HOME/GOMODCACHE/PNPM_HOME and the PATH additions live in
+# the shell env file, so the install scripts and every non-fish shell agree on
+# one definition. Everything below is install-time only.
+_defaults_dir="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")" && pwd)"
+# shellcheck source=../stow/shellenv/.config/dotfiles/env.sh
+source "${_defaults_dir}/../stow/shellenv/.config/dotfiles/env.sh"
+unset _defaults_dir
+
 export BROWSER="open"
-
-export DOTFILES_VOLUME_ROOT="/Volumes/APFS"
-export DOTFILES_CACHE_ROOT="${DOTFILES_VOLUME_ROOT}/cache"
-
-export CARGO_HOME="${DOTFILES_CACHE_ROOT}/cargo"
-export GOMODCACHE="${DOTFILES_CACHE_ROOT}/go"
-export HOMEBREW_CACHE="${DOTFILES_CACHE_ROOT}/homebrew"
-export PNPM_HOME="${DOTFILES_VOLUME_ROOT}/pnpm"
 
 export GOPROXY="https://goproxy.cn,direct"
 

@@ -1,9 +1,13 @@
+# Fish half of the cache/PATH contract. The POSIX half lives in
+# stow/shellenv/.config/dotfiles/env.sh (zsh/bash/sh) — keep the two in step.
+
 set -gx BROWSER open
 
 set -gx DOTFILES_VOLUME_ROOT /Volumes/APFS
 set -gx DOTFILES_CACHE_ROOT "$DOTFILES_VOLUME_ROOT/cache"
 
 set -gx CARGO_HOME "$DOTFILES_CACHE_ROOT/cargo"
+set -gx RUSTUP_HOME "$DOTFILES_CACHE_ROOT/rustup"
 set -gx GOMODCACHE "$DOTFILES_CACHE_ROOT/go"
 set -gx HOMEBREW_CACHE "$DOTFILES_CACHE_ROOT/homebrew"
 set -gx PNPM_HOME "$DOTFILES_VOLUME_ROOT/pnpm"
