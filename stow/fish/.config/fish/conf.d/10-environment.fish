@@ -2,6 +2,7 @@
 # stow/shellenv/.config/dotfiles/env.sh (zsh/bash/sh) — keep the two in step.
 
 set -gx BROWSER open
+set -gx LANG en_US.UTF-8
 
 set -gx DOTFILES_VOLUME_ROOT /Volumes/APFS
 set -gx DOTFILES_CACHE_ROOT "$DOTFILES_VOLUME_ROOT/cache"
@@ -22,7 +23,6 @@ set -gx HOMEBREW_INSTALL_FROM_API 1
 set -gx HOMEBREW_NO_ANALYTICS 1
 set -gx HOMEBREW_PIP_INDEX_URL https://pypi.tuna.tsinghua.edu.cn/web/simple
 set -gx HOMEBREW_LOGS "$DOTFILES_CACHE_ROOT/homebrew/logs"
-set -gx HOMEBREW_NO_REQUIRE_TAP_TRUST 1
 set -gx SSH_AUTH_SOCK "$HOME/Library/Group Containers/2BUA8C4S2C.com.1password/t/agent.sock"
 
 fish_add_path "$HOME/.local/bin"
